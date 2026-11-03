@@ -340,6 +340,32 @@ a.entry:hover { border-color: var(--muted); }
 .tile .s { font-size: 0.8125rem; color: var(--muted); }
 .tile .s .up { color: var(--good); }
 .tile .s .dn { color: var(--warn); }
+.tile .v3 { display: flex; gap: 0.75rem; align-items: baseline; line-height: 1.2; }
+.tile .v3 > span { display: inline-flex; flex-direction: column; font-size: 0.75rem; color: var(--muted); }
+.tile .v3 b { font-size: 1.1875rem; font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; }
+.college .cg { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 1.125rem 1.75rem; align-items: start; }
+.college .col { display: flex; flex-direction: column; gap: 1.125rem; min-width: 0; }
+.college .col:empty { display: none; }
+.college .blk { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+.college h3 { margin: 0; font-size: 0.9375rem; display: flex; gap: 0.5rem; align-items: baseline; flex-wrap: wrap; }
+.college h3 .n { font-weight: 400; font-size: 0.8125rem; color: var(--muted); }
+.college .m { margin: 0; font-size: 0.8125rem; color: var(--muted); }
+.college .stack { display: flex; gap: 2px; height: 14px; }
+.college .stack span { border-radius: 4px; min-width: 2px; }
+.college .c4 { background: var(--sec); }
+.college .c2 { background: color-mix(in srgb, var(--sec) 45%, var(--surface)); }
+.college .no { background: var(--line); }
+.college .stk { display: flex; flex-wrap: wrap; gap: 0.25rem 0.875rem; font-size: 0.8125rem; }
+.college .stk i { display: inline-block; width: 0.625rem; height: 0.625rem; border-radius: 3px; margin-right: 0.3125rem; vertical-align: -0.0625rem; }
+.college .bars { display: flex; flex-direction: column; gap: 0.375rem; }
+.college .b { display: grid; grid-template-columns: minmax(6.5rem, 42%) minmax(0, 1fr) 2.75rem; gap: 0.5rem; align-items: center; font-size: 0.8125rem; }
+.college .b .l { overflow-wrap: anywhere; }
+.college .b .t { height: 6px; border-radius: 3px; background: var(--line2); position: relative; }
+.college .b .t > i { position: absolute; inset: 0 auto 0 0; border-radius: 3px; background: var(--sec); }
+.college .b .t > i.st { width: 2px; inset: -3px auto -3px auto; border-radius: 1px; background: var(--fg); opacity: 0.55; transform: translateX(-1px); }
+.college .b .x { text-align: right; font-variant-numeric: tabular-nums; }
+.college .b.oth .l, .college .b.oth .x { color: var(--muted); }
+.college .b.oth .t > i { background: var(--line); }
 .line3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
 .stage3 { border: 1px solid var(--line); border-radius: 12px; padding: 0.75rem 0.875rem; display: flex; flex-direction: column; gap: 2px; text-decoration: none; color: var(--fg); min-width: 0; }
 a.stage3:hover { border-color: var(--muted); }
@@ -568,6 +594,8 @@ a.stage3:hover { border-color: var(--muted); }
   .ytable th, .ytable td { padding: 0.25rem 0.1875rem; }
   .tile { padding: 0.625rem 0.75rem; }
   .tile .v { font-size: 1.3125rem; }
+  .tile .v3 { gap: 0.5rem; }
+  .tile .v3 b { font-size: 1.0625rem; }
   .line3 { grid-template-columns: 1fr; gap: 0; border: 1px solid var(--line); border-radius: 12px; }
   .stage3 { border: 0; border-top: 1px solid var(--line2); border-radius: 0; display: grid; grid-template-columns: 0.875rem minmax(0, 1fr) auto; column-gap: 0.75rem; align-items: center; padding: 0.5625rem 0.75rem; }
   .stage3:first-child { border-top: 0; }
@@ -775,6 +803,14 @@ h2.sub, .as-cat h2 { color: var(--sec-deep); }
 .line h3 { align-items: center; }
 .cmp-grid .h .sk { vertical-align: -0.25rem; }
 .mt { padding: 0.25rem 1.25rem; gap: 0; }
+.mrow.msec { grid-template-columns: 1fr; padding-top: 0.875rem; }
+.mrow.msec .mlab { color: var(--sec-deep); font-weight: 600; font-size: 0.9375rem; }
+.cmp-grid .sech { margin-top: 0.875rem; padding-top: 0.625rem; padding-bottom: 0.5rem; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); align-items: center; }
+.cmp-grid .lbl.sech { color: var(--sec-deep); font-weight: 600; font-size: 0.9375rem; align-self: stretch; display: flex; align-items: center; justify-content: center; }
+.cmp-grid .v.sech { flex-wrap: nowrap; gap: 0.375rem; }
+.cmp-grid .v.sech .nm2 { font-weight: 600; font-size: 0.875rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-grid .lbl.sub { font-size: 0.75rem; }
+.cmp-grid .v.sub .big, .cmp-grid .v.sub .plain { font-size: 0.875rem; font-weight: 500; color: var(--muted); }
 .mrow { display: grid; grid-template-columns: 6.5rem repeat(var(--n), minmax(0, 1fr)); gap: 0 1rem; padding: 0.625rem 0; border-top: 1px solid var(--line2); align-items: start; }
 .mrow:first-child { border-top: 0; }
 .mlab { color: var(--muted); font-size: 0.84375rem; padding-top: 0.0625rem; }

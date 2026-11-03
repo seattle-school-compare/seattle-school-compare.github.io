@@ -11,6 +11,17 @@
   const href = s => url(s.path) + (s.anchor ? "#" + s.anchor : "");
   const cell = (tag, text, cls) => { const el = document.createElement(tag); if (cls) el.className = cls; if (text != null) el.textContent = text; return el; };
   const linkTo = (s, text, cls) => { const a = cell("a", text || s.n, cls); a.href = href(s); return a; };
+  // college numbers on high schools: a number or a [low, high] range
+  const CP = (c, k, zero) => { if (!c || c[k] == null) return null; const v = c[k]; if (Array.isArray(v)) return { raw: null, big: v[0] + "–" + v[1] + "%" }; return zero && v === 0 ? { raw: 0, big: "没有", plain: true } : { raw: v, big: Math.round(v) + "%" }; };
+  const CW = c => {
+    if (!c || c.c4 == null) return null;
+    if (Array.isArray(c.no)) return { raw: null, big: (100 - c.no[1]) + "–" + (100 - c.no[0]) + "%" };
+    if (Array.isArray(c.c4) || Array.isArray(c.c2)) return { raw: null, big: (100 - c.no) + "%" };
+    return { raw: c.c4 + c.c2, big: Math.round(c.c4 + c.c2) + "%" };
+  };
+  const top = v => String(v).replace(/^>([\d.]+)%$/, (m, x) => Math.round(Number(x) * 10) / 10 + "% 以上");
+  const CG = c => !c ? null : c.g4 != null ? { raw: c.g4, big: Math.round(c.g4) + "%" } : c.g4l ? { raw: null, big: top(c.g4l), plain: true } : null;
+  const CD = c => !c ? null : c.dc != null ? { raw: c.dc, big: Math.round(c.dc) + "%" } : c.dcl ? { raw: null, big: top(c.dcl), plain: true } : null;
   const KEYS = ["a", "b", "c", "d"], LET = ["A", "B", "C", "D"], MAX = 4, SAVE = "gssc-cmp";
 
   // the list comes from the link; without one, from what this browser compared last time
@@ -355,6 +366,7 @@
     const t = cell("div", null, "mt card");
     t.style.setProperty("--n", items.length);
     rows.forEach(([label, fn, cls]) => {
+      if (!fn) { const r = cell("div", null, "mrow msec"); r.append(cell("div", label, "mlab")); t.append(r); return; }
       const r = cell("div", null, "mrow" + (cls ? " " + cls : ""));
       r.append(cell("div", label, "mlab"));
       items.forEach(x => { const c = cell("div", null, "mc sl" + x.i); c.append(badge(x)); const v = cell("div", null, "mv"); fn(x, v); c.append(v); r.append(c); });
@@ -419,6 +431,15 @@
     [["e", "阅读"], ["m", "数学"], ["sci", "科学"]].forEach(([k, lab]) => { if (r[k] != null && o[k] != null) { const d = Math.round(r[k] - o[k]); if (d >= 3) out.push(lab + "达标率高 " + d + " 个百分点"); } });
     if (r.g != null && o.g != null && r.g > o.g) out.push("GreatSchools 高 " + (r.g - o.g) + " 分");
     if (r.enr && o.enr) { const q = r.enr / o.enr; if (q >= 1.3) out.push("学校更大（" + r.enr + " 人）"); if (q <= 1 / 1.3) out.push("学校更小（" + r.enr + " 人）"); }
+    const h = r.cg, q = o.cg, num = v => typeof v === "number";
+    if (h && q) {
+      if (num(h.c4) && num(h.c2) && num(q.c4) && num(q.c2) && h.c4 + h.c2 - q.c4 - q.c2 >= 3) out.push("毕业后上大学的比例高 " + Math.round(h.c4 + h.c2 - q.c4 - q.c2) + " 个百分点");
+      if (num(h.c4) && num(q.c4) && h.c4 - q.c4 >= 3) out.push("上四年制大学的比例高 " + Math.round(h.c4 - q.c4) + " 个百分点");
+      if (num(h.g4) && num(q.g4) && h.g4 - q.g4 >= 2) out.push("四年毕业率高 " + Math.round(h.g4 - q.g4) + " 个百分点");
+      if (num(h.ap) && num(q.ap) && h.ap - q.ap >= 5) out.push("修 AP 的学生多 " + Math.round(h.ap - q.ap) + " 个百分点");
+      if (num(h.ib) && num(q.ib) && h.ib - q.ib >= 5) out.push(q.ib === 0 && !/IB/.test(r.note || "") ? "有 IB，修 IB 的学生 " + Math.round(h.ib) + "%" : "修 IB 的学生多 " + Math.round(h.ib - q.ib) + " 个百分点");
+      if (num(h.rs) && num(q.rs) && h.rs - q.rs >= 5) out.push("上 Running Start 的学生多 " + Math.round(h.rs - q.rs) + " 个百分点");
+    }
     if (r.note) out.push(r.note);
     if (r.p != null && o.p != null && r.p < o.p) out.push("所在 zip 的 4 房房价低 " + Math.round(100 * (o.p - r.p) / o.p) + "%");
     return out;
@@ -435,8 +456,8 @@
       return h;
     };
     grid.append(head(X, "l"), cell("div", "", "lbl"), head(Y, "r"));
-    const row = (label, va, vb, better) => {
-      const l = cell("div", null, "v l"), r = cell("div", null, "v r");
+    const row = (label, va, vb, better, cls) => {
+      const l = cell("div", null, "v l" + (cls ? " " + cls : "")), r = cell("div", null, "v r" + (cls ? " " + cls : ""));
       const put = (box, v, lead) => {
         if (!v) { box.append(cell("span", "—", "mut")); return; }
         box.append(cell("span", v.big, (v.plain ? "plain" : "big") + (lead ? " lead" : "")));
@@ -444,7 +465,7 @@
       };
       const lead = better && va && vb && va.raw != null && vb.raw != null && va.raw !== vb.raw ? better(va.raw, vb.raw) : null;
       put(l, va, lead === true); put(r, vb, lead === false);
-      grid.append(l, cell("div", label, "lbl"), r);
+      grid.append(l, cell("div", label, "lbl" + (cls ? " " + cls : "")), r);
     };
     row("全州排名", rankV(A), rankV(B), (a, b) => a < b);
     row("比上一年", trendV(A), trendV(B), (a, b) => a > b);
@@ -455,12 +476,29 @@
     row("学生人数", A.enr ? { raw: A.enr, big: String(A.enr) } : null, B.enr ? { raw: B.enr, big: String(B.enr) } : null);
     row("备注", { raw: 0, big: A.note || "—", plain: true }, { raw: 0, big: B.note || "—", plain: true });
     row("4 房房价", priceV(A), priceV(B), (a, b) => a < b);
+    const ca = A.cg, cb = B.cg;
+    if (A.lv === "H" && (ca || cb)) {
+      const side = (x, cls) => { const c = cell("div", null, "v sech " + cls); c.append(badge(x), cell("span", x.r.n, "nm2")); return c; };
+      const hi = (a, b) => a > b;
+      grid.append(side(X, "l"), cell("div", "上大学", "lbl sech"), side(Y, "r"));
+      row("毕业后上大学", CW(ca), CW(cb), hi);
+      row("四年制", CP(ca, "c4"), CP(cb, "c4"), null, "sub");
+      row("两年制", CP(ca, "c2"), CP(cb, "c2"), null, "sub");
+      row("四年毕业率", CG(ca), CG(cb), hi);
+      row("修大学学分课", CD(ca), CD(cb), hi);
+      row("AP", CP(ca, "ap", 1), CP(cb, "ap", 1), null, "sub");
+      row("IB", CP(ca, "ib", 1), CP(cb, "ib", 1), null, "sub");
+      row("Running Start", CP(ca, "rs", 1), CP(cb, "rs", 1), null, "sub");
+    }
     out.append(grid);
     const chips = cell("div", null, "diff"), chip = t => chips.append(cell("span", t));
     if (A.r != null && B.r != null) chip(Y.k + " 比 " + X.k + " 全州排名" + (B.r < A.r ? "靠前 " : B.r > A.r ? "靠后 " : "相同 ") + (B.r === A.r ? "" : Math.abs(A.r - B.r) + " 名"));
     [["e", "阅读"], ["m", "数学"], ["sci", "科学"]].forEach(([k, lab]) => { if (A[k] != null && B[k] != null) chip(lab + " " + (B[k] - A[k] >= 0 ? "+" : "") + Math.round(B[k] - A[k]) + " 个百分点"); });
     priceChip(chip, A, B, X.k, Y.k);
     if (A.z === B.z) chip("两校在同一个 zip，房价相同");
+    const wa = CW(ca), wb = CW(cb), ga = CG(ca), gb = CG(cb), pp = (lab, a, b) => chip(lab + " " + (b - a >= 0 ? "+" : "") + Math.round(b - a) + " 个百分点");
+    if (wa && wb && wa.raw != null && wb.raw != null) pp("上大学", wa.raw, wb.raw);
+    if (ga && gb && ga.raw != null && gb.raw != null) pp("毕业率", ga.raw, gb.raw);
     out.append(chips);
     const f = cell("div", null, "facts card");
     f.style.display = "grid";
@@ -474,7 +512,9 @@
     });
     out.append(f);
     out.append(cell("p", "差值都是 " + Y.k + " 减 " + X.k + "。房价是两校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
+    if (A.lv === "H" && (ca || cb)) out.append(collegeNote());
   }
+  const collegeNote = () => cell("p", "上大学：毕业后一年内上大学的比例，ERDC 2024 届毕业生。毕业率和大学学分课来自 OSPI，2024-25 学年。大学学分课是 AP、IB、Running Start 这类能拿大学学分的课，一个学生可以修好几种，加起来会超过总数。", "note");
   const rankV = r => r.r == null ? null : { raw: r.r, big: "#" + r.r, sm: "前 " + r.pct + "%" + (r.ry !== D.LATEST ? " · " + r.ry : "") };
   const trendV = r => { const t = trend(r); return t == null ? null : { raw: t, big: (t > 0 ? "▲ " : t < 0 ? "▼ " : "") + Math.abs(t), sm: "上一年 #" + r.rprev }; };
   const numV = (v, u) => v == null ? null : { raw: v, big: Math.round(v) + (u || "") };
@@ -490,8 +530,14 @@
       ["阅读达标", val(r => numV(r.e, "%"))], ["数学达标", val(r => numV(r.m, "%"))], ["科学达标", val(r => numV(r.sci, "%"))],
       ["GreatSchools", val(r => numV(r.g))], ["学生人数", val(r => r.enr ? { big: String(r.enr) } : null)],
       ["4 房房价", val(priceV)], ["备注", val(r => r.note ? { big: r.note, plain: true } : null)],
-    ]));
+    ].concat(st.level === "H" && P.some(x => x.r.cg) ? [
+      ["上大学", null],
+      ["毕业后上大学", val(r => { const w = CW(r.cg); if (!w) return null; const a = CP(r.cg, "c4"), b = CP(r.cg, "c2"); return { big: w.big, sm: "四年制 " + a.big + " · 两年制 " + b.big }; })],
+      ["四年毕业率", val(r => CG(r.cg))],
+      ["修大学学分课", val(r => { const d = CD(r.cg); if (!d) return null; const f = (lab, k) => { const v = CP(r.cg, k, 1); return v ? lab + " " + v.big : ""; }; return { big: d.big, plain: d.plain, sm: [f("AP", "ap"), f("IB", "ib"), f("Running Start", "rs")].filter(Boolean).join(" · ") }; })],
+    ] : [])));
     out.append(cell("p", "房价是各校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
+    if (st.level === "H" && P.some(x => x.r.cg)) out.append(collegeNote());
   }
   function render() {
     const out = document.getElementById("c-out");
