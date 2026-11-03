@@ -755,7 +755,7 @@ h2.sub, .as-cat h2 { color: var(--sec-deep); }
 :root[data-theme="dark"] { --sl-a: #3987e5; --sl-b: #c98500; --sl-c: #d55181; --sl-d: #008300; --si-a: #111614; --si-b: #111614; --si-c: #111614; --si-d: #ffffff; }
 .sl0 { --sc: var(--sl-a); --si: var(--si-a); } .sl1 { --sc: var(--sl-b); --si: var(--si-b); } .sl2 { --sc: var(--sl-c); --si: var(--si-c); } .sl3 { --sc: var(--sl-d); --si: var(--si-d); }
 .sk { display: inline-grid; place-items: center; flex: none; width: 1.375rem; height: 1.375rem; border-radius: 50%; background: var(--sc, var(--muted)); color: var(--si, #fff); font-size: 0.75rem; font-weight: 700; line-height: 1; }
-.cmp-ctrl { flex-direction: column; align-items: stretch; }
+.cmp-ctrl { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }
 .slots { display: flex; flex-wrap: wrap; gap: 0.625rem 1.25rem; }
 .slot { display: flex; align-items: center; gap: 0.5rem; flex: 1 1 17rem; max-width: 22rem; min-width: 0; }
 .slot select { flex: 1; min-width: 0; max-width: none; }
