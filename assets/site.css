@@ -740,3 +740,52 @@ h2.sub { font-size: 1.1875rem; margin-top: 0.5rem; }
 :is(.card p, .links, .golinks, .kv, .sa-list, .sa-res, .camp, .feedt, .pm-detail, .notes) a:not(.btn) { color: var(--sec); }
 .note a, .lede a { color: var(--sec-deep); }
 h2.sub, .as-cat h2 { color: var(--sec-deep); }
+
+/* compare: up to four choices, each with its own color and letter */
+:root { --sl-a: #2a78d6; --sl-b: #eda100; --sl-c: #e87ba4; --sl-d: #008300; --si-a: #ffffff; --si-b: #111614; --si-c: #111614; --si-d: #ffffff; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --sl-a: #3987e5; --sl-b: #c98500; --sl-c: #d55181; --sl-d: #008300; --si-a: #111614; --si-b: #111614; --si-c: #111614; --si-d: #ffffff; } }
+:root[data-theme="dark"] { --sl-a: #3987e5; --sl-b: #c98500; --sl-c: #d55181; --sl-d: #008300; --si-a: #111614; --si-b: #111614; --si-c: #111614; --si-d: #ffffff; }
+.sl0 { --sc: var(--sl-a); --si: var(--si-a); } .sl1 { --sc: var(--sl-b); --si: var(--si-b); } .sl2 { --sc: var(--sl-c); --si: var(--si-c); } .sl3 { --sc: var(--sl-d); --si: var(--si-d); }
+.sk { display: inline-grid; place-items: center; flex: none; width: 1.375rem; height: 1.375rem; border-radius: 50%; background: var(--sc, var(--muted)); color: var(--si, #fff); font-size: 0.75rem; font-weight: 700; line-height: 1; }
+.cmp-ctrl { flex-direction: column; align-items: stretch; }
+.slots { display: flex; flex-wrap: wrap; gap: 0.625rem 1.25rem; }
+.slot { display: flex; align-items: center; gap: 0.5rem; flex: 1 1 17rem; max-width: 22rem; min-width: 0; }
+.slot select { flex: 1; min-width: 0; max-width: none; }
+.slot .x { flex: none; width: 2rem; height: 2rem; border: 0; border-radius: 50%; background: transparent; color: var(--muted); font: inherit; font-size: 1.125rem; line-height: 1; cursor: pointer; }
+.slot .x:hover { background: var(--head); color: var(--fg); }
+.cmp-ctrl .acts { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; }
+.lleg { display: flex; flex-wrap: wrap; gap: 0.375rem 1.25rem; font-size: 0.875rem; }
+.lleg .li { display: inline-flex; align-items: center; gap: 0.4375rem; }
+.lleg .li a { font-weight: 600; color: var(--fg); text-decoration: none; }
+.lfig .ln { stroke: var(--sc, var(--dc)); }
+.lfig .mk { fill: var(--sc, var(--dc)); stroke: var(--surface); stroke-width: 2; }
+.lfig text.mkt { fill: var(--si, #fff); font-size: 10px; font-weight: 700; text-anchor: middle; pointer-events: none; }
+.lfig .pbar { fill: var(--sc, var(--dc)); }
+.lfig text.sm2 { font-size: 11px; }
+.line { background: color-mix(in srgb, var(--sc, var(--dc)) 6%, var(--surface)); box-shadow: inset 4px 0 0 var(--sc, var(--dc)); }
+.line h3 .sk { align-self: center; }
+.line h3 { align-items: center; }
+.cmp-grid .h .sk { vertical-align: -0.25rem; }
+.mt { padding: 0.25rem 1.25rem; gap: 0; }
+.mrow { display: grid; grid-template-columns: 6.5rem repeat(var(--n), minmax(0, 1fr)); gap: 0 1rem; padding: 0.625rem 0; border-top: 1px solid var(--line2); align-items: start; }
+.mrow:first-child { border-top: 0; }
+.mlab { color: var(--muted); font-size: 0.84375rem; padding-top: 0.0625rem; }
+.mc { display: flex; gap: 0.5rem; align-items: flex-start; min-width: 0; }
+.mc > .sk { display: none; }
+.mrow.head .mc > .sk { display: inline-grid; }
+.mv { min-width: 0; font-size: 0.875rem; overflow-wrap: anywhere; }
+.mv .nm { font-weight: 600; color: var(--fg); text-decoration: none; }
+.mv a.nm:hover { text-decoration: underline; text-underline-offset: 3px; }
+.mv .rk { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 0.8125rem; }
+.mv .sm { color: var(--muted); font-size: 0.78125rem; }
+.mv b { font-weight: 600; font-variant-numeric: tabular-nums; }
+@media (max-width: 760px) {
+  .slot { flex-basis: 100%; max-width: none; }
+  .mt { padding: 0.25rem 0.875rem; }
+  .mrow { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem 0.75rem; }
+  .mrow .mlab { grid-column: 1 / -1; color: var(--fg); font-weight: 600; }
+  .mrow.head .mlab { display: none; }
+  .mc > .sk { display: inline-grid; }
+}
+.cmpb { display: inline-flex; align-items: center; gap: 0.5rem 0.875rem; flex-wrap: wrap; }
+.cmp-go { font-size: 0.875rem; font-weight: 600; color: var(--sec); }

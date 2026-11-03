@@ -10,6 +10,35 @@
   };
   window.store = store;
 
+  /* 加到比一比: the list is kept in this browser only */
+  const readCmp = () => { try { return JSON.parse(store.get("gssc-cmp") || "null"); } catch (x) { return null; } };
+  document.querySelectorAll("[data-cmp]").forEach(btn => {
+    const id = btn.dataset.cmp, m = btn.dataset.cmpm, lv = m === "line" ? "E" : btn.dataset.lv;
+    const list = () => { const s = readCmp(); return s && Array.isArray(s.ids) && s.m === m && s.lv === lv ? s.ids.filter(Boolean) : []; };
+    const go = document.createElement("a");
+    go.className = "cmp-go";
+    btn.before(go);
+    let timer = null;
+    const show = () => {
+      const ids = list(), on = ids.includes(id);
+      btn.textContent = on ? "✓ 已加入" : "加到比一比";
+      btn.classList.toggle("btn2", on);
+      go.hidden = !ids.length;
+      go.textContent = "去比一比（" + ids.length + "）";
+      go.href = url("compare", ids.map((x, i) => "abcd"[i] + "=" + x).join("&") + (m === "school" ? "&m=school" : ""));
+    };
+    btn.addEventListener("click", e => {
+      e.preventDefault();
+      const ids = list();
+      if (ids.includes(id)) ids.splice(ids.indexOf(id), 1);
+      else if (ids.length >= 4) { btn.textContent = "已满 4 个"; clearTimeout(timer); timer = setTimeout(show, 1800); return; }
+      else ids.push(id);
+      store.set("gssc-cmp", JSON.stringify({ m, lv, ids }));
+      show();
+    });
+    show();
+  });
+
   /* tooltips */
   const TIP = document.getElementById("tipbox");
   const touch = window.matchMedia && matchMedia("(hover: none)").matches;
