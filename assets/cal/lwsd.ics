@@ -1,0 +1,330 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：Lake Washington
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:4a719a5ac23b42d0920fcae9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:LWSD HiCap 认定：私校和在家上学学生交作品集（开
+ 始）
+DESCRIPTION:推荐窗口 8/31 到 9/21 已关闭；2、5 年级在读生自
+ 动普筛；官网 https://www.lwsd.org/services/accelerated-programs/high
+ ly-capable-identification-process；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:06205886d27d2a1acbf90e05@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:LWSD HiCap 认定：私校和在家上学学生交作品集（截
+ 止）
+DESCRIPTION:推荐窗口 8/31 到 9/21 已关闭；2、5 年级在读生自
+ 动普筛；官网 https://www.lwsd.org/services/accelerated-programs/high
+ ly-capable-identification-process；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:5f5da72d17b039e5a9f33ec9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:LWSD Discovery Community School 幼儿园抽签申请（开始）
+DESCRIPTION:2/26 晚 11:59 截止；1-5 年级按全区 12/1 截止；官
+ 网 https://discovery.lwsd.org/about-us/how-to-apply；日历 https://seat
+ tle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:19c8ac3e2069927385c57624@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:LWSD Discovery Community School 幼儿园抽签申请（截止）
+DESCRIPTION:2/26 晚 11:59 截止；1-5 年级按全区 12/1 截止；官
+ 网 https://discovery.lwsd.org/about-us/how-to-apply；日历 https://seat
+ tle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:9e77b783af0210190af87f81@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:LWSD HiCap 补充 CogAT 测试（委员会按需安排）（开始
+ ）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 11 月初到 2027 
+ 年 2 月；在读生在校内考，私校和在家学生寒假后考；
+ 官网 https://www.lwsd.org/services/accelerated-programs/highly-capable-i
+ dentification-process；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:99a2c47e3035bffd6d75f61d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:LWSD HiCap 补充 CogAT 测试（委员会按需安排）（截止
+ ）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 11 月初到 2027 
+ 年 2 月；在读生在校内考，私校和在家学生寒假后考；
+ 官网 https://www.lwsd.org/services/accelerated-programs/highly-capable-i
+ dentification-process；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:2972774962f94f2ebeb1e791@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:LWSD 选择校网上申请（Tesla STEM、ICS、Stella Schola、EAS
+ 、Community、Explorer 等）（开始）
+DESCRIPTION:11/1 早 8 点开放，12/1 晚 11:59 截止；截止时须住
+ 在学区内；Discovery 1-5 年级同此窗口；官网 https://ics.lwsd.
+ org/about-us/lottery-information；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:c855eb11e990721c228ada6d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:LWSD 选择校网上申请（Tesla STEM、ICS、Stella Schola、EAS
+ 、Community、Explorer 等）（截止）
+DESCRIPTION:11/1 早 8 点开放，12/1 晚 11:59 截止；截止时须住
+ 在学区内；Discovery 1-5 年级同此窗口；官网 https://ics.lwsd.
+ org/about-us/lottery-information；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:22a7361f9d6e8ccfcffea05a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:LWSD Juanita HS Cambridge 项目说明会
+DESCRIPTION:下午 5 点到 6 点，JHS 剧场；9-12 年级；官网 https
+ ://www.lwsd.org/programs/choice-schools；日历 https://seattle-school-co
+ mpare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:61085285ca363c1c05e8f446@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:LWSD Einstein 双语项目说明会
+DESCRIPTION:下午 5:30 到 6:30，Einstein 图书馆；K-5；官网 https:
+ //www.lwsd.org/programs/choice-schools；日历 https://seattle-school-com
+ pare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:2190b7f2b94374745feb9006@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:LWSD Explorer Community School 说明会
+DESCRIPTION:晚 7 点，Explorer 413 室；1-5 年级；官网 https://www.
+ lwsd.org/programs/choice-schools；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:2a5f24967103ac1696de20f8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:LWSD Mead STEM 项目说明会
+DESCRIPTION:下午 6 点到 7 点；1-5 年级，只收 Mead 小学片区
+ 学生；官网 https://www.lwsd.org/programs/choice-schools；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:07f80fd85b9722f4f45e4187@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:LWSD Discovery Community School 说明会
+DESCRIPTION:晚 6 点，Discovery 图书馆；页面只写 11/19，没写
+ 年份；官网 https://www.lwsd.org/programs/choice-schools；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:083be8b210c796c2a2e9e4af@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:LWSD Emerson K-12 第二学期入学说明会（必须参加）
+DESCRIPTION:下午 4:30，Teams 线上；入读 2026-27 第二学期；官
+ 网 https://emersonk12.lwsd.org/about-us；日历 https://seattle-school-c
+ ompare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://emersonk12.lwsd.org/about-us
+END:VEVENT
+BEGIN:VEVENT
+UID:aa7a48cb854526f4e295bcce@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:LWSD 选择校学区统一抽签（开始）
+DESCRIPTION:官网 https://ics.lwsd.org/about-us/lottery-information；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:9b5f00b009919bd2f78860ef@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:LWSD 选择校学区统一抽签（截止）
+DESCRIPTION:官网 https://ics.lwsd.org/about-us/lottery-information；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:9b1f35de022e40541fee6f3e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:LWSD Emerson K-12 第二学期入学申请截止
+DESCRIPTION:下午 3 点；1/25 入学；页面写 Wednesday，与日期不
+ 符；官网 https://emersonk12.lwsd.org/about-us；日历 https://seattle
+ -school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://emersonk12.lwsd.org/about-us
+END:VEVENT
+BEGIN:VEVENT
+UID:bdad35ad89b70595a4ed4441@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:LWSD 选择校抽签结果通知
+DESCRIPTION:当天下班前发出；官网 https://ics.lwsd.org/about-us/lo
+ ttery-information；日历 https://seattle-school-compare.github.io/zh/cal
+ endar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:45ca0c27d1a5e60a7fb2f9cf@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:LWSD 选择校录取确认截止
+DESCRIPTION:下午 3 点前；官网 https://ics.lwsd.org/about-us/lottery-
+ information；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:774b3d34f9aa517f6e63e377@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:LWSD HiCap 申诉和作品集复审（开始）（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 3 月；须在收到结果后 7 天内
+ 提出；官网 https://www.lwsd.org/services/accelerated-programs/highly-
+ capable-identification-process；日历 https://seattle-school-compare.git
+ hub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:0e4afc3c0f6893764063a3d6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:LWSD HiCap 申诉和作品集复审（截止）（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 3 月；须在收到结果后 7 天内
+ 提出；官网 https://www.lwsd.org/services/accelerated-programs/highly-
+ capable-identification-process；日历 https://seattle-school-compare.git
+ hub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:5ebfd7868a7a3e1638925395@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:LWSD Discovery 幼儿园抽签
+DESCRIPTION:官网 https://discovery.lwsd.org/about-us/how-to-apply；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:77505aea2e2157ce8ce43c32@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:LWSD Discovery 幼儿园抽签结果通知
+DESCRIPTION:官网 https://discovery.lwsd.org/about-us/how-to-apply；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:342b8dc496ffab5bca5a99b8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:LWSD Discovery 幼儿园录取确认截止
+DESCRIPTION:官网 https://discovery.lwsd.org/about-us/how-to-apply；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:8da42ea30ed01070dd66a0b2@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:LWSD 外区转入（choice transfer）书面答复最晚日
+DESCRIPTION:页面写每年 8/31 前通知；8 月下旬才开始审批；
+ 官网 https://www.lwsd.org/students-families/families/transfer-options/ch
+ oice-transfers；日历 https://seattle-school-compare.github.io/zh/calend
+ ar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/students-families/families/transfer-options/choice
+ -transfers
+END:VEVENT
+END:VCALENDAR

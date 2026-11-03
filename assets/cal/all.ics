@@ -1,0 +1,2892 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：全部日期
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:e8f5d923f6d2130eb7ed7c3b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:RSD HiCap 推荐窗口（K-11 年级，家长、老师都可推荐
+ ）（开始）
+DESCRIPTION:2 年级全员 NNAT3 普筛（9-10 月）；5 年级按第一
+ 学期 i-Ready 成绩挑人加测；官网 https://www.rentonschools.us/le
+ arning-and-teaching/highly-capable-program/student-identification；日历
+  https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:6a8e87d401c62b7d7743e213@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:RSD HiCap 推荐窗口（K-11 年级，家长、老师都可推荐
+ ）（截止）
+DESCRIPTION:2 年级全员 NNAT3 普筛（9-10 月）；5 年级按第一
+ 学期 i-Ready 成绩挑人加测；官网 https://www.rentonschools.us/le
+ arning-and-teaching/highly-capable-program/student-identification；日历
+  https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:9113a40bf818a89b690576c8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:RSD HiCap 认知测试 NNAT3（被推荐学生，在校内分批测
+ ）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 9 月到 12 月；官网 https://www.r
+ entonschools.us/learning-and-teaching/highly-capable-program/student-ident
+ ification；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:c88399089ad969766dff7bcf@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:RSD HiCap 认知测试 NNAT3（被推荐学生，在校内分批测
+ ）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 9 月到 12 月；官网 https://www.r
+ entonschools.us/learning-and-teaching/highly-capable-program/student-ident
+ ification；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:4a719a5ac23b42d0920fcae9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:LWSD HiCap 认定：私校和在家上学学生交作品集（开
+ 始）
+DESCRIPTION:推荐窗口 8/31 到 9/21 已关闭；2、5 年级在读生自
+ 动普筛；官网 https://www.lwsd.org/services/accelerated-programs/high
+ ly-capable-identification-process；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:06205886d27d2a1acbf90e05@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:LWSD HiCap 认定：私校和在家上学学生交作品集（截
+ 止）
+DESCRIPTION:推荐窗口 8/31 到 9/21 已关闭；2、5 年级在读生自
+ 动普筛；官网 https://www.lwsd.org/services/accelerated-programs/high
+ ly-capable-identification-process；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:7cbe3cb290e3f33da4d1abc9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:SPS HC 认定：私校和在家上学学生申请（2027-28 入读 
+ 2-5 年级）（开始）
+DESCRIPTION:作品集材料也须在此期间交齐，否则不处理；官
+ 网 https://www.seattleschools.org/departments/highly-capable/private-home
+ school/；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/private-homes
+ chool/
+END:VEVENT
+BEGIN:VEVENT
+UID:0a64a84771397f349f3e5163@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SPS HC 认定：私校和在家上学学生申请（2027-28 入读 
+ 2-5 年级）（截止）
+DESCRIPTION:作品集材料也须在此期间交齐，否则不处理；官
+ 网 https://www.seattleschools.org/departments/highly-capable/private-home
+ school/；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/private-homes
+ chool/
+END:VEVENT
+BEGIN:VEVENT
+UID:69ea5a68891053c83da5d058@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:SPS HC 推荐窗口（2、3、5-11 年级）；1、4 年级普筛
+ 退出表（开始）
+DESCRIPTION:1、4 年级全员普筛，不想参加才交退出表；官网
+  https://www.seattleschools.org/departments/highly-capable/identification-
+ and-eligibility/；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:55c7f8aecc78c06d07ac0796@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:SPS HC 推荐窗口（2、3、5-11 年级）；1、4 年级普筛
+ 退出表（截止）
+DESCRIPTION:1、4 年级全员普筛，不想参加才交退出表；官网
+  https://www.seattleschools.org/departments/highly-capable/identification-
+ and-eligibility/；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:a0ca3f2c6be21d9ecf1d528b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:NSD HiCap Naglieri 测试（2-4 年级，新转入和被推荐的
+ 学生）（开始）
+DESCRIPTION:推荐窗口 10/10 已关闭；1、5 年级全员普筛已在 9
+ -10 月完成；官网 https://www.nsd.org/schools/programs-services/highl
+ y-capable-services/eligibility/testing-timeline；日历 https://seattle-s
+ chool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:bc6e7cb1db20ff1ab89732dd@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:NSD HiCap Naglieri 测试（2-4 年级，新转入和被推荐的
+ 学生）（截止）
+DESCRIPTION:推荐窗口 10/10 已关闭；1、5 年级全员普筛已在 9
+ -10 月完成；官网 https://www.nsd.org/schools/programs-services/highl
+ y-capable-services/eligibility/testing-timeline；日历 https://seattle-s
+ chool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:1998553b2c61fbc5ae9f52f6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:ISD K 和 2 年级 HiCap 测试预注册（私校和在家上学学
+ 生）（开始）
+DESCRIPTION:要交出生证明和住址证明，在家上学的还要交疫
+ 苗记录；本区在读生不用注册，自动参加；官网 https://ww
+ w.isd411.org/programs-services/gifted-highly-capable/referral-process/2nd-
+ grade-testing；日历 https://seattle-school-compare.github.io/zh/calenda
+ r/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f5df9e5d73aa8745267ba1@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ISD K 和 2 年级 HiCap 测试预注册（私校和在家上学学
+ 生）（截止）
+DESCRIPTION:要交出生证明和住址证明，在家上学的还要交疫
+ 苗记录；本区在读生不用注册，自动参加；官网 https://ww
+ w.isd411.org/programs-services/gifted-highly-capable/referral-process/2nd-
+ grade-testing；日历 https://seattle-school-compare.github.io/zh/calenda
+ r/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:d674265ed5263993098ba322@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:NSD HiCap Naglieri 测试（6、7 年级，新转入和被推荐的
+ 学生）（开始）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:db86e2fadcebb99cf72573dd@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:NSD HiCap Naglieri 测试（6、7 年级，新转入和被推荐的
+ 学生）（截止）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:458000ea545e69726c666f2f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:私校 SAAS 兄弟姐妹和教职工子女提前轮截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2c55f24dc256e74ea30ffd66@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SSD 1 年级 HiCap 普筛退出表截止
+DESCRIPTION:不交表就默认参加 CogAT 普筛；官网 https://www.ssd4
+ 12.org/academics/highly-capable；日历 https://seattle-school-compare.gi
+ thub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable
+END:VEVENT
+BEGIN:VEVENT
+UID:8a5d2c3dfc1ed6baba731b35@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:BSD Advanced Learning 冬季测试（本区在读生，已报名者
+ ）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月初
+ 到 2027 年 3 月初，在校内考，中学生寒假后考，考前约
+ 两周发邮件；报名 10/6 已截止；官网 https://www.bsd405.org/ac
+ ademics/advanced-learning/testing-dates；日历 https://seattle-school-co
+ mpare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/testing-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:d8fe8d8cf10e65d1800b0795@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:BSD Advanced Learning 冬季测试（本区在读生，已报名者
+ ）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月初
+ 到 2027 年 3 月初，在校内考，中学生寒假后考，考前约
+ 两周发邮件；报名 10/6 已截止；官网 https://www.bsd405.org/ac
+ ademics/advanced-learning/testing-dates；日历 https://seattle-school-co
+ mpare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/testing-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:d8cfac70e6a5b26f96bc869f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:EDM HiCap 天才班在校测试（NNAT3；2、6 年级全员，其
+ 他年级须已推荐）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月到 12 月；2025-26 是 11/3 
+ 到 12/17 各校轮流测；FAQ 写推荐期到 10/15；官网 https://www
+ .edmonds.wednet.edu/programs-services/highly-capable-gifted/frequently-ask
+ ed-questions-hi-cap-program；日历 https://seattle-school-compare.github
+ .io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
+ frequently-asked-questions-hi-cap-program
+END:VEVENT
+BEGIN:VEVENT
+UID:e6636cfcfe8b0ad03555bc7d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:EDM HiCap 天才班在校测试（NNAT3；2、6 年级全员，其
+ 他年级须已推荐）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月到 12 月；2025-26 是 11/3 
+ 到 12/17 各校轮流测；FAQ 写推荐期到 10/15；官网 https://www
+ .edmonds.wednet.edu/programs-services/highly-capable-gifted/frequently-ask
+ ed-questions-hi-cap-program；日历 https://seattle-school-compare.github
+ .io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
+ frequently-asked-questions-hi-cap-program
+END:VEVENT
+BEGIN:VEVENT
+UID:5f5da72d17b039e5a9f33ec9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:LWSD Discovery Community School 幼儿园抽签申请（开始）
+DESCRIPTION:2/26 晚 11:59 截止；1-5 年级按全区 12/1 截止；官
+ 网 https://discovery.lwsd.org/about-us/how-to-apply；日历 https://seat
+ tle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:19c8ac3e2069927385c57624@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:LWSD Discovery Community School 幼儿园抽签申请（截止）
+DESCRIPTION:2/26 晚 11:59 截止；1-5 年级按全区 12/1 截止；官
+ 网 https://discovery.lwsd.org/about-us/how-to-apply；日历 https://seat
+ tle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:9e77b783af0210190af87f81@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:LWSD HiCap 补充 CogAT 测试（委员会按需安排）（开始
+ ）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 11 月初到 2027 
+ 年 2 月；在读生在校内考，私校和在家学生寒假后考；
+ 官网 https://www.lwsd.org/services/accelerated-programs/highly-capable-i
+ dentification-process；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:99a2c47e3035bffd6d75f61d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:LWSD HiCap 补充 CogAT 测试（委员会按需安排）（截止
+ ）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 11 月初到 2027 
+ 年 2 月；在读生在校内考，私校和在家学生寒假后考；
+ 官网 https://www.lwsd.org/services/accelerated-programs/highly-capable-i
+ dentification-process；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:2972774962f94f2ebeb1e791@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:LWSD 选择校网上申请（Tesla STEM、ICS、Stella Schola、EAS
+ 、Community、Explorer 等）（开始）
+DESCRIPTION:11/1 早 8 点开放，12/1 晚 11:59 截止；截止时须住
+ 在学区内；Discovery 1-5 年级同此窗口；官网 https://ics.lwsd.
+ org/about-us/lottery-information；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:c855eb11e990721c228ada6d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:LWSD 选择校网上申请（Tesla STEM、ICS、Stella Schola、EAS
+ 、Community、Explorer 等）（截止）
+DESCRIPTION:11/1 早 8 点开放，12/1 晚 11:59 截止；截止时须住
+ 在学区内；Discovery 1-5 年级同此窗口；官网 https://ics.lwsd.
+ org/about-us/lottery-information；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:cdb0eb76aa371acb0c9ec03e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RSD Sartori STEM 选择校抽签申请（2027-28 入学）（开始
+ ）
+DESCRIPTION:2/12 下午 4 点截止；只限本区居民和学区全职员
+ 工子女；官网 https://sartori.rentonschools.us/career-center/lottery-
+ timelne；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:22c90b1cd791a0abdbd0b616@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:RSD Sartori STEM 选择校抽签申请（2027-28 入学）（截止
+ ）
+DESCRIPTION:2/12 下午 4 点截止；只限本区居民和学区全职员
+ 工子女；官网 https://sartori.rentonschools.us/career-center/lottery-
+ timelne；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa4596e8a4608d98daa802f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SSD 1 年级 CogAT 普筛（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月中
+ 到 12 月初，在本校上课时间考；官网 https://www.ssd412.org/a
+ cademics/highly-capable；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable
+END:VEVENT
+BEGIN:VEVENT
+UID:296c4edf3c9510b9707c5975@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:SSD 1 年级 CogAT 普筛（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月中
+ 到 12 月初，在本校上课时间考；官网 https://www.ssd412.org/a
+ cademics/highly-capable；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable
+END:VEVENT
+BEGIN:VEVENT
+UID:22a7361f9d6e8ccfcffea05a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:LWSD Juanita HS Cambridge 项目说明会
+DESCRIPTION:下午 5 点到 6 点，JHS 剧场；9-12 年级；官网 https
+ ://www.lwsd.org/programs/choice-schools；日历 https://seattle-school-co
+ mpare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:9fad762d40c9d0e5b6a34c62@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:MISD 幼儿园秋季开放日参观
+DESCRIPTION:周三上午 10:00 到 10:20 或 10:30 到 10:50 两场，有
+ 人带领参观；官网 https://www.mercerislandschools.org/enrollment/ki
+ ndergarten；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:1e66aa933496c3e84ab8d6f8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:EDM Edmonds-Woodway IB 项目 8 年级家长说明会（18:00，EWH
+ S Little Theater）
+DESCRIPTION:10/8 已办一场；官网 https://ewhs.edmonds.wednet.edu/acad
+ emics/ewhsibprogram/application-process-2023；日历 https://seattle-scho
+ ol-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/application-pro
+ cess-2023
+END:VEVENT
+BEGIN:VEVENT
+UID:61085285ca363c1c05e8f446@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:LWSD Einstein 双语项目说明会
+DESCRIPTION:下午 5:30 到 6:30，Einstein 图书馆；K-5；官网 https:
+ //www.lwsd.org/programs/choice-schools；日历 https://seattle-school-com
+ pare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:86c81ba309a14881ee803a54@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:私校 The Northwest School 兄弟姐妹、校友和教职工子女
+ 提前截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b690fd9ffef7396098a0d180@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:RSD HiCap 家长说明会（线上，上午 11 点到 12 点）
+DESCRIPTION:官网写 2025 年 11 月 5 日周四，按星期应为 2026 
+ 年；Zoom 链接发给被推荐学生的家庭；官网 https://www.rento
+ nschools.us/fs/pages/377；日历 https://seattle-school-compare.github.io
+ /zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/fs/pages/377
+END:VEVENT
+BEGIN:VEVENT
+UID:2190b7f2b94374745feb9006@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:LWSD Explorer Community School 说明会
+DESCRIPTION:晚 7 点，Explorer 413 室；1-5 年级；官网 https://www.
+ lwsd.org/programs/choice-schools；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:c0eb310c777c90dd825df762@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:NSD HiCap Iowa 测试家长同意截止（6、7 年级）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:c007dd0681467cd6ec434fa8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:EVT HiCap 天才班测试推荐截止（1-4 年级）；K 年级 Le
+ arning Enrichment CogAT 筛查推荐同日截止
+DESCRIPTION:家长、老师或社区人士都可推荐，家长须签同意
+ 书；1、5 年级秋季全员普筛不用推荐；官网 https://www.ever
+ ettsd.org/advanced-learning/highly-capable-program；日历 https://seattl
+ e-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/advanced-learning/highly-capable-program
+END:VEVENT
+BEGIN:VEVENT
+UID:9416282af0b66d66d0cee1df@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第一段）（开始）
+DESCRIPTION:第二段 11/30 到 12/17；官网 https://www.nsd.org/schools/
+ programs-services/highly-capable-services/eligibility/testing-timeline；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:21b26a35a0a4e38c681de99f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第一段）（截止）
+DESCRIPTION:第二段 11/30 到 12/17；官网 https://www.nsd.org/schools/
+ programs-services/highly-capable-services/eligibility/testing-timeline；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:9990b827fe9ded45d1ada1f0@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:NSD HiCap Iowa 学业测试（6、7 年级）（开始）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:60ac7f1e30bb2f3313171154@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:NSD HiCap Iowa 学业测试（6、7 年级）（截止）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:2784829ef167944997af9ad9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:EVT Cascade IB 文凭项目说明会（在 Eisenhower 初中）
+DESCRIPTION:晚 6 点；官网未写年份，按 2026-27 学年列出；官
+ 网 https://www.everettsd.org/choice-programs/international-baccalaureate-
+ ib；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:2a5f24967103ac1696de20f8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:LWSD Mead STEM 项目说明会
+DESCRIPTION:下午 6 点到 7 点；1-5 年级，只收 Mead 小学片区
+ 学生；官网 https://www.lwsd.org/programs/choice-schools；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:9129863e17e558bfd9bbf943@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:私校 BASIS 两所学校 Early 轮截止（Bellevue 只限 K）
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8e12c357fa7cdf4f2a39becf@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:SPS 注册和选校说明会（线上）
+DESCRIPTION:晚 6 点到 7 点；当天公布链接；讲开放选校抽签
+ 时间表；官网 https://www.seattleschools.org/news/enrollment-fair/；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:825996c6b94137105c815f0b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:SPS HC 测试（私校和在家上学学生）
+DESCRIPTION:周六，John Stanford Center；上午 10 点到 12 点或下
+ 午 2 点到 4 点两场；交齐材料后 11 月报名；官网 https://w
+ ww.seattleschools.org/departments/highly-capable/private-homeschool/；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/private-homes
+ chool/
+END:VEVENT
+BEGIN:VEVENT
+UID:c61508cd27b55f76731f11e0@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:EVT HiCap 测试窗口（CogAT、Iowa，在本校网上考）（开
+ 始）
+DESCRIPTION:无周六场；缺考须 24 小时内通知，补考须在窗
+ 口内完成；官网 https://www.everettsd.org/advanced-learning/highly-c
+ apable-program；日历 https://seattle-school-compare.github.io/zh/calend
+ ar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/advanced-learning/highly-capable-program
+END:VEVENT
+BEGIN:VEVENT
+UID:8e0bbd0a69c69a707da189c9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:EVT HiCap 测试窗口（CogAT、Iowa，在本校网上考）（截
+ 止）
+DESCRIPTION:无周六场；缺考须 24 小时内通知，补考须在窗
+ 口内完成；官网 https://www.everettsd.org/advanced-learning/highly-c
+ apable-program；日历 https://seattle-school-compare.github.io/zh/calend
+ ar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/advanced-learning/highly-capable-program
+END:VEVENT
+BEGIN:VEVENT
+UID:46710d5b7d2c1e45e802bd40@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；官网 https://cascade.ssd412.org/about-us/
+ enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0206657b7fa06741fbeb49@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:EDM Maplewood 合作学校家长说明会（参加后才能进 2027
+ -28 K 抽签）（开始）
+DESCRIPTION:10:30 开始，不用预约；场次 11/17、12/8、1/5、1/19
+ 、2/9（抽签前最后一场）；页面未写年份；官网 https://mw
+ .edmonds.wednet.edu/enrollment-and-tour-information；日历 https://seatt
+ le-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://mw.edmonds.wednet.edu/enrollment-and-tour-information
+END:VEVENT
+BEGIN:VEVENT
+UID:d08f68d065fa10a3e5f225e4@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:EDM Maplewood 合作学校家长说明会（参加后才能进 2027
+ -28 K 抽签）（截止）
+DESCRIPTION:10:30 开始，不用预约；场次 11/17、12/8、1/5、1/19
+ 、2/9（抽签前最后一场）；页面未写年份；官网 https://mw
+ .edmonds.wednet.edu/enrollment-and-tour-information；日历 https://seatt
+ le-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://mw.edmonds.wednet.edu/enrollment-and-tour-information
+END:VEVENT
+BEGIN:VEVENT
+UID:4264c8230e1e46b3ecfdaf33@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:EVT Cascade IB 文凭项目说明会（在 Gateway 初中）
+DESCRIPTION:晚 6 点；官网未写年份，按 2026-27 学年列出；官
+ 网 https://www.everettsd.org/choice-programs/international-baccalaureate-
+ ib；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:ed5f9fda9d0e4a415b89e48f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:EDM Madrona K-8 家长说明会和参观（参加后才能进抽签
+ ）（开始）
+DESCRIPTION:10-11 点，不用预约；场次 11/18、1/11、2/11；想进 
+ K 抽签须 3 月前参观；另有 3/15、5/20 场次；官网 https://ma
+ drona.edmonds.wednet.edu/enrollment-and-tour-information；日历 https://
+ seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://madrona.edmonds.wednet.edu/enrollment-and-tour-information
+END:VEVENT
+BEGIN:VEVENT
+UID:44509e96959de0f2d2fd48d8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:EDM Madrona K-8 家长说明会和参观（参加后才能进抽签
+ ）（截止）
+DESCRIPTION:10-11 点，不用预约；场次 11/18、1/11、2/11；想进 
+ K 抽签须 3 月前参观；另有 3/15、5/20 场次；官网 https://ma
+ drona.edmonds.wednet.edu/enrollment-and-tour-information；日历 https://
+ seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://madrona.edmonds.wednet.edu/enrollment-and-tour-information
+END:VEVENT
+BEGIN:VEVENT
+UID:07f80fd85b9722f4f45e4187@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:LWSD Discovery Community School 说明会
+DESCRIPTION:晚 6 点，Discovery 图书馆；页面只写 11/19，没写
+ 年份；官网 https://www.lwsd.org/programs/choice-schools；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/programs/choice-schools
+END:VEVENT
+BEGIN:VEVENT
+UID:6377b0a6abb1e99e1c9a8cb0@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:SPS 注册和选校说明会（Viewlands Elementary）
+DESCRIPTION:下午 5:30 到 7 点，10525 Third Ave. NW；官网 https://ww
+ w.seattleschools.org/news/enrollment-fair/；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:9ecdb99cd852e047394dfff3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:私校 SAAS 提前轮出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:64ed8c3d575d10f701b638fe@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:NSD HiCap Iowa 测试家长同意截止（1-5 年级）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:357e23fa7cdfab835f8c9881@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:ISD 2 年级 HiCap 第一阶段：TTCT 创造力测试（开始）
+DESCRIPTION:在教室里考；私校和在家学生 12 月在片区学校
+ 考，时间由学校安排；官网 https://www.isd411.org/programs-servi
+ ces/gifted-highly-capable/referral-process/2nd-grade-testing；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:b56231352ef8f69727a81bb3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:ISD 2 年级 HiCap 第一阶段：TTCT 创造力测试（截止）
+DESCRIPTION:在教室里考；私校和在家学生 12 月在片区学校
+ 考，时间由学校安排；官网 https://www.isd411.org/programs-servi
+ ces/gifted-highly-capable/referral-process/2nd-grade-testing；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:e2c01f6f0c2f870dd55d3c5b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第二段）（开始）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:cb908bd236f9b76a58772df8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第二段）（截止）
+DESCRIPTION:官网 https://www.nsd.org/schools/programs-services/highly-cap
+ able-services/eligibility/testing-timeline；日历 https://seattle-school
+ -compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:aee72592f11a0ba1eac40185@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:EDM HiCap 天才班私校和在家上学学生周六测试（连续
+ 两个周六）（日期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；2025-26 是 12/6 和 12/13；
+ 须已在 10/15 前交推荐、成绩和住址证明；官网 https://www.
+ edmonds.wednet.edu/programs-services/highly-capable-gifted/frequently-aske
+ d-questions-hi-cap-program；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
+ frequently-asked-questions-hi-cap-program
+END:VEVENT
+BEGIN:VEVENT
+UID:26de52485b195ff6a37ec0af@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:ISD 9 月推荐（1、3-12 年级）HiCap 认定和安置结果（
+ 日期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；官网写 12 月中邮件通
+ 知；交回同意安置表后开始服务；官网 https://www.isd411.org
+ /programs-services/gifted-highly-capable/referral-process/september-referr
+ al；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/september-referral
+END:VEVENT
+BEGIN:VEVENT
+UID:70c3a5d5f2e13823b5928ab2@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:SPS 1 年级 Naglieri 能力测试（全员）（开始）
+DESCRIPTION:在校内分几天考；官网 https://www.seattleschools.org/d
+ epartments/highly-capable/identification-and-eligibility/；日历 https:/
+ /seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:33c58e70c29870c309050eb5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:SPS 1 年级 Naglieri 能力测试（全员）（截止）
+DESCRIPTION:在校内分几天考；官网 https://www.seattleschools.org/d
+ epartments/highly-capable/identification-and-eligibility/；日历 https:/
+ /seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:fe3fc6c8d2ff71e8dc8220a7@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:SPS 注册和选校说明会（Wing Luke Elementary）
+DESCRIPTION:下午 5:30 到 7 点，3701 S. Kenyon St.；官网 https://www
+ .seattleschools.org/news/enrollment-fair/；日历 https://seattle-school-
+ compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:3d4134a4a4a2e4c147a54648@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:SSD HiCap 通知是否需要进一步认知测试（开始）（日
+ 期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；年度时间表写 12 月下
+ 旬到 1 月初，未写年份；官网 https://www.ssd412.org/academics/h
+ ighly-capable/testing；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:933a741f03e6500d4040fb76@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:SSD HiCap 通知是否需要进一步认知测试（截止）（日
+ 期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；年度时间表写 12 月下
+ 旬到 1 月初，未写年份；官网 https://www.ssd412.org/academics/h
+ ighly-capable/testing；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:083be8b210c796c2a2e9e4af@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:LWSD Emerson K-12 第二学期入学说明会（必须参加）
+DESCRIPTION:下午 4:30，Teams 线上；入读 2026-27 第二学期；官
+ 网 https://emersonk12.lwsd.org/about-us；日历 https://seattle-school-c
+ ompare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://emersonk12.lwsd.org/about-us
+END:VEVENT
+BEGIN:VEVENT
+UID:e342eb0fb796fa97ce009a54@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:私校 Bear Creek 兄弟姐妹和教职工子女优先轮截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:6e9808a9ec7749980fffc466@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:EVT Cascade IB 文凭项目说明会（在 Heatherwood 初中）
+DESCRIPTION:晚 6 点；官网未写年份，按 2026-27 学年列出；官
+ 网 https://www.everettsd.org/choice-programs/international-baccalaureate-
+ ib；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:bf88b6ec061dc62943ca287d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:SPS 注册和选校说明会（West Seattle Elementary）
+DESCRIPTION:下午 5:30 到 7 点，6760 34th Ave. SW；官网 https://www.
+ seattleschools.org/news/enrollment-fair/；日历 https://seattle-school-c
+ ompare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:5202b994a2817450dc5410bc@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:私校 Archbishop Murphy 早申截止；Soundview 兄弟姐妹申
+ 请截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f46254eb122fc82ba5faeb@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:私校 Billings 兄弟姐妹和社区家庭提前轮截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:46778c62035fc1345d036203@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:BSD Advanced Learning 测试（私校和在家上学学生，1-11 
+ 年级）
+DESCRIPTION:上午认知测试，下午学业测试，约 8:00 到 13:30；
+ 页面写私校和在家学生 12 月上中旬考；官网 https://www.bsd
+ 405.org/academics/advanced-learning/testing-dates；日历 https://seattle
+ -school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/testing-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:e605c6391cee1e3e0d1b2df3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:SPS 注册和选校说明会（Thornton Creek Elementary）
+DESCRIPTION:下午 5:30 到 7 点，7712 40th Ave. NE；官网 https://www.
+ seattleschools.org/news/enrollment-fair/；日历 https://seattle-school-c
+ ompare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:d1006f5495ddb96b42fe4402@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:EDM Scriber Lake 高中说明会（18-19 点，Commons）
+DESCRIPTION:之后还有 2027/3/3、6/2、7/28 场次；官网 https://slhs
+ .edmonds.wednet.edu/about/application-process-info-meetings；日历 https
+ ://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://slhs.edmonds.wednet.edu/about/application-process-info-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:3bdf55e5d80c7884e2264d82@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:SPS 注册和选校说明会（Leschi Elementary）
+DESCRIPTION:下午 5:30 到 7 点，135 32nd Ave.；官网 https://www.seat
+ tleschools.org/news/enrollment-fair/；日历 https://seattle-school-compa
+ re.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:9d85358c8790033713518d1f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:私校 Bishop Blanchet 提前申请截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:e40124adb3a8e847b70088d9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:私校 Holy Names 提前申请截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:db68a5bbe6f4739239effbcc@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:BSD 区内转校申请（Open Transfer）（开始）
+DESCRIPTION:与选择校同一窗口，1/15 凌晨 0:01 关闭；超额时
+ 抽签，员工子女和兄弟姐妹优先；学区不提供校车；外
+ 区学生申请也从 12 月开始，开放到 10/1；官网 https://www.b
+ sd405.org/enroll；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:639cc5a502da077e2cc1d162@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:BSD 区内转校申请（Open Transfer）（截止）
+DESCRIPTION:与选择校同一窗口，1/15 凌晨 0:01 关闭；超额时
+ 抽签，员工子女和兄弟姐妹优先；学区不提供校车；外
+ 区学生申请也从 12 月开始，开放到 10/1；官网 https://www.b
+ sd405.org/enroll；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:3b9194b86ccb60ff0baac723@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:BSD 选择校和语言项目申请（Jing Mei、Puesta del Sol、In
+ ternational、Big Picture 等，K 和 6 年级入学抽签）（开始）
+DESCRIPTION:12/14 凌晨 0:01 开放，1/15 凌晨 0:01 关闭，实际最
+ 后一天是 1/14；Phantom Lake 希伯来语项目 2027-28 K 也是 12/14
+  开放；官网 https://www.bsd405.org/enroll；日历 https://seattle-sc
+ hool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:c9cf3d8b02f6bfaa57efa56e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:BSD 选择校和语言项目申请（Jing Mei、Puesta del Sol、In
+ ternational、Big Picture 等，K 和 6 年级入学抽签）（截止）
+DESCRIPTION:12/14 凌晨 0:01 开放，1/15 凌晨 0:01 关闭，实际最
+ 后一天是 1/14；Phantom Lake 希伯来语项目 2027-28 K 也是 12/14
+  开放；官网 https://www.bsd405.org/enroll；日历 https://seattle-sc
+ hool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:d3977102e660a7a5908d552f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:MISD 外区学生 2027-28 choice transfer 申请开始受理
+DESCRIPTION:12/15 前提交的会被拒；不抽签，按完整申请的先
+ 后排候补；每年要重新申请；日期可能调整；官网 https:/
+ /www.mercerislandschools.org/enrollment/open-enrollment；日历 https://s
+ eattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/open-enrollment
+END:VEVENT
+BEGIN:VEVENT
+UID:466f60ceb1b365db4eb731e1@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:私校 Bellevue Children's Academy 优先轮截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eab090c834459d1a02fc4923@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:SPS HC 认定结果（私校和在家上学学生）
+DESCRIPTION:结果为最终决定，不能申诉；页面写 Dec 15 未写
+ 年份，按 2026 年；官网 https://www.seattleschools.org/departments/
+ highly-capable/private-homeschool/；日历 https://seattle-school-compare
+ .github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/private-homes
+ chool/
+END:VEVENT
+BEGIN:VEVENT
+UID:21e503300d90f06db7e3b816@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:SPS HC 认定结果（2-11 年级）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:d62da916876a3f82063bbe79@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:SPS HC 申诉（2-11 年级）（开始）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:cc7b0351859d09484338c0ec@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:SPS HC 申诉（2-11 年级）（截止）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:2018d3e65b3f034a2d3660be@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:EDM Edmonds-Woodway IB 项目优先申请截止（16:30）
+DESCRIPTION:滚动录取；最终截止 2027/2/7；官网 https://ewhs.edmo
+ nds.wednet.edu/academics/ewhsibprogram/application-process-2023；日历 h
+ ttps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/application-pro
+ cess-2023
+END:VEVENT
+BEGIN:VEVENT
+UID:798708497923071c053a589d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:NSD 非本区学生（私校、在家上学等）申请 HiCap 测
+ 试截止
+DESCRIPTION:这类学生一般 1 月或 2 月考；官网 https://www.nsd.o
+ rg/schools/programs-services/highly-capable-services/eligibility/testing-t
+ imeline；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a5ff6877923fbeda655dcb@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:EVT K 年级 Learning Enrichment CogAT 筛查（在本校考）（
+ 日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；3 月前出结果；官网 htt
+ ps://www.everettsd.org/advanced-learning/leap；日历 https://seattle-sch
+ ool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/advanced-learning/leap
+END:VEVENT
+BEGIN:VEVENT
+UID:a908ee39f8e3b80386b65a77@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:MISD 学校董事会决定 2027-28 外区新生接收（open enroll
+ ment）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；董事会 11 月或 12 月先
+ 讨论；2026-27 是 2026/1/29 决定；官网 https://www.mercerislandsch
+ ools.org/enrollment/open-enrollment；日历 https://seattle-school-compar
+ e.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/open-enrollment
+END:VEVENT
+BEGIN:VEVENT
+UID:623074c2a23b658427c45e51@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:NSD HiCap 结果通知（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；官网写 1 月下旬到 2 月
+ 下旬发邮件，成绩单放在 ParentVue；官网 https://www.nsd.org/s
+ chools/programs-services/highly-capable-services/eligibility/testing-timel
+ ine；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:3210978321d4928b281b3fde@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:NSD HiCap 结果通知（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；官网写 1 月下旬到 2 月
+ 下旬发邮件，成绩单放在 ParentVue；官网 https://www.nsd.org/s
+ chools/programs-services/highly-capable-services/eligibility/testing-timel
+ ine；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:cfb465f3fcb04dd98922dc03@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:NSD HiCap 补考（Naglieri 普筛和学业测试）（开始）（
+ 日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；官网写 1 月初和 2 月补
+ 考；官网 https://www.nsd.org/schools/programs-services/highly-capable-
+ services/eligibility/testing-timeline；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:9e891b65fe39eac537ce2aa0@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:NSD HiCap 补考（Naglieri 普筛和学业测试）（截止）（
+ 日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；官网写 1 月初和 2 月补
+ 考；官网 https://www.nsd.org/schools/programs-services/highly-capable-
+ services/eligibility/testing-timeline；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:58121e73ce961c0275b65c9a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:NSD Innovation Lab 高中 2027-28 招生开始（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；学校说 12 月公布说明
+ 会日期；9-11 年级名额很少；官网 https://innovationlab.nsd.org
+ /apply；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://innovationlab.nsd.org/apply
+END:VEVENT
+BEGIN:VEVENT
+UID:5f5fea761ac7c509bb26fc2f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:RSD 2027-28 新生网上注册开放（含幼儿园）（日期待
+ 公布）
+DESCRIPTION:日期待公布，暂按 1 月；幼儿园须在入学当年 8/
+ 31 前满 5 岁；2026-27 是 2026/1/20 开放；官网 https://sartori.re
+ ntonschools.us/career-center/lottery-timelne；日历 https://seattle-scho
+ ol-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:7b232cbc046c294ab0cd3e89@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:RSD HiCap 委员会审核，邮件或信件通知结果和申诉决
+ 定（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月到 3 月；收到通知两周内
+ 可申诉；新认定的 K-5 学生 3 月起有校内分组服务，Discov
+ ery 天才班下学年开始；官网 https://www.rentonschools.us/learnin
+ g-and-teaching/highly-capable-program/student-identification；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:90424736989ec5cb9e264c2d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:RSD HiCap 委员会审核，邮件或信件通知结果和申诉决
+ 定（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月到 3 月；收到通知两周内
+ 可申诉；新认定的 K-5 学生 3 月起有校内分组服务，Discov
+ ery 天才班下学年开始；官网 https://www.rentonschools.us/learnin
+ g-and-teaching/highly-capable-program/student-identification；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:81caf25666ce527b596afb3a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:SSD HiCap 认知测试（在本校考，含 2、4、6 年级以上
+ 被推荐学生）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；年度时间表写 1 月下旬
+ 到 2 月初；官网 https://www.ssd412.org/academics/highly-capable/test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:feaa898752d1eb8321c85912@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:SSD HiCap 认知测试（在本校考，含 2、4、6 年级以上
+ 被推荐学生）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；年度时间表写 1 月下旬
+ 到 2 月初；官网 https://www.ssd412.org/academics/highly-capable/test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:5d45002203ca4c830d06cc25@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:ISD K-5 i-Ready 阅读和数学测试（K 和 2 年级 HiCap 筛查
+ 用）（开始）
+DESCRIPTION:上课时间在教室考；官网 https://www.isd411.org/progra
+ ms-services/gifted-highly-capable/referral-process/kindergarten-screening-
+ testing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:8378932c496fd70616178057@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:ISD K-5 i-Ready 阅读和数学测试（K 和 2 年级 HiCap 筛查
+ 用）（截止）
+DESCRIPTION:上课时间在教室考；官网 https://www.isd411.org/progra
+ ms-services/gifted-highly-capable/referral-process/kindergarten-screening-
+ testing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:aa7a48cb854526f4e295bcce@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:LWSD 选择校学区统一抽签（开始）
+DESCRIPTION:官网 https://ics.lwsd.org/about-us/lottery-information；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:9b5f00b009919bd2f78860ef@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:LWSD 选择校学区统一抽签（截止）
+DESCRIPTION:官网 https://ics.lwsd.org/about-us/lottery-information；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:1821b7a1808f29fb4c80a0c2@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:SPS 开放选校（Open Enrollment），HC 认定的 2-11 年级学
+ 生在此期间选校（开始）
+DESCRIPTION:日期来自 HC 时间表；选校总页面仍是 2026-27 信
+ 息，全区选校日期以学区正式公布为准；官网 https://www.s
+ eattleschools.org/departments/highly-capable/identification-and-eligibilit
+ y/；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:1ae51179aa297a6e7b8ffa6e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:SPS 开放选校（Open Enrollment），HC 认定的 2-11 年级学
+ 生在此期间选校（截止）
+DESCRIPTION:日期来自 HC 时间表；选校总页面仍是 2026-27 信
+ 息，全区选校日期以学区正式公布为准；官网 https://www.s
+ eattleschools.org/departments/highly-capable/identification-and-eligibilit
+ y/；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:501369c01d1bdbb9512c1022@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；官网 https://cascade.ssd412.org/about-us/
+ enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:f567c9e00535a3e6e7cd5893@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:私校 私校申请截止：Seattle Prep、O'Dea、Bishop Blanchet
+ 、Holy Names、Archbishop Murphy 和 Kennedy Catholic 优先轮、Eastsid
+ e Catholic 高中、King's 高中优先轮
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9b1f35de022e40541fee6f3e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:LWSD Emerson K-12 第二学期入学申请截止
+DESCRIPTION:下午 3 点；1/25 入学；页面写 Wednesday，与日期不
+ 符；官网 https://emersonk12.lwsd.org/about-us；日历 https://seattle
+ -school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://emersonk12.lwsd.org/about-us
+END:VEVENT
+BEGIN:VEVENT
+UID:52d86ea50f090044af0b5446@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:ISD 私校和在家学生 i-Ready 测试（K 和 2 年级）
+DESCRIPTION:周六，ISD 行政楼；页面写 1/9 和 1/23 两天，没说
+ 是否两天都要来，学区会邮件通知安排；官网 https://www.i
+ sd411.org/programs-services/gifted-highly-capable/referral-process/2nd-gra
+ de-testing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:9c71ada5c38eadb934376189@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:SPS SPS 招生展会（Enrollment Fair），可现场办 2027-28 
+ 新生注册
+DESCRIPTION:周六上午 10 点到下午 2 点，John Stanford Center，244
+ 5 Third Ave. S.；页面写 Saturday\, Jan. 9，未写年份，星期与 2
+ 027 年一致；官网 https://www.seattleschools.org/news/enrollment-fair
+ /；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:1677e4e9304ee97339d3b2bf@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:私校 私校申请截止：Lakeside（初审材料）、University
+  Prep、Bush、Northwest School、SAAS、Overlake、Eastside Prep、Forest
+  Ridge、Seattle Country Day、Villa、St. Thomas、Open Window、Billings
+ 、Seattle Girls'
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:bdad35ad89b70595a4ed4441@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:LWSD 选择校抽签结果通知
+DESCRIPTION:当天下班前发出；官网 https://ics.lwsd.org/about-us/lo
+ ttery-information；日历 https://seattle-school-compare.github.io/zh/cal
+ endar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:efb42ddbc9f254976c17bc91@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:私校 私校申请截止：BASIS 两所学校 Regular 轮、Chestn
+ ut Hill
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:901251a3619a7ae672762806@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:EVT Cascade IB 文凭项目说明会（在 North 初中）
+DESCRIPTION:晚 6 点；官网未写年份，按 2026-27 学年列出；官
+ 网 https://www.everettsd.org/choice-programs/international-baccalaureate-
+ ib；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:add530a42a7d823652b0fbe5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:SPS 注册和选校说明会（线上）
+DESCRIPTION:下午 5:30 到 6:30；当天公布链接；官网 https://www.
+ seattleschools.org/news/enrollment-fair/；日历 https://seattle-school-c
+ ompare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/news/enrollment-fair/
+END:VEVENT
+BEGIN:VEVENT
+UID:c6fbd87193213434abd7e3bd@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:EVT Cascade IB 文凭项目说明会（在 Evergreen 初中）
+DESCRIPTION:晚 6 点；官网未写年份，按 2026-27 学年列出；官
+ 网 https://www.everettsd.org/choice-programs/international-baccalaureate-
+ ib；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:45f77c93fe94e2a0a0b448ee@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:私校 Bear Creek 申请截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:dfcaad60c9852f7c13423eab@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:ISD 私校和在家学生 i-Ready 测试（K 和 2 年级）
+DESCRIPTION:周六，ISD 行政楼；见 1/9 条；官网 https://www.isd41
+ 1.org/programs-services/gifted-highly-capable/referral-process/2nd-grade-t
+ esting；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:5c866d8e4856ff9b161d7d37@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:BSD 候补（waitlist）申请开放
+DESCRIPTION:凌晨 0:01 开放；Key Dates 只写 waitlist applications，
+ 没分项目；官网 https://www.bsd405.org/enroll；日历 https://seatt
+ le-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:3e460c5c93163cad1cb3f9de@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:MISD 幼儿园信息之夜（四所小学同时举行）
+DESCRIPTION:周二下午 5:30 到 6:30；官网 https://www.mercerislandsch
+ ools.org/enrollment/kindergarten；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:715b83798d40906badafce0c@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:SPS HC 认定结果（1 年级）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:e5ca688ea4034fb55f29f73b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:SPS HC 申诉（1 年级）（开始）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:989117e3c71c46ed2fdd6ec8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:SPS HC 申诉（1 年级）（截止）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:08eb89b0eb75a455aaf67997@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周三上午 10:30；官网 https://cascade.ssd412.org/about-us
+ /enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github
+ .io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:8628aa81477b7d91cef2ee98@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:私校 Lakeside 全部申请材料截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:45ca0c27d1a5e60a7fb2f9cf@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:LWSD 选择校录取确认截止
+DESCRIPTION:下午 3 点前；官网 https://ics.lwsd.org/about-us/lottery-
+ information；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ics.lwsd.org/about-us/lottery-information
+END:VEVENT
+BEGIN:VEVENT
+UID:9cc1f2beaee03a4b4c6259d4@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:私校 Soundview 申请截止
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:18912cfc05a45ec9c2c900a8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SSD 2027-28 开放注册（幼儿园和新生）（开始）
+DESCRIPTION:按时注册的学生在片区学校优先；之后也随时收
+ ；K 须 8/31 前满 5 岁；官网 https://www.ssd412.org/about-us/enroll
+ ment/kindergarten-faqs；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:38428c2161ada77c35b953f6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:SSD 2027-28 开放注册（幼儿园和新生）（截止）
+DESCRIPTION:按时注册的学生在片区学校优先；之后也随时收
+ ；K 须 8/31 前满 5 岁；官网 https://www.ssd412.org/about-us/enroll
+ ment/kindergarten-faqs；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:d580b43ece69cc68989950a5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SSD Cascade K-8 和 Briarcrest 西语双语项目幼儿园申请（
+ 开始）
+DESCRIPTION:须在开放注册期内先在片区学校注册，并交 Casca
+ de 申请或双语补充表，最晚开放注册最后一天；官网 http
+ s://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8；日历 https:
+ //seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:314d9031d2546dbbc3833f22@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:SSD Cascade K-8 和 Briarcrest 西语双语项目幼儿园申请（
+ 截止）
+DESCRIPTION:须在开放注册期内先在片区学校注册，并交 Casca
+ de 申请或双语补充表，最晚开放注册最后一天；官网 http
+ s://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8；日历 https:
+ //seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:6397d2888a58a2f9d04f2326@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SSD Kinderfest 幼儿园注册和服务介绍会
+DESCRIPTION:Cascade K-8 页面写 Sat.\, Jan. 30 上午 10 点到 12 点；
+ 学区幼儿园 FAQ 写 Saturday\, January 20\, 2027，时间地点待定
+ ，星期与日期不符；官网 https://cascade.ssd412.org/about-us/enro
+ lling-with-cascade-k-8；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:b95caf3568757866e572e007@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:BSD 区内转校（Open Transfer）结果通知（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 2 月；有空位的学校计划 2 月
+ 通知，名额紧的学校可能 8 月或 9 月才通知；官网 https:/
+ /www.bsd405.org/enroll/student-placement/open-transfer/open-transfer-choic
+ e-schools-and-programs-frequently-asked-questions-clone；日历 https://s
+ eattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll/student-placement/open-transfer/open-tran
+ sfer-choice-schools-and-programs-frequently-asked-questions-clone
+END:VEVENT
+BEGIN:VEVENT
+UID:6876c9092436c24c82b84a26@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:BSD 选择校和语言项目录取、候补通知（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 2 月；FAQ 写 2 月发邮件，收
+ 到后一周内答复；官网 https://www.bsd405.org/enroll/student-place
+ ment/apply-to-choice-schools-and-programs/choice-school-and-programs-faq
+ ；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll/student-placement/apply-to-choice-schools
+ -and-programs/choice-school-and-programs-faq
+END:VEVENT
+BEGIN:VEVENT
+UID:9bd07e4964d8ecccc6535dec@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:EDM 2027-28 新生和幼儿园注册开放（日期待公布）
+DESCRIPTION:日期待公布，暂按 2 月；2026-27 是 2026/2/2 开放；
+ 须在当年 8/31 前满 5 岁；官网 https://www.edmonds.wednet.edu/enr
+ ollment；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/enrollment
+END:VEVENT
+BEGIN:VEVENT
+UID:6065fac86b277c46b6c325f0@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:EDM HiCap 天才班测试结果通知（ParentSquare）（日期待
+ 公布）
+DESCRIPTION:日期待公布，暂按 2 月；2025-26 是 2/10，FAQ 写 1 
+ 月最后一周；拟录取家庭约 2 月第二周参观；官网 https:/
+ /www.edmonds.wednet.edu/programs-services/highly-capable-gifted/referral-p
+ eriod-testing-dates-identification-and-appeals-process；日历 https://se
+ attle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
+ referral-period-testing-dates-identification-and-appeals-process
+END:VEVENT
+BEGIN:VEVENT
+UID:c1871dd1e14850ba2cde391a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:EDM Madrona K-8 和 Maplewood 合作学校幼儿园抽签（日期
+ 待公布）
+DESCRIPTION:日期待公布，暂按 2 月；两校页面写 2 月初或 2 
+ 月中；抽中电话通知，3 月初未接到电话即未抽中；官网
+  https://mw.edmonds.wednet.edu/enrollment-and-tour-information；日历 ht
+ tps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://mw.edmonds.wednet.edu/enrollment-and-tour-information
+END:VEVENT
+BEGIN:VEVENT
+UID:d08793082cb2bf6fe9b9e4ea@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:EDM 区内转校申请截止（初中、高中）（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 2 月；2023-24 申请表写 2/9 截
+ 止，逾期一律拒绝；STEAM 等项目也走这个申请；官网 http
+ s://www.edmonds.wednet.edu/enrollment/school-changetransfer/school-change-
+ information；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/enrollment/school-changetransfer/school-
+ change-information
+END:VEVENT
+BEGIN:VEVENT
+UID:c175237f1cd3c67dc7eb0e58@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:EDM 西语双语项目开放意向表（Cedar Valley、College Plac
+ e、Mountlake Terrace、Spruce）（日期待公布）
+DESCRIPTION:日期待公布，暂按 2 月（项目手册写 2 月开放意
+ 向表，3 月开始 K 注册）；先到先得，片区学生优先；官
+ 网 https://resources.finalsite.net/images/v1752786544/edmondswednetedu/u1
+ toyxlj8cabqsqem2kd/ESDDualLanguageProgramHandbookFinaldocx.pdf；日历 ht
+ tps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://resources.finalsite.net/images/v1752786544/edmondswednetedu/u1t
+ oyxlj8cabqsqem2kd/ESDDualLanguageProgramHandbookFinaldocx.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:3099f599f66c38f6e2e2901d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:EVT 幼儿园注册说明网络讲座（Kindergarten Kick-Off Webin
+ ar）（日期待公布）
+DESCRIPTION:日期待公布，暂按 2 月；学区说 2 月下旬举行，
+ 1 月在网页公布日期和链接；官网 https://www.everettsd.org/ear
+ ly-learning/kindergarten；日历 https://seattle-school-compare.github.io
+ /zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/early-learning/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:0de32bd6b2b85ca3947a154e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:MISD 提前入读幼儿园或一年级申请（2 月起联系学区
+ ，7/15 前交材料）（开始）
+DESCRIPTION:开始日待公布，暂按 2 月；页面写每年的规则，
+ 没写年份；9/1 到 10/31 生日可申请；测试须在截止前 6 个
+ 月内完成；官网 https://www.mercerislandschools.org/enrollment/early
+ -entrance-kindergarten；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
+ ten
+END:VEVENT
+BEGIN:VEVENT
+UID:69fa167eff075d7e88c1681d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:MISD 提前入读幼儿园或一年级申请（2 月起联系学区
+ ，7/15 前交材料）（截止）
+DESCRIPTION:开始日待公布，暂按 2 月；页面写每年的规则，
+ 没写年份；9/1 到 10/31 生日可申请；测试须在截止前 6 个
+ 月内完成；官网 https://www.mercerislandschools.org/enrollment/early
+ -entrance-kindergarten；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
+ ten
+END:VEVENT
+BEGIN:VEVENT
+UID:5af723c1ebc14764ea14b8f7@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:私校 私校申请截止：Eton、Eastside Catholic 初中、King'
+ s 小学和初中优先轮、Holy Rosary（Edmonds）优先轮
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:da57face73bd443f3ee5b66a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:SPS 1 年级 HC 认定学生选校（Open Enrollment）（开始）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:7cae248c1535bf38ccda2222@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:SPS 1 年级 HC 认定学生选校（Open Enrollment）（截止）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:0b3424c894274d1d4cdfdb09@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；官网 https://cascade.ssd412.org/about-us/
+ enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:fa64f65fd513a6a2c5df252d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:SSD 私校学生 HiCap 测试报名开放（1 年级以上）（日
+ 期待公布）
+DESCRIPTION:日期待公布，暂按 2 月；官网 https://www.ssd412.org/
+ academics/highly-capable/testing；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:b048961eb842718bd9608ed4@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:BSD 新生注册开放（K-12，含幼儿园）
+DESCRIPTION:凌晨 0:01 开放；页面原文标 2026-2027，疑为 2027-28
+  笔误；K 须 8/31 前满 5 岁；官网 https://www.bsd405.org/enroll
+ ；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe4a0cab9941ece3f000cc2@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:私校 私校申请截止：Cedar Crest、St. Joseph（新家庭）
+ 、St. Luke 优先轮；SAAS 高中出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:7ff056154ce9af407a74b044@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:EDM Edmonds-Woodway IB 项目最终申请截止（16:30）
+DESCRIPTION:官网 https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/
+ application-process-2023；日历 https://seattle-school-compare.github.io
+ /zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/application-pro
+ cess-2023
+END:VEVENT
+BEGIN:VEVENT
+UID:03d3edf535c31fd9dcd09023@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:EDM Mountlake Terrace STEM 磁石项目申请截止
+DESCRIPTION:页面只写 2 月 7 日，未写年份；官网 https://stem.e
+ dmonds.wednet.edu/stem-application；日历 https://seattle-school-compare
+ .github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://stem.edmonds.wednet.edu/stem-application
+END:VEVENT
+BEGIN:VEVENT
+UID:9172410eac8b868179313dd7@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:私校 Holy Rosary（Edmonds）出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:86276d3fec8f86afc77095e1@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:私校 King's 高中出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4be194c9126bdc34c6186312@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:SSD Cascade K-8 线上参观（Zoom）
+DESCRIPTION:周三晚 6:30；官网 https://cascade.ssd412.org/about-us/enr
+ olling-with-cascade-k-8；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:aa54f2c4e3fbe64afa991a31@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:私校 Archbishop Murphy、Kennedy Catholic 出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cc59122b5368ccb71c5e1b26@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:私校 天主教高中出结果：Seattle Prep、O'Dea、Bishop Bla
+ nchet、Holy Names
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d667c5f9dfe26ef62cd0bdeb@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:私校 St. Luke 出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:31f3017b9dee89d919e0cb45@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:SPS HC 申诉结果（2-11 年级）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:74f5c144fbdc0b772880a3fb@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:私校 私校高中出结果：Lakeside、University Prep、Bush、
+ Northwest School、Overlake、Eastside Prep、Forest Ridge
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0a5d0b25aad59e2248c9a3b9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:ISD 幼儿园 CogAT 测试（i-Ready 达标的学生）（开始）
+DESCRIPTION:考前学区先征求家长同意；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/kindergarten-s
+ creening-testing；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:5f92df63e9951493575e373e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:ISD 幼儿园 CogAT 测试（i-Ready 达标的学生）（截止）
+DESCRIPTION:考前学区先征求家长同意；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/kindergarten-s
+ creening-testing；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:3a03a7596b09b77588c03e3c@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；抽签后 3 月到 6 月还有几次参观
+ ；官网 https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+ ；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:ecd8a152be147acb946eccc3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:EVT Cascade IB 文凭项目说明会（在 Cascade 高中）
+DESCRIPTION:晚 6 点；官网未写年份，按 2026-27 学年列出；官
+ 网 https://www.everettsd.org/choice-programs/international-baccalaureate-
+ ib；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
+ b
+END:VEVENT
+BEGIN:VEVENT
+UID:5829d79ae7a1160e87c572e9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:SPS HC 申诉结果（1 年级）
+DESCRIPTION:官网 https://www.seattleschools.org/departments/highly-capabl
+ e/identification-and-eligibility/；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/departments/highly-capable/identificatio
+ n-and-eligibility/
+END:VEVENT
+BEGIN:VEVENT
+UID:6ef856a8f6da03ea33d7bb11@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:私校 Bellevue Children's Academy 常规轮截止；Cedar Crest K-
+ 5 出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:10e7eec73dfcdaddaa898c03@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:RSD Sartori：North Renton 片区家庭交住址证明（享优先
+ ）
+DESCRIPTION:下午 4 点前；没交的降到第 3 或第 4 优先；官网
+  https://sartori.rentonschools.us/career-center/lottery-timelne；日历 h
+ ttps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:8486619a5477913963e2fcf5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:BSD 幼儿园 Advanced Learning 普筛：通知是否进一步测
+ 试（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；官网写 3 月底前邮件通
+ 知，之后春季在校考 CogAT；官网 https://www.bsd405.org/academic
+ s/advanced-learning/screening-process；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/screening-process
+END:VEVENT
+BEGIN:VEVENT
+UID:121ce8dff20b53e950fd92c8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:BSD 提前入读幼儿园（EEK）筛查申请开放（日期待公
+ 布）
+DESCRIPTION:日期待公布，暂按 3 月；10/31 前满 5 岁可申请；
+ 官网 https://www.bsd405.org/enroll/kindergarten/early-entrance-to-kinder
+ garten；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll/kindergarten/early-entrance-to-kindergart
+ en
+END:VEVENT
+BEGIN:VEVENT
+UID:1d5bba1583fde77480ca1264@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EVT 2027-28 幼儿园开始注册
+DESCRIPTION:网上或纸质表交到片区学校；须 8/31 前满 5 岁，
+ 不设提前入学；官网 https://www.everettsd.org/early-learning/kinde
+ rgarten；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/early-learning/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:53d5b8f91cf2202d597910a6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EVT 2027-28 跨学区转学（外区转入、本区转出）开始
+ 受理
+DESCRIPTION:学区常设规则：每年 3/1 起受理下一学年，学区
+ 员工子女 2/15 起；经 OSPI 网上平台提交，45 天内答复；
+ 之后每年的申请如在 4/14 后才交，可能被拒或撤销；官
+ 网 https://www.everettsd.org/school-transfers；日历 https://seattle-sc
+ hool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/school-transfers
+END:VEVENT
+BEGIN:VEVENT
+UID:761576002fe811553a0f0978@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:EVT HiCap 测试结果通知（ParentSquare / ParentVUE）（日期
+ 待公布）
+DESCRIPTION:日期待公布，暂按 3 月；学区写最晚 3 月通知；
+ 申诉只限当年春季；官网 https://www.everettsd.org/advanced-learn
+ ing/highly-capable-program；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/advanced-learning/highly-capable-program
+END:VEVENT
+BEGIN:VEVENT
+UID:afde668735f7675befe3bc8f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:ISD 2 年级 HiCap 第三阶段：CogAT 测试（开始）
+DESCRIPTION:在教室考；私校和在家学生 3 月在片区学校考；
+ 结果决定 3 年级 SAGE 或 MERLIN 安置；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/2nd-grade-test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:f344725e21fd844217f4fe2a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:ISD 2 年级 HiCap 第三阶段：CogAT 测试（截止）
+DESCRIPTION:在教室考；私校和在家学生 3 月在片区学校考；
+ 结果决定 3 年级 SAGE 或 MERLIN 安置；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/2nd-grade-test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:774b3d34f9aa517f6e63e377@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:LWSD HiCap 申诉和作品集复审（开始）（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 3 月；须在收到结果后 7 天内
+ 提出；官网 https://www.lwsd.org/services/accelerated-programs/highly-
+ capable-identification-process；日历 https://seattle-school-compare.git
+ hub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:0e4afc3c0f6893764063a3d6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:LWSD HiCap 申诉和作品集复审（截止）（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 3 月；须在收到结果后 7 天内
+ 提出；官网 https://www.lwsd.org/services/accelerated-programs/highly-
+ capable-identification-process；日历 https://seattle-school-compare.git
+ hub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/services/accelerated-programs/highly-capable-ident
+ ification-process
+END:VEVENT
+BEGIN:VEVENT
+UID:bce20c2c3b5d6abf7fcb2ab9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD Cascade K-8 和 Briarcrest 双语项目幼儿园抽签（日期
+ 待公布）
+DESCRIPTION:日期待公布，暂按 3 月；开放注册结束后抽签；
+ 双语项目 3 月抽 80% 名额，录取前要做西语评估；官网 ht
+ tps://www.ssd412.org/about-us/enrollment/kindergarten-faqs；日历 https:
+ //seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:827ad34f8cc170c1ef319060@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD HiCap 最终结果通知（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；年度时间表写 3 月中；
+ 官网 https://www.ssd412.org/academics/highly-capable/testing；日历 ht
+ tps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:6926195a38c4c5ad39138578@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD 提前入读幼儿园：接收评估报告（开始）
+DESCRIPTION:页面写每年 3/1 到 8/15，没写年份；收到评估结
+ 果后 10 个工作日内发信；官网 https://www.ssd412.org/about-us/e
+ nrollment/kindergarten-early-entrance；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-early-entrance
+END:VEVENT
+BEGIN:VEVENT
+UID:095fe7ba146cebc6b80b012e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:SSD 提前入读幼儿园：接收评估报告（截止）
+DESCRIPTION:页面写每年 3/1 到 8/15，没写年份；收到评估结
+ 果后 10 个工作日内发信；官网 https://www.ssd412.org/about-us/e
+ nrollment/kindergarten-early-entrance；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-early-entrance
+END:VEVENT
+BEGIN:VEVENT
+UID:50ae5bc646d32ed74710ebe6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD 片区小学幼儿园超额抽签（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；页面写 3 月第一个完整
+ 周，在 Cascade 和双语抽签之后；只在报名超过名额时抽
+ ；官网 https://www.ssd412.org/about-us/enrollment/kindergarten-faqs；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:e96eee4d064d3a93ce861af9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD 私校学生 HiCap 测试（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；在 Shoreline Learning Center 
+ 考；官网 https://www.ssd412.org/academics/highly-capable/testing；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:f5c50ea31661547c6fa6043e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:SSD 私校学生 HiCap 测试（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；在 Shoreline Learning Center 
+ 考；官网 https://www.ssd412.org/academics/highly-capable/testing；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:5ebfd7868a7a3e1638925395@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:LWSD Discovery 幼儿园抽签
+DESCRIPTION:官网 https://discovery.lwsd.org/about-us/how-to-apply；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:73683b1b79264fd943494d86@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:私校 SAAS 初中、Eton 3 岁到 K 出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:05f278806fff747e53aa09d7@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:RSD Sartori 抽签
+DESCRIPTION:官网 https://sartori.rentonschools.us/career-center/lottery-t
+ imelne；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:078d41bb55f494bd54a75e15@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:NSD HiCap 安置确认截止（需要转校时）；申诉和作品
+ 集复审表截止
+DESCRIPTION:时间表注明日期可能调整；官网 https://www.nsd.org/
+ schools/programs-services/highly-capable-services/eligibility/testing-time
+ line；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
+ ligibility/testing-timeline
+END:VEVENT
+BEGIN:VEVENT
+UID:d3a454cc3d517abad3994466@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:私校 St. Joseph 发录取通知
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:77505aea2e2157ce8ce43c32@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:LWSD Discovery 幼儿园抽签结果通知
+DESCRIPTION:官网 https://discovery.lwsd.org/about-us/how-to-apply；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:4a97e161c75c7a399079a702@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:私校 King's 小学和初中出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:829c6b253d2ce3600d9ba48c@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:RSD Sartori 抽签结果在 SchoolMint 公布
+DESCRIPTION:最晚当天下午 4 点；官网 https://sartori.rentonschools
+ .us/career-center/lottery-timelne；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:d4ce74ed21873dbf9e500f38@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:私校 Bear Creek K-8 出结果
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4acd0ba60158b933d45b751a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:私校 私校小学和初中出结果：Lakeside、University Prep
+ 、Bush、Northwest School、Overlake、Eastside Prep、Forest Ridge、Vil
+ la、St. Thomas、Chestnut Hill、Open Window、Seattle Girls'、Soundview
+ 、Eton 1-8 年级
+DESCRIPTION:日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:342b8dc496ffab5bca5a99b8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:LWSD Discovery 幼儿园录取确认截止
+DESCRIPTION:官网 https://discovery.lwsd.org/about-us/how-to-apply；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://discovery.lwsd.org/about-us/how-to-apply
+END:VEVENT
+BEGIN:VEVENT
+UID:964bcc0b45f95210aa0eb2be@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:EVT 本学年（2026-27）区内转校申请截止
+DESCRIPTION:地址刚变更的除外；官网 https://www.everettsd.org/sch
+ ool-transfers；日历 https://seattle-school-compare.github.io/zh/calenda
+ r/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/school-transfers
+END:VEVENT
+BEGIN:VEVENT
+UID:305b40898b8fb4a94ce08797@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:BSD 2 年级和 5 年级 Advanced Learning 认定结果（日期待
+ 公布）
+DESCRIPTION:日期待公布，暂按 4 月；官网写 4 月底前邮件通
+ 知；收到结果 10 天内可申诉；官网 https://www.bsd405.org/acad
+ emics/advanced-learning/screening-process；日历 https://seattle-school-
+ compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/screening-process
+END:VEVENT
+BEGIN:VEVENT
+UID:7f45be6cf50b057c0f7211be@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:EVT Dual Language、Lighthouse 选择项目抽签（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 4 月；学区说冬末开放申请，
+ 抽签一般在 4 月中，两周内邮件通知；2026 年截止 4/15，2
+ 025 年截止 4/14；官网 https://www.everettsd.org/choice-programs；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/choice-programs
+END:VEVENT
+BEGIN:VEVENT
+UID:ad2b2b48e3c55a31c0134cd5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:EVT Everett Ready 幼儿园过渡营报名表开放（日期待公
+ 布）
+DESCRIPTION:日期待公布，暂按 4 月；过渡营 8 月举行，须报
+ 名；官网 https://www.everettsd.org/early-learning/kindergarten；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/early-learning/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:0cddcb4e647c00e751411476@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:MISD 区内转校申请窗口（intra-district transfer）（开始
+ ）
+DESCRIPTION:页面写每学年 4/1 到 4/30，窗口外不受理；官网 h
+ ttps://www.mercerislandschools.org/enrollment/intra-district-transfer；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/intra-district-transfer
+END:VEVENT
+BEGIN:VEVENT
+UID:1582cbdb4ad300d25fc1c1c3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:MISD 区内转校申请窗口（intra-district transfer）（截止
+ ）
+DESCRIPTION:页面写每学年 4/1 到 4/30，窗口外不受理；官网 h
+ ttps://www.mercerislandschools.org/enrollment/intra-district-transfer；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/intra-district-transfer
+END:VEVENT
+BEGIN:VEVENT
+UID:720b1f9c7a71bab534954933@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:SSD 私校学生 HiCap 结果（日期待公布）
+DESCRIPTION:日期待公布，暂按 4 月；官网写 4 月底前通知；
+ 官网 https://www.ssd412.org/academics/highly-capable/testing；日历 ht
+ tps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:39530e6e620e6c2cd025f54b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:MISD 幼儿园春季开放日参观
+DESCRIPTION:周三上午 10:00 到 10:20 或 10:30 到 10:50 两场；官
+ 网 https://www.mercerislandschools.org/enrollment/kindergarten；日历 h
+ ttps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:c5fdba612f4dd2f297d3072b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:EVT 幼儿园新生说明会（Kindergarten Orientation Night，在
+ 片区学校）（日期待公布）
+DESCRIPTION:日期待公布，暂按 5 月；各校时间表 2027 年 4 月
+ 公布，4 月到 5 月初发邀请；官网 https://www.everettsd.org/ear
+ ly-learning/kindergarten；日历 https://seattle-school-compare.github.io
+ /zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/early-learning/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:6a61d4ee29f41c7339a0cdc4@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:ISD K 和 2 年级 HiCap 认定结果（日期待公布）
+DESCRIPTION:日期待公布，暂按 5 月；官网写 5 月中邮件通知
+ ；收到结果 10 个工作日内可申诉；官网 https://www.isd411.or
+ g/programs-services/gifted-highly-capable/referral-process/2nd-grade-testi
+ ng；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:431fa952cd526bdf450a4e3b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:SSD Briarcrest 双语项目第二轮抽签（余下 20% 名额）
+ （日期待公布）
+DESCRIPTION:日期待公布，暂按 5 月；官网 https://www.ssd412.org/
+ academics/dual-language；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/dual-language
+END:VEVENT
+BEGIN:VEVENT
+UID:d12b322b2247771180d733f9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:BSD 幼儿园 Advanced Learning 认定结果（日期待公布）
+DESCRIPTION:日期待公布，暂按 6 月；官网写 6 月底前邮件通
+ 知；官网 https://www.bsd405.org/academics/advanced-learning/screening-
+ process；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/screening-process
+END:VEVENT
+BEGIN:VEVENT
+UID:51160ca7f2add87432e01a15@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:EDM HiCap 天才班推荐开放（下一轮，2028 秋入班）（
+ 日期待公布）
+DESCRIPTION:日期待公布，暂按 6 月；FAQ 写推荐期 6 月到 10/1
+ 5；官网 https://www.edmonds.wednet.edu/programs-services/highly-capable
+ -gifted/frequently-asked-questions-hi-cap-program；日历 https://seattle
+ -school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
+ frequently-asked-questions-hi-cap-program
+END:VEVENT
+BEGIN:VEVENT
+UID:1dc022b2879d5283950e50a6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:EDM 区内转校申请截止（小学）（日期待公布）
+DESCRIPTION:日期待公布，暂按 6 月；2023-24 申请表写 6/1 截
+ 止；官网 https://www.edmonds.wednet.edu/enrollment/school-changetransf
+ er/school-change-information；日历 https://seattle-school-compare.githu
+ b.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.edmonds.wednet.edu/enrollment/school-changetransfer/school-
+ change-information
+END:VEVENT
+BEGIN:VEVENT
+UID:a814d867a064680e4de97720@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:SPS 外区学生（non-resident）开始申请下一学年
+DESCRIPTION:页面写每年 6/1 起收下一学年申请，6/1 前交的也
+ 要等到 6/1 才审；2027-28 截止日待公布，2026-27 是 8/31；每
+ 年要重新申请；官网 https://www.seattleschools.org/enroll/non-resi
+ dent-students/；日历 https://seattle-school-compare.github.io/zh/calend
+ ar/
+TRANSP:TRANSPARENT
+URL:https://www.seattleschools.org/enroll/non-resident-students/
+END:VEVENT
+BEGIN:VEVENT
+UID:907dc747db555d8e6b212872@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:EDM Scriber Lake 高中秋季入学申请（交材料并完成学
+ 生面谈）（开始）
+DESCRIPTION:6/24 或 8/12 前完成，8/25 新生说明会，9/1 开学；
+ 另有 1/14（1/26 入学）、3/18（3/30 入学）两轮插班；官网 
+ https://slhs.edmonds.wednet.edu/about/application-process-info-meetings；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://slhs.edmonds.wednet.edu/about/application-process-info-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:027a84d3faf2995321386453@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:EDM Scriber Lake 高中秋季入学申请（交材料并完成学
+ 生面谈）（截止）
+DESCRIPTION:6/24 或 8/12 前完成，8/25 新生说明会，9/1 开学；
+ 另有 1/14（1/26 入学）、3/18（3/30 入学）两轮插班；官网 
+ https://slhs.edmonds.wednet.edu/about/application-process-info-meetings；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://slhs.edmonds.wednet.edu/about/application-process-info-meetings
+END:VEVENT
+BEGIN:VEVENT
+UID:0b8b4f62796f99158dbf5635@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:EVT Everett Ready 幼儿园过渡营（日期待公布）
+DESCRIPTION:日期待公布，暂按 8 月；须先报名；官网 https://
+ www.everettsd.org/early-learning/kindergarten；日历 https://seattle-sch
+ ool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.everettsd.org/early-learning/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:00245a4203fc20ec57edbbfc@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:MISD 提前入读幼儿园结果最晚通知日
+DESCRIPTION:页面写 8/15 前通知，没写年份；官网 https://www.me
+ rcerislandschools.org/enrollment/early-entrance-kindergarten；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
+ ten
+END:VEVENT
+BEGIN:VEVENT
+UID:8da42ea30ed01070dd66a0b2@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:LWSD 外区转入（choice transfer）书面答复最晚日
+DESCRIPTION:页面写每年 8/31 前通知；8 月下旬才开始审批；
+ 官网 https://www.lwsd.org/students-families/families/transfer-options/ch
+ oice-transfers；日历 https://seattle-school-compare.github.io/zh/calend
+ ar/
+TRANSP:TRANSPARENT
+URL:https://www.lwsd.org/students-families/families/transfer-options/choice
+ -transfers
+END:VEVENT
+END:VCALENDAR

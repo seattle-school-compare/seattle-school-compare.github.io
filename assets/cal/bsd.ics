@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：Bellevue
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:8a5d2c3dfc1ed6baba731b35@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:BSD Advanced Learning 冬季测试（本区在读生，已报名者
+ ）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月初
+ 到 2027 年 3 月初，在校内考，中学生寒假后考，考前约
+ 两周发邮件；报名 10/6 已截止；官网 https://www.bsd405.org/ac
+ ademics/advanced-learning/testing-dates；日历 https://seattle-school-co
+ mpare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/testing-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:d8fe8d8cf10e65d1800b0795@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:BSD Advanced Learning 冬季测试（本区在读生，已报名者
+ ）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月初
+ 到 2027 年 3 月初，在校内考，中学生寒假后考，考前约
+ 两周发邮件；报名 10/6 已截止；官网 https://www.bsd405.org/ac
+ ademics/advanced-learning/testing-dates；日历 https://seattle-school-co
+ mpare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/testing-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:46778c62035fc1345d036203@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:BSD Advanced Learning 测试（私校和在家上学学生，1-11 
+ 年级）
+DESCRIPTION:上午认知测试，下午学业测试，约 8:00 到 13:30；
+ 页面写私校和在家学生 12 月上中旬考；官网 https://www.bsd
+ 405.org/academics/advanced-learning/testing-dates；日历 https://seattle
+ -school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/testing-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:db68a5bbe6f4739239effbcc@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:BSD 区内转校申请（Open Transfer）（开始）
+DESCRIPTION:与选择校同一窗口，1/15 凌晨 0:01 关闭；超额时
+ 抽签，员工子女和兄弟姐妹优先；学区不提供校车；外
+ 区学生申请也从 12 月开始，开放到 10/1；官网 https://www.b
+ sd405.org/enroll；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:639cc5a502da077e2cc1d162@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:BSD 区内转校申请（Open Transfer）（截止）
+DESCRIPTION:与选择校同一窗口，1/15 凌晨 0:01 关闭；超额时
+ 抽签，员工子女和兄弟姐妹优先；学区不提供校车；外
+ 区学生申请也从 12 月开始，开放到 10/1；官网 https://www.b
+ sd405.org/enroll；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:3b9194b86ccb60ff0baac723@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:BSD 选择校和语言项目申请（Jing Mei、Puesta del Sol、In
+ ternational、Big Picture 等，K 和 6 年级入学抽签）（开始）
+DESCRIPTION:12/14 凌晨 0:01 开放，1/15 凌晨 0:01 关闭，实际最
+ 后一天是 1/14；Phantom Lake 希伯来语项目 2027-28 K 也是 12/14
+  开放；官网 https://www.bsd405.org/enroll；日历 https://seattle-sc
+ hool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:c9cf3d8b02f6bfaa57efa56e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:BSD 选择校和语言项目申请（Jing Mei、Puesta del Sol、In
+ ternational、Big Picture 等，K 和 6 年级入学抽签）（截止）
+DESCRIPTION:12/14 凌晨 0:01 开放，1/15 凌晨 0:01 关闭，实际最
+ 后一天是 1/14；Phantom Lake 希伯来语项目 2027-28 K 也是 12/14
+  开放；官网 https://www.bsd405.org/enroll；日历 https://seattle-sc
+ hool-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:5c866d8e4856ff9b161d7d37@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:BSD 候补（waitlist）申请开放
+DESCRIPTION:凌晨 0:01 开放；Key Dates 只写 waitlist applications，
+ 没分项目；官网 https://www.bsd405.org/enroll；日历 https://seatt
+ le-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:b95caf3568757866e572e007@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:BSD 区内转校（Open Transfer）结果通知（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 2 月；有空位的学校计划 2 月
+ 通知，名额紧的学校可能 8 月或 9 月才通知；官网 https:/
+ /www.bsd405.org/enroll/student-placement/open-transfer/open-transfer-choic
+ e-schools-and-programs-frequently-asked-questions-clone；日历 https://s
+ eattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll/student-placement/open-transfer/open-tran
+ sfer-choice-schools-and-programs-frequently-asked-questions-clone
+END:VEVENT
+BEGIN:VEVENT
+UID:6876c9092436c24c82b84a26@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:BSD 选择校和语言项目录取、候补通知（日期待公布
+ ）
+DESCRIPTION:日期待公布，暂按 2 月；FAQ 写 2 月发邮件，收
+ 到后一周内答复；官网 https://www.bsd405.org/enroll/student-place
+ ment/apply-to-choice-schools-and-programs/choice-school-and-programs-faq
+ ；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll/student-placement/apply-to-choice-schools
+ -and-programs/choice-school-and-programs-faq
+END:VEVENT
+BEGIN:VEVENT
+UID:b048961eb842718bd9608ed4@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:BSD 新生注册开放（K-12，含幼儿园）
+DESCRIPTION:凌晨 0:01 开放；页面原文标 2026-2027，疑为 2027-28
+  笔误；K 须 8/31 前满 5 岁；官网 https://www.bsd405.org/enroll
+ ；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll
+END:VEVENT
+BEGIN:VEVENT
+UID:8486619a5477913963e2fcf5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:BSD 幼儿园 Advanced Learning 普筛：通知是否进一步测
+ 试（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；官网写 3 月底前邮件通
+ 知，之后春季在校考 CogAT；官网 https://www.bsd405.org/academic
+ s/advanced-learning/screening-process；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/screening-process
+END:VEVENT
+BEGIN:VEVENT
+UID:121ce8dff20b53e950fd92c8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:BSD 提前入读幼儿园（EEK）筛查申请开放（日期待公
+ 布）
+DESCRIPTION:日期待公布，暂按 3 月；10/31 前满 5 岁可申请；
+ 官网 https://www.bsd405.org/enroll/kindergarten/early-entrance-to-kinder
+ garten；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/enroll/kindergarten/early-entrance-to-kindergart
+ en
+END:VEVENT
+BEGIN:VEVENT
+UID:305b40898b8fb4a94ce08797@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:BSD 2 年级和 5 年级 Advanced Learning 认定结果（日期待
+ 公布）
+DESCRIPTION:日期待公布，暂按 4 月；官网写 4 月底前邮件通
+ 知；收到结果 10 天内可申诉；官网 https://www.bsd405.org/acad
+ emics/advanced-learning/screening-process；日历 https://seattle-school-
+ compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/screening-process
+END:VEVENT
+BEGIN:VEVENT
+UID:d12b322b2247771180d733f9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:BSD 幼儿园 Advanced Learning 认定结果（日期待公布）
+DESCRIPTION:日期待公布，暂按 6 月；官网写 6 月底前邮件通
+ 知；官网 https://www.bsd405.org/academics/advanced-learning/screening-
+ process；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.bsd405.org/academics/advanced-learning/screening-process
+END:VEVENT
+END:VCALENDAR

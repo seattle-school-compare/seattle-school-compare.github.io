@@ -669,6 +669,14 @@ h2.sub { font-size: 1.1875rem; margin-top: 0.5rem; }
 .cc-ctrl { display: flex; flex-direction: column; gap: 0.625rem; }
 .cc-loc { display: flex; align-items: center; gap: 0.5rem; font-size: 0.875rem; color: var(--muted); max-width: 30rem; }
 .cc-loc input { flex: 1; min-width: 0; font-size: 0.9375rem; padding: 0.5rem 0.75rem; border-radius: 999px; }
+.cc-locrow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; }
+.cc-locrow .cc-loc { flex: 1 1 18rem; }
+.cc-locbtns { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.cc-locbtns .btn { padding: 0.4375rem 0.875rem; }
+.cc-locbtns .btn[aria-pressed="true"] { border-color: var(--sec); color: var(--sec-deep); }
+.cc-locbtns .btn:disabled { opacity: 0.65; cursor: default; }
+.map.ccmap.pick { border-color: var(--sec); box-shadow: 0 0 0 1px var(--sec); }
+.map.ccmap.pick svg, .map.ccmap.pick .cc { cursor: crosshair; }
 .cc-wrap { display: grid; grid-template-columns: minmax(0, 42fr) minmax(22rem, 58fr); gap: 1.125rem; align-items: start; }
 .cc-mapcol { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
 .cc-listcol { display: flex; flex-direction: column; gap: 0.625rem; min-width: 0; }
@@ -789,3 +797,6 @@ h2.sub, .as-cat h2 { color: var(--sec-deep); }
 }
 .cmpb { display: inline-flex; align-items: center; gap: 0.5rem 0.875rem; flex-wrap: wrap; }
 .cmp-go { font-size: 0.875rem; font-weight: 600; color: var(--sec); }
+.subs h2 { font-size: 1.125rem; }
+.sub-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.625rem; }
+.sub-row select { flex: 1 1 12rem; max-width: 18rem; }

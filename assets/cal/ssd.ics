@@ -1,0 +1,369 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：Shoreline
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2c55f24dc256e74ea30ffd66@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:SSD 1 年级 HiCap 普筛退出表截止
+DESCRIPTION:不交表就默认参加 CogAT 普筛；官网 https://www.ssd4
+ 12.org/academics/highly-capable；日历 https://seattle-school-compare.gi
+ thub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa4596e8a4608d98daa802f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:SSD 1 年级 CogAT 普筛（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月中
+ 到 12 月初，在本校上课时间考；官网 https://www.ssd412.org/a
+ cademics/highly-capable；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable
+END:VEVENT
+BEGIN:VEVENT
+UID:296c4edf3c9510b9707c5975@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:SSD 1 年级 CogAT 普筛（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 11 月；官网写 2026 年 11 月中
+ 到 12 月初，在本校上课时间考；官网 https://www.ssd412.org/a
+ cademics/highly-capable；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable
+END:VEVENT
+BEGIN:VEVENT
+UID:46710d5b7d2c1e45e802bd40@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；官网 https://cascade.ssd412.org/about-us/
+ enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:3d4134a4a4a2e4c147a54648@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:SSD HiCap 通知是否需要进一步认知测试（开始）（日
+ 期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；年度时间表写 12 月下
+ 旬到 1 月初，未写年份；官网 https://www.ssd412.org/academics/h
+ ighly-capable/testing；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:933a741f03e6500d4040fb76@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:SSD HiCap 通知是否需要进一步认知测试（截止）（日
+ 期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；年度时间表写 12 月下
+ 旬到 1 月初，未写年份；官网 https://www.ssd412.org/academics/h
+ ighly-capable/testing；日历 https://seattle-school-compare.github.io/zh
+ /calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:81caf25666ce527b596afb3a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:SSD HiCap 认知测试（在本校考，含 2、4、6 年级以上
+ 被推荐学生）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；年度时间表写 1 月下旬
+ 到 2 月初；官网 https://www.ssd412.org/academics/highly-capable/test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:feaa898752d1eb8321c85912@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:SSD HiCap 认知测试（在本校考，含 2、4、6 年级以上
+ 被推荐学生）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；年度时间表写 1 月下旬
+ 到 2 月初；官网 https://www.ssd412.org/academics/highly-capable/test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:501369c01d1bdbb9512c1022@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；官网 https://cascade.ssd412.org/about-us/
+ enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:08eb89b0eb75a455aaf67997@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周三上午 10:30；官网 https://cascade.ssd412.org/about-us
+ /enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github
+ .io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:18912cfc05a45ec9c2c900a8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SSD 2027-28 开放注册（幼儿园和新生）（开始）
+DESCRIPTION:按时注册的学生在片区学校优先；之后也随时收
+ ；K 须 8/31 前满 5 岁；官网 https://www.ssd412.org/about-us/enroll
+ ment/kindergarten-faqs；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:38428c2161ada77c35b953f6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:SSD 2027-28 开放注册（幼儿园和新生）（截止）
+DESCRIPTION:按时注册的学生在片区学校优先；之后也随时收
+ ；K 须 8/31 前满 5 岁；官网 https://www.ssd412.org/about-us/enroll
+ ment/kindergarten-faqs；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:d580b43ece69cc68989950a5@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SSD Cascade K-8 和 Briarcrest 西语双语项目幼儿园申请（
+ 开始）
+DESCRIPTION:须在开放注册期内先在片区学校注册，并交 Casca
+ de 申请或双语补充表，最晚开放注册最后一天；官网 http
+ s://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8；日历 https:
+ //seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:314d9031d2546dbbc3833f22@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:SSD Cascade K-8 和 Briarcrest 西语双语项目幼儿园申请（
+ 截止）
+DESCRIPTION:须在开放注册期内先在片区学校注册，并交 Casca
+ de 申请或双语补充表，最晚开放注册最后一天；官网 http
+ s://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8；日历 https:
+ //seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:6397d2888a58a2f9d04f2326@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:SSD Kinderfest 幼儿园注册和服务介绍会
+DESCRIPTION:Cascade K-8 页面写 Sat.\, Jan. 30 上午 10 点到 12 点；
+ 学区幼儿园 FAQ 写 Saturday\, January 20\, 2027，时间地点待定
+ ，星期与日期不符；官网 https://cascade.ssd412.org/about-us/enro
+ lling-with-cascade-k-8；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:0b3424c894274d1d4cdfdb09@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；官网 https://cascade.ssd412.org/about-us/
+ enrolling-with-cascade-k-8；日历 https://seattle-school-compare.github.
+ io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:fa64f65fd513a6a2c5df252d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:SSD 私校学生 HiCap 测试报名开放（1 年级以上）（日
+ 期待公布）
+DESCRIPTION:日期待公布，暂按 2 月；官网 https://www.ssd412.org/
+ academics/highly-capable/testing；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:4be194c9126bdc34c6186312@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:SSD Cascade K-8 线上参观（Zoom）
+DESCRIPTION:周三晚 6:30；官网 https://cascade.ssd412.org/about-us/enr
+ olling-with-cascade-k-8；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:3a03a7596b09b77588c03e3c@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:SSD Cascade K-8 参观和说明会
+DESCRIPTION:周一下午 1:30；抽签后 3 月到 6 月还有几次参观
+ ；官网 https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+ ；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://cascade.ssd412.org/about-us/enrolling-with-cascade-k-8
+END:VEVENT
+BEGIN:VEVENT
+UID:bce20c2c3b5d6abf7fcb2ab9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD Cascade K-8 和 Briarcrest 双语项目幼儿园抽签（日期
+ 待公布）
+DESCRIPTION:日期待公布，暂按 3 月；开放注册结束后抽签；
+ 双语项目 3 月抽 80% 名额，录取前要做西语评估；官网 ht
+ tps://www.ssd412.org/about-us/enrollment/kindergarten-faqs；日历 https:
+ //seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:827ad34f8cc170c1ef319060@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD HiCap 最终结果通知（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；年度时间表写 3 月中；
+ 官网 https://www.ssd412.org/academics/highly-capable/testing；日历 ht
+ tps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:6926195a38c4c5ad39138578@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD 提前入读幼儿园：接收评估报告（开始）
+DESCRIPTION:页面写每年 3/1 到 8/15，没写年份；收到评估结
+ 果后 10 个工作日内发信；官网 https://www.ssd412.org/about-us/e
+ nrollment/kindergarten-early-entrance；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-early-entrance
+END:VEVENT
+BEGIN:VEVENT
+UID:095fe7ba146cebc6b80b012e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:SSD 提前入读幼儿园：接收评估报告（截止）
+DESCRIPTION:页面写每年 3/1 到 8/15，没写年份；收到评估结
+ 果后 10 个工作日内发信；官网 https://www.ssd412.org/about-us/e
+ nrollment/kindergarten-early-entrance；日历 https://seattle-school-comp
+ are.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-early-entrance
+END:VEVENT
+BEGIN:VEVENT
+UID:50ae5bc646d32ed74710ebe6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD 片区小学幼儿园超额抽签（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；页面写 3 月第一个完整
+ 周，在 Cascade 和双语抽签之后；只在报名超过名额时抽
+ ；官网 https://www.ssd412.org/about-us/enrollment/kindergarten-faqs；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/about-us/enrollment/kindergarten-faqs
+END:VEVENT
+BEGIN:VEVENT
+UID:e96eee4d064d3a93ce861af9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:SSD 私校学生 HiCap 测试（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；在 Shoreline Learning Center 
+ 考；官网 https://www.ssd412.org/academics/highly-capable/testing；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:f5c50ea31661547c6fa6043e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:SSD 私校学生 HiCap 测试（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 3 月；在 Shoreline Learning Center 
+ 考；官网 https://www.ssd412.org/academics/highly-capable/testing；日
+ 历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:720b1f9c7a71bab534954933@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:SSD 私校学生 HiCap 结果（日期待公布）
+DESCRIPTION:日期待公布，暂按 4 月；官网写 4 月底前通知；
+ 官网 https://www.ssd412.org/academics/highly-capable/testing；日历 ht
+ tps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/highly-capable/testing
+END:VEVENT
+BEGIN:VEVENT
+UID:431fa952cd526bdf450a4e3b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:SSD Briarcrest 双语项目第二轮抽签（余下 20% 名额）
+ （日期待公布）
+DESCRIPTION:日期待公布，暂按 5 月；官网 https://www.ssd412.org/
+ academics/dual-language；日历 https://seattle-school-compare.github.io/
+ zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.ssd412.org/academics/dual-language
+END:VEVENT
+END:VCALENDAR

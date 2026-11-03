@@ -51,13 +51,15 @@
   /* ---------- 托儿: map and list ---------- */
   const CC = window.CC;
   if (CC && $("#cc-list")) {
-    const [W, H, S] = CC.geo;
+    const [W, H, S, LON0, LAT1, KX, KY] = CC.geo;
+    const toXY = (la, lo) => [(lo - LON0) * KX * S, (LAT1 - la) * KY * S];
+    const toLL = (x, y) => [LAT1 - y / (KY * S), LON0 + x / (KX * S)];
     const C = CC.C.map(r => ({ id: r[0], n: r[1], a: r[2], c: r[3], z: r[4], x: r[5], y: r[6], ap: r[7], cap: r[8], s: r[9], e: r[10], ea: r[11], zh: r[12], lat: r[13], lon: r[14], pv: r[15], mo: r[16] }));
     const byId = {}; C.forEach(p => { byId[p.id] = p; });
     const order = {}; CC.cities.forEach((c, i) => { order[c] = i; });
     const box = $("#cc-map"), svg = box.querySelector("svg"), dots = svg.querySelector(".ccdots"), me = svg.querySelector(".ccme");
     const wrap = document.querySelector(".cc-wrap");
-    const st = { loc: null, age: "", ea: false, zh: false, mo: false, pv: false, n: 20, sel: null };
+    const st = { loc: null, pt: "", pick: false, age: "", ea: false, zh: false, mo: false, pv: false, n: 20, sel: null };
     const ageOK = p => !st.age || (st.age === "i" ? p.s <= 11 : st.age === "t" ? p.s <= 29 && p.e >= 12 : p.s <= 59 && p.e >= 30);
     const eaOK = p => !st.ea || ["3", "3+", "4", "5"].includes(p.ea);
     const list = () => C.filter(p => ageOK(p) && eaOK(p) && (!st.zh || p.zh) && (!st.mo || p.mo) && (!st.pv || p.pv));
@@ -84,7 +86,8 @@
       svg.setAttribute("viewBox", vb.map(v => v.toFixed(1)).join(" "));
       box.style.setProperty("--ks", (W / vb[2]).toFixed(3));
       box.classList.toggle("zoom", !!st.loc);
-      wrap.classList.toggle("noloc", !st.loc);
+      box.classList.toggle("pick", st.pick);
+      wrap.classList.toggle("noloc", !st.loc && !st.pick);
     };
     const render = () => {
       const L = list();
@@ -107,17 +110,61 @@
       const k = Object.keys(CC.LOC).find(k => k.toLowerCase() === q.toLowerCase());
       return k || undefined;
     };
-    const inp = $("#cc-loc"), hint = $("#cc-maphint");
+    const inp = $("#cc-loc"), hint = $("#cc-maphint"), msg = $("#cc-locmsg"), here = $("#cc-here"), pickBtn = $("#cc-pick");
+    const HINT = "实心点是按地址定的位置；空心点是按 zip 估算的。点一个点看是哪一家。";
+    const say = t => { msg.textContent = t || ""; msg.hidden = !t; };
+    const setHint = () => { hint.textContent = (st.loc ? "圆圈是 2 英里。" : "") + HINT; };
+    const pickOff = () => { st.pick = false; pickBtn.textContent = "在地图上选点"; pickBtn.setAttribute("aria-pressed", "false"); };
+    const go = loc => { st.loc = loc; st.n = 20; pickOff(); say(""); setHint(); render(); };
     const setLoc = (q, save) => {
+      q = (q || "").trim();
+      if (st.pt && q === st.pt) return;
       const k = findLoc(q);
-      if (k === null) { st.loc = null; if (save) store.set("gssc-ccloc", ""); }
-      else if (k === undefined) { hint.textContent = "没有找到“" + q + "”。可以输入城市名（英文）或 5 位 zip。"; return; }
-      else { st.loc = CC.LOC[k]; if (save) store.set("gssc-ccloc", k); }
-      hint.textContent = st.loc ? "圆圈是 2 英里。实心点是州政府给了坐标的地址，空心点是按 zip 估算的位置。点一个点看是哪一家。" : "实心点是州政府给了坐标的地址；空心点是按 zip 估算的位置。点一个点看是哪一家。";
-      st.n = 20; render();
+      if (k === undefined) { say("没有找到“" + q + "”。可以输入城市名（英文）或 5 位 zip。"); return; }
+      st.pt = "";
+      if (save) store.set("gssc-ccloc", k || "");
+      go(k ? CC.LOC[k] : null);
+    };
+    // a point from the phone's location or a tap on the map: used on this page only, never saved or sent
+    const setPoint = (la, lo, label) => {
+      const [x, y] = toXY(la, lo);
+      st.pt = label; inp.value = label;
+      store.set("gssc-ccloc", "");
+      go([la, lo, x, y]);
     };
     inp.addEventListener("change", () => setLoc(inp.value, true));
     inp.addEventListener("keydown", e => { if (e.key === "Enter") { e.preventDefault(); setLoc(inp.value, true); } });
+    inp.addEventListener("focus", () => { if (st.pt) setTimeout(() => { try { inp.select(); } catch (x) {} }, 0); });
+    if (navigator.geolocation && window.isSecureContext !== false) {
+      here.hidden = false;
+      here.addEventListener("click", () => {
+        here.disabled = true; here.textContent = "定位中…";
+        const done = () => { here.disabled = false; here.textContent = "用我的位置"; };
+        navigator.geolocation.getCurrentPosition(pos => {
+          done();
+          const la = pos.coords.latitude, lo = pos.coords.longitude, [x, y] = toXY(la, lo);
+          if (x < -3 * S || x > W + 3 * S || y < -3 * S || y > H + 3 * S) { say("你现在不在地图范围里，可以输入城市或 zip。"); return; }
+          setPoint(la, lo, "我的位置");
+        }, err => {
+          done();
+          say((err.code === 1 ? "没有拿到定位权限" : "没有拿到位置") + "，可以输入城市或 zip，或者在地图上选点。");
+        }, { enableHighAccuracy: false, timeout: 15000, maximumAge: 600000 });
+      });
+    }
+    pickBtn.addEventListener("click", () => {
+      if (st.pick) { pickOff(); say(""); }
+      else { st.pick = true; pickBtn.textContent = "取消选点"; pickBtn.setAttribute("aria-pressed", "true"); say("在地图上点一下要查的位置。"); }
+      setView();
+      if (st.pick) box.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    });
+    svg.addEventListener("click", e => {
+      if (!st.pick) return;
+      e.stopPropagation();
+      const p = svg.createSVGPoint(); p.x = e.clientX; p.y = e.clientY;
+      const q = p.matrixTransform(svg.getScreenCTM().inverse());
+      const [la, lo] = toLL(Math.max(0, Math.min(W, q.x)), Math.max(0, Math.min(H, q.y)));
+      setPoint(la, lo, "地图上选的点");
+    }, true);
     document.querySelectorAll("#cc-age .chip").forEach(b => b.addEventListener("click", () => {
       document.querySelectorAll("#cc-age .chip").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
       st.age = b.dataset.a; st.n = 20; render();
@@ -142,7 +189,7 @@
     const saved = store.get("gssc-ccloc");
     if (saved && CC.LOC[saved]) { inp.value = saved; setLoc(saved, false); }
     else if (findLoc(inp.value)) setLoc(inp.value, false);
-    else render();
+    else { if (findLoc(inp.value) === undefined) inp.value = ""; render(); }
   }
 
   /* ---------- 课外: before and after school care by school ---------- */

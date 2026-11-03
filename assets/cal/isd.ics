@@ -1,0 +1,210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：Issaquah
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:1998553b2c61fbc5ae9f52f6@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:ISD K 和 2 年级 HiCap 测试预注册（私校和在家上学学
+ 生）（开始）
+DESCRIPTION:要交出生证明和住址证明，在家上学的还要交疫
+ 苗记录；本区在读生不用注册，自动参加；官网 https://ww
+ w.isd411.org/programs-services/gifted-highly-capable/referral-process/2nd-
+ grade-testing；日历 https://seattle-school-compare.github.io/zh/calenda
+ r/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f5df9e5d73aa8745267ba1@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:ISD K 和 2 年级 HiCap 测试预注册（私校和在家上学学
+ 生）（截止）
+DESCRIPTION:要交出生证明和住址证明，在家上学的还要交疫
+ 苗记录；本区在读生不用注册，自动参加；官网 https://ww
+ w.isd411.org/programs-services/gifted-highly-capable/referral-process/2nd-
+ grade-testing；日历 https://seattle-school-compare.github.io/zh/calenda
+ r/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:357e23fa7cdfab835f8c9881@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:ISD 2 年级 HiCap 第一阶段：TTCT 创造力测试（开始）
+DESCRIPTION:在教室里考；私校和在家学生 12 月在片区学校
+ 考，时间由学校安排；官网 https://www.isd411.org/programs-servi
+ ces/gifted-highly-capable/referral-process/2nd-grade-testing；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:b56231352ef8f69727a81bb3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:ISD 2 年级 HiCap 第一阶段：TTCT 创造力测试（截止）
+DESCRIPTION:在教室里考；私校和在家学生 12 月在片区学校
+ 考，时间由学校安排；官网 https://www.isd411.org/programs-servi
+ ces/gifted-highly-capable/referral-process/2nd-grade-testing；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:26de52485b195ff6a37ec0af@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:ISD 9 月推荐（1、3-12 年级）HiCap 认定和安置结果（
+ 日期待公布）
+DESCRIPTION:日期待公布，暂按 12 月；官网写 12 月中邮件通
+ 知；交回同意安置表后开始服务；官网 https://www.isd411.org
+ /programs-services/gifted-highly-capable/referral-process/september-referr
+ al；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/september-referral
+END:VEVENT
+BEGIN:VEVENT
+UID:5d45002203ca4c830d06cc25@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:ISD K-5 i-Ready 阅读和数学测试（K 和 2 年级 HiCap 筛查
+ 用）（开始）
+DESCRIPTION:上课时间在教室考；官网 https://www.isd411.org/progra
+ ms-services/gifted-highly-capable/referral-process/kindergarten-screening-
+ testing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:8378932c496fd70616178057@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:ISD K-5 i-Ready 阅读和数学测试（K 和 2 年级 HiCap 筛查
+ 用）（截止）
+DESCRIPTION:上课时间在教室考；官网 https://www.isd411.org/progra
+ ms-services/gifted-highly-capable/referral-process/kindergarten-screening-
+ testing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:52d86ea50f090044af0b5446@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:ISD 私校和在家学生 i-Ready 测试（K 和 2 年级）
+DESCRIPTION:周六，ISD 行政楼；页面写 1/9 和 1/23 两天，没说
+ 是否两天都要来，学区会邮件通知安排；官网 https://www.i
+ sd411.org/programs-services/gifted-highly-capable/referral-process/2nd-gra
+ de-testing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:dfcaad60c9852f7c13423eab@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:ISD 私校和在家学生 i-Ready 测试（K 和 2 年级）
+DESCRIPTION:周六，ISD 行政楼；见 1/9 条；官网 https://www.isd41
+ 1.org/programs-services/gifted-highly-capable/referral-process/2nd-grade-t
+ esting；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:0a5d0b25aad59e2248c9a3b9@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:ISD 幼儿园 CogAT 测试（i-Ready 达标的学生）（开始）
+DESCRIPTION:考前学区先征求家长同意；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/kindergarten-s
+ creening-testing；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:5f92df63e9951493575e373e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:ISD 幼儿园 CogAT 测试（i-Ready 达标的学生）（截止）
+DESCRIPTION:考前学区先征求家长同意；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/kindergarten-s
+ creening-testing；日历 https://seattle-school-compare.github.io/zh/cale
+ ndar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/kindergarten-screening-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:afde668735f7675befe3bc8f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:ISD 2 年级 HiCap 第三阶段：CogAT 测试（开始）
+DESCRIPTION:在教室考；私校和在家学生 3 月在片区学校考；
+ 结果决定 3 年级 SAGE 或 MERLIN 安置；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/2nd-grade-test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:f344725e21fd844217f4fe2a@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:ISD 2 年级 HiCap 第三阶段：CogAT 测试（截止）
+DESCRIPTION:在教室考；私校和在家学生 3 月在片区学校考；
+ 结果决定 3 年级 SAGE 或 MERLIN 安置；官网 https://www.isd411.o
+ rg/programs-services/gifted-highly-capable/referral-process/2nd-grade-test
+ ing；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+BEGIN:VEVENT
+UID:6a61d4ee29f41c7339a0cdc4@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:ISD K 和 2 年级 HiCap 认定结果（日期待公布）
+DESCRIPTION:日期待公布，暂按 5 月；官网写 5 月中邮件通知
+ ；收到结果 10 个工作日内可申诉；官网 https://www.isd411.or
+ g/programs-services/gifted-highly-capable/referral-process/2nd-grade-testi
+ ng；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
+ -process/2nd-grade-testing
+END:VEVENT
+END:VCALENDAR

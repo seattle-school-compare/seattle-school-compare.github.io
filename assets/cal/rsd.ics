@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：Renton
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:e8f5d923f6d2130eb7ed7c3b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:RSD HiCap 推荐窗口（K-11 年级，家长、老师都可推荐
+ ）（开始）
+DESCRIPTION:2 年级全员 NNAT3 普筛（9-10 月）；5 年级按第一
+ 学期 i-Ready 成绩挑人加测；官网 https://www.rentonschools.us/le
+ arning-and-teaching/highly-capable-program/student-identification；日历
+  https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:6a8e87d401c62b7d7743e213@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:RSD HiCap 推荐窗口（K-11 年级，家长、老师都可推荐
+ ）（截止）
+DESCRIPTION:2 年级全员 NNAT3 普筛（9-10 月）；5 年级按第一
+ 学期 i-Ready 成绩挑人加测；官网 https://www.rentonschools.us/le
+ arning-and-teaching/highly-capable-program/student-identification；日历
+  https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:9113a40bf818a89b690576c8@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:RSD HiCap 认知测试 NNAT3（被推荐学生，在校内分批测
+ ）（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 9 月到 12 月；官网 https://www.r
+ entonschools.us/learning-and-teaching/highly-capable-program/student-ident
+ ification；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:c88399089ad969766dff7bcf@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:RSD HiCap 认知测试 NNAT3（被推荐学生，在校内分批测
+ ）（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 9 月到 12 月；官网 https://www.r
+ entonschools.us/learning-and-teaching/highly-capable-program/student-ident
+ ification；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:cdb0eb76aa371acb0c9ec03e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:RSD Sartori STEM 选择校抽签申请（2027-28 入学）（开始
+ ）
+DESCRIPTION:2/12 下午 4 点截止；只限本区居民和学区全职员
+ 工子女；官网 https://sartori.rentonschools.us/career-center/lottery-
+ timelne；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:22c90b1cd791a0abdbd0b616@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:RSD Sartori STEM 选择校抽签申请（2027-28 入学）（截止
+ ）
+DESCRIPTION:2/12 下午 4 点截止；只限本区居民和学区全职员
+ 工子女；官网 https://sartori.rentonschools.us/career-center/lottery-
+ timelne；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:b690fd9ffef7396098a0d180@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:RSD HiCap 家长说明会（线上，上午 11 点到 12 点）
+DESCRIPTION:官网写 2025 年 11 月 5 日周四，按星期应为 2026 
+ 年；Zoom 链接发给被推荐学生的家庭；官网 https://www.rento
+ nschools.us/fs/pages/377；日历 https://seattle-school-compare.github.io
+ /zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/fs/pages/377
+END:VEVENT
+BEGIN:VEVENT
+UID:5f5fea761ac7c509bb26fc2f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:RSD 2027-28 新生网上注册开放（含幼儿园）（日期待
+ 公布）
+DESCRIPTION:日期待公布，暂按 1 月；幼儿园须在入学当年 8/
+ 31 前满 5 岁；2026-27 是 2026/1/20 开放；官网 https://sartori.re
+ ntonschools.us/career-center/lottery-timelne；日历 https://seattle-scho
+ ol-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:7b232cbc046c294ab0cd3e89@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:RSD HiCap 委员会审核，邮件或信件通知结果和申诉决
+ 定（开始）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月到 3 月；收到通知两周内
+ 可申诉；新认定的 K-5 学生 3 月起有校内分组服务，Discov
+ ery 天才班下学年开始；官网 https://www.rentonschools.us/learnin
+ g-and-teaching/highly-capable-program/student-identification；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:90424736989ec5cb9e264c2d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:RSD HiCap 委员会审核，邮件或信件通知结果和申诉决
+ 定（截止）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月到 3 月；收到通知两周内
+ 可申诉；新认定的 K-5 学生 3 月起有校内分组服务，Discov
+ ery 天才班下学年开始；官网 https://www.rentonschools.us/learnin
+ g-and-teaching/highly-capable-program/student-identification；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
+ am/student-identification
+END:VEVENT
+BEGIN:VEVENT
+UID:10e7eec73dfcdaddaa898c03@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:RSD Sartori：North Renton 片区家庭交住址证明（享优先
+ ）
+DESCRIPTION:下午 4 点前；没交的降到第 3 或第 4 优先；官网
+  https://sartori.rentonschools.us/career-center/lottery-timelne；日历 h
+ ttps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:05f278806fff747e53aa09d7@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:RSD Sartori 抽签
+DESCRIPTION:官网 https://sartori.rentonschools.us/career-center/lottery-t
+ imelne；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+BEGIN:VEVENT
+UID:829c6b253d2ce3600d9ba48c@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:RSD Sartori 抽签结果在 SchoolMint 公布
+DESCRIPTION:最晚当天下午 4 点；官网 https://sartori.rentonschools
+ .us/career-center/lottery-timelne；日历 https://seattle-school-compare.
+ github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://sartori.rentonschools.us/career-center/lottery-timelne
+END:VEVENT
+END:VCALENDAR

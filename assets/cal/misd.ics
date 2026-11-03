@@ -1,0 +1,144 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Greater Seattle School Compare//ZH
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:大西雅图学区对照：Mercer Island
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:9fad762d40c9d0e5b6a34c62@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:MISD 幼儿园秋季开放日参观
+DESCRIPTION:周三上午 10:00 到 10:20 或 10:30 到 10:50 两场，有
+ 人带领参观；官网 https://www.mercerislandschools.org/enrollment/ki
+ ndergarten；日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:d3977102e660a7a5908d552f@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:MISD 外区学生 2027-28 choice transfer 申请开始受理
+DESCRIPTION:12/15 前提交的会被拒；不抽签，按完整申请的先
+ 后排候补；每年要重新申请；日期可能调整；官网 https:/
+ /www.mercerislandschools.org/enrollment/open-enrollment；日历 https://s
+ eattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/open-enrollment
+END:VEVENT
+BEGIN:VEVENT
+UID:a908ee39f8e3b80386b65a77@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:MISD 学校董事会决定 2027-28 外区新生接收（open enroll
+ ment）（日期待公布）
+DESCRIPTION:日期待公布，暂按 1 月；董事会 11 月或 12 月先
+ 讨论；2026-27 是 2026/1/29 决定；官网 https://www.mercerislandsch
+ ools.org/enrollment/open-enrollment；日历 https://seattle-school-compar
+ e.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/open-enrollment
+END:VEVENT
+BEGIN:VEVENT
+UID:3e460c5c93163cad1cb3f9de@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:MISD 幼儿园信息之夜（四所小学同时举行）
+DESCRIPTION:周二下午 5:30 到 6:30；官网 https://www.mercerislandsch
+ ools.org/enrollment/kindergarten；日历 https://seattle-school-compare.g
+ ithub.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:0de32bd6b2b85ca3947a154e@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:MISD 提前入读幼儿园或一年级申请（2 月起联系学区
+ ，7/15 前交材料）（开始）
+DESCRIPTION:开始日待公布，暂按 2 月；页面写每年的规则，
+ 没写年份；9/1 到 10/31 生日可申请；测试须在截止前 6 个
+ 月内完成；官网 https://www.mercerislandschools.org/enrollment/early
+ -entrance-kindergarten；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
+ ten
+END:VEVENT
+BEGIN:VEVENT
+UID:69fa167eff075d7e88c1681d@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:MISD 提前入读幼儿园或一年级申请（2 月起联系学区
+ ，7/15 前交材料）（截止）
+DESCRIPTION:开始日待公布，暂按 2 月；页面写每年的规则，
+ 没写年份；9/1 到 10/31 生日可申请；测试须在截止前 6 个
+ 月内完成；官网 https://www.mercerislandschools.org/enrollment/early
+ -entrance-kindergarten；日历 https://seattle-school-compare.github.io/z
+ h/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
+ ten
+END:VEVENT
+BEGIN:VEVENT
+UID:0cddcb4e647c00e751411476@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:MISD 区内转校申请窗口（intra-district transfer）（开始
+ ）
+DESCRIPTION:页面写每学年 4/1 到 4/30，窗口外不受理；官网 h
+ ttps://www.mercerislandschools.org/enrollment/intra-district-transfer；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/intra-district-transfer
+END:VEVENT
+BEGIN:VEVENT
+UID:1582cbdb4ad300d25fc1c1c3@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:MISD 区内转校申请窗口（intra-district transfer）（截止
+ ）
+DESCRIPTION:页面写每学年 4/1 到 4/30，窗口外不受理；官网 h
+ ttps://www.mercerislandschools.org/enrollment/intra-district-transfer；
+ 日历 https://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/intra-district-transfer
+END:VEVENT
+BEGIN:VEVENT
+UID:39530e6e620e6c2cd025f54b@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:MISD 幼儿园春季开放日参观
+DESCRIPTION:周三上午 10:00 到 10:20 或 10:30 到 10:50 两场；官
+ 网 https://www.mercerislandschools.org/enrollment/kindergarten；日历 h
+ ttps://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/kindergarten
+END:VEVENT
+BEGIN:VEVENT
+UID:00245a4203fc20ec57edbbfc@seattle-school-compare
+DTSTAMP:20261103T215656Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:MISD 提前入读幼儿园结果最晚通知日
+DESCRIPTION:页面写 8/15 前通知，没写年份；官网 https://www.me
+ rcerislandschools.org/enrollment/early-entrance-kindergarten；日历 http
+ s://seattle-school-compare.github.io/zh/calendar/
+TRANSP:TRANSPARENT
+URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
+ ten
+END:VEVENT
+END:VCALENDAR
