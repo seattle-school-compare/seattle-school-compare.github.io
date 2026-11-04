@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:1998553b2c61fbc5ae9f52f6@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:ISD K 和 2 年级 HiCap 测试预注册（私校和在家上学学
@@ -25,7 +25,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:d8f5df9e5d73aa8745267ba1@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:ISD K 和 2 年级 HiCap 测试预注册（私校和在家上学学
@@ -41,7 +41,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:357e23fa7cdfab835f8c9881@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:ISD 2 年级 HiCap 第一阶段：TTCT 创造力测试（开始）
@@ -55,7 +55,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:b56231352ef8f69727a81bb3@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:ISD 2 年级 HiCap 第一阶段：TTCT 创造力测试（截止）
@@ -69,7 +69,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:26de52485b195ff6a37ec0af@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:ISD 9 月推荐（1、3-12 年级）HiCap 认定和安置结果（
@@ -84,7 +84,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:5d45002203ca4c830d06cc25@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:ISD K-5 i-Ready 阅读和数学测试（K 和 2 年级 HiCap 筛查
@@ -98,7 +98,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:8378932c496fd70616178057@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:ISD K-5 i-Ready 阅读和数学测试（K 和 2 年级 HiCap 筛查
@@ -112,7 +112,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:52d86ea50f090044af0b5446@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:ISD 私校和在家学生 i-Ready 测试（K 和 2 年级）
@@ -126,7 +126,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:dfcaad60c9852f7c13423eab@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:ISD 私校和在家学生 i-Ready 测试（K 和 2 年级）
@@ -139,7 +139,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:0a5d0b25aad59e2248c9a3b9@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270222
 DTEND;VALUE=DATE:20270223
 SUMMARY:ISD 幼儿园 CogAT 测试（i-Ready 达标的学生）（开始）
@@ -153,7 +153,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:5f92df63e9951493575e373e@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 SUMMARY:ISD 幼儿园 CogAT 测试（i-Ready 达标的学生）（截止）
@@ -167,7 +167,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:afde668735f7675befe3bc8f@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:ISD 2 年级 HiCap 第三阶段：CogAT 测试（开始）
@@ -181,7 +181,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:f344725e21fd844217f4fe2a@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:ISD 2 年级 HiCap 第三阶段：CogAT 测试（截止）
@@ -195,7 +195,7 @@ URL:https://www.isd411.org/programs-services/gifted-highly-capable/referral
 END:VEVENT
 BEGIN:VEVENT
 UID:6a61d4ee29f41c7339a0cdc4@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:ISD K 和 2 年级 HiCap 认定结果（日期待公布）

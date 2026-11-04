@@ -346,6 +346,12 @@ a.entry:hover { border-color: var(--muted); }
 .tile .s .up { color: var(--good); }
 .tile .s .dn { color: var(--warn); }
 .tile .v3 { display: flex; gap: 0.75rem; align-items: baseline; line-height: 1.2; }
+.tiles.ptiles { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+.tiles.ptiles .tu { grid-row: span 2; gap: 0.375rem; }
+.tile .tuh { display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; }
+.tile .tuh .btn { padding: 0.3125rem 0.75rem; font-size: 0.8125rem; }
+.tile .tuition { width: 100%; }
+.tile .sib b { color: var(--fg); font-weight: 600; }
 .tile .v3 > span { display: inline-flex; flex-direction: column; font-size: 0.75rem; color: var(--muted); }
 .tile .v3 b { font-size: 1.1875rem; font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; }
 .college .cg { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 1.125rem 1.75rem; align-items: start; }
@@ -636,6 +642,9 @@ a.stage3:hover { border-color: var(--muted); }
   .two { grid-template-columns: 1fr; }
   .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
   .tiles .tile:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .tiles.ptiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tiles.ptiles .tu { grid-column: 1 / -1; grid-row: auto; }
+  .tiles.ptiles .tile:last-child:nth-child(odd) { grid-column: auto; }
   .ytable { font-size: 0.78125rem; }
   .ytable th, .ytable td { padding: 0.25rem 0.1875rem; }
   .tile { padding: 0.625rem 0.75rem; }

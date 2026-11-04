@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:7cbe3cb290e3f33da4d1abc9@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:SPS HC 认定：私校和在家上学学生申请（2027-28 入读 
@@ -23,7 +23,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/private-homes
 END:VEVENT
 BEGIN:VEVENT
 UID:0a64a84771397f349f3e5163@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:SPS HC 认定：私校和在家上学学生申请（2027-28 入读 
@@ -37,7 +37,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/private-homes
 END:VEVENT
 BEGIN:VEVENT
 UID:69ea5a68891053c83da5d058@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:SPS HC 推荐窗口（2、3、5-11 年级）；1、4 年级普筛
@@ -52,7 +52,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:55c7f8aecc78c06d07ac0796@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:SPS HC 推荐窗口（2、3、5-11 年级）；1、4 年级普筛
@@ -67,7 +67,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:8e12c357fa7cdf4f2a39becf@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:SPS 注册和选校说明会（线上）
@@ -79,7 +79,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:825996c6b94137105c815f0b@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:SPS HC 测试（私校和在家上学学生）
@@ -93,7 +93,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/private-homes
 END:VEVENT
 BEGIN:VEVENT
 UID:6377b0a6abb1e99e1c9a8cb0@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:SPS 注册和选校说明会（Viewlands Elementary）
@@ -105,7 +105,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:70c3a5d5f2e13823b5928ab2@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:SPS 1 年级 Naglieri 能力测试（全员）（开始）
@@ -118,7 +118,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:33c58e70c29870c309050eb5@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:SPS 1 年级 Naglieri 能力测试（全员）（截止）
@@ -131,7 +131,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:fe3fc6c8d2ff71e8dc8220a7@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:SPS 注册和选校说明会（Wing Luke Elementary）
@@ -143,7 +143,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:bf88b6ec061dc62943ca287d@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:SPS 注册和选校说明会（West Seattle Elementary）
@@ -155,7 +155,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:e605c6391cee1e3e0d1b2df3@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:SPS 注册和选校说明会（Thornton Creek Elementary）
@@ -167,7 +167,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:3bdf55e5d80c7884e2264d82@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:SPS 注册和选校说明会（Leschi Elementary）
@@ -179,7 +179,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:eab090c834459d1a02fc4923@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:SPS HC 认定结果（私校和在家上学学生）
@@ -193,7 +193,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/private-homes
 END:VEVENT
 BEGIN:VEVENT
 UID:21e503300d90f06db7e3b816@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:SPS HC 认定结果（2-11 年级）
@@ -206,7 +206,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:d62da916876a3f82063bbe79@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20261218
 DTEND;VALUE=DATE:20261219
 SUMMARY:SPS HC 申诉（2-11 年级）（开始）
@@ -219,7 +219,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:cc7b0351859d09484338c0ec@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:SPS HC 申诉（2-11 年级）（截止）
@@ -232,7 +232,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:1821b7a1808f29fb4c80a0c2@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270104
 DTEND;VALUE=DATE:20270105
 SUMMARY:SPS 开放选校（Open Enrollment），HC 认定的 2-11 年级学
@@ -247,7 +247,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:1ae51179aa297a6e7b8ffa6e@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:SPS 开放选校（Open Enrollment），HC 认定的 2-11 年级学
@@ -262,7 +262,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:9c71ada5c38eadb934376189@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
 SUMMARY:SPS SPS 招生展会（Enrollment Fair），可现场办 2027-28 
@@ -276,7 +276,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:add530a42a7d823652b0fbe5@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:SPS 注册和选校说明会（线上）
@@ -288,7 +288,7 @@ URL:https://www.seattleschools.org/news/enrollment-fair/
 END:VEVENT
 BEGIN:VEVENT
 UID:715b83798d40906badafce0c@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:SPS HC 认定结果（1 年级）
@@ -301,7 +301,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:e5ca688ea4034fb55f29f73b@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:SPS HC 申诉（1 年级）（开始）
@@ -314,7 +314,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:989117e3c71c46ed2fdd6ec8@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:SPS HC 申诉（1 年级）（截止）
@@ -327,7 +327,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:da57face73bd443f3ee5b66a@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:SPS 1 年级 HC 认定学生选校（Open Enrollment）（开始）
@@ -340,7 +340,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:7cae248c1535bf38ccda2222@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:SPS 1 年级 HC 认定学生选校（Open Enrollment）（截止）
@@ -353,7 +353,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:31f3017b9dee89d919e0cb45@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
 SUMMARY:SPS HC 申诉结果（2-11 年级）
@@ -366,7 +366,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:5829d79ae7a1160e87c572e9@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:SPS HC 申诉结果（1 年级）
@@ -379,7 +379,7 @@ URL:https://www.seattleschools.org/departments/highly-capable/identificatio
 END:VEVENT
 BEGIN:VEVENT
 UID:a814d867a064680e4de97720@seattle-school-compare
-DTSTAMP:20261104T191434Z
+DTSTAMP:20261104T203148Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:SPS 外区学生（non-resident）开始申请下一学年
