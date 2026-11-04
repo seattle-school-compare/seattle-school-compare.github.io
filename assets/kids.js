@@ -13,8 +13,10 @@
     const y = Math.floor(m / 12), r = m % 12;
     return r === 0 ? y + " 岁" : r === 6 ? y + " 岁半" : y + " 岁 " + r + " 个月";
   };
-  const gmap = (n, a, c) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(n + " " + a + " " + c + " WA");
-  const CCC = "https://www.findchildcarewa.org/PSS_Provider?id=";
+  // state code for map searches and the license record link come with the page data
+  const K = window.CC || window.SAD || {};
+  const gmap = (n, a, c) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(n + " " + a + " " + c + " " + K.st);
+  const CCC = K.rec;
   const out = (u, t) => '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(t) + "</a>";
 
   /* tabs: the hash picks a tab, or a block inside one */

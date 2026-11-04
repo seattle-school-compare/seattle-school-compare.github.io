@@ -158,9 +158,10 @@ p { margin: 0; }
 .seg button, .seg a { font: inherit; font-size: 0.875rem; padding: 0.375rem 1rem; border: 0; background: transparent; color: var(--muted); cursor: pointer; text-decoration: none; white-space: nowrap; }
 .seg [aria-pressed="true"], .seg [aria-current="true"] { background: var(--sec); color: var(--sec-ink); }
 .seg4 { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); max-width: 35rem; }
-.seg4 button { font: inherit; font-size: 0.9375rem; height: 2.75rem; border: 0; border-left: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
-.seg4 button:first-child { border-left: 0; }
-.seg4 button[aria-pressed="true"] { background: var(--sec); color: var(--sec-ink); border-left-color: var(--sec); }
+.seg4 button, .seg4 a { font: inherit; font-size: 0.9375rem; height: 2.75rem; border: 0; border-left: 1px solid var(--line); background: transparent; color: var(--muted); cursor: pointer; }
+.seg4 a { display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.seg4 button:first-child, .seg4 a:first-child { border-left: 0; }
+.seg4 button[aria-pressed="true"], .seg4 a[aria-current="page"] { background: var(--sec); color: var(--sec-ink); border-left-color: var(--sec); }
 .seg4 .n { font-size: 0.75rem; opacity: 0.75; margin-left: 0.25rem; font-variant-numeric: tabular-nums; }
 .chips { display: flex; flex-direction: column; gap: 0.375rem; }
 .chips .row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.375rem; }
@@ -692,7 +693,7 @@ a.stage3:hover { border-color: var(--muted); }
   .lrow .v, .lrow .g { display: none; }
   .lrow .ph { display: block; }
   .crow { padding: 0.6875rem 0.875rem; }
-  .seg4 button { font-size: 0.90625rem; }
+  .seg4 button, .seg4 a { font-size: 0.90625rem; }
   .kv { grid-template-columns: 5.25rem minmax(0, 1fr); }
   .notes { columns: 1; }
   .ev { grid-template-columns: 5.75rem minmax(0, 1fr); }
@@ -754,10 +755,10 @@ a.stage3:hover { border-color: var(--muted); }
 }
 
 /* 托儿 & 课外 */
-.hub { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 1rem; }
+.hub { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: 1rem; max-width: 52rem; }
 .hub-card { display: flex; gap: 0.875rem; align-items: flex-start; padding: 1.125rem; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); text-decoration: none; color: var(--fg); --kc: var(--c-kids); }
 .hub-card:hover { border-color: var(--muted); }
-.hub-card.k2, .hub-card.k3 { --kc: var(--c-after); }
+.hub-card.k2, .hub-card.k3, .hub-card.k4 { --kc: var(--c-after); }
 .hub-card .ic { flex: none; width: 2.75rem; height: 2.75rem; border-radius: 12px; display: grid; place-items: center; color: var(--kc); background: color-mix(in srgb, var(--kc) 14%, var(--surface)); }
 .hub-card .tx { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 0.25rem; }
 .hub-card .tt { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
@@ -768,8 +769,9 @@ a.stage3:hover { border-color: var(--muted); }
 .hub-card .go { flex: none; color: var(--muted); font-size: 1.125rem; }
 .seg4.tabs { max-width: 40rem; }
 .seg4.tabs.t2 { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 26rem; }
-.tabp { display: flex; flex-direction: column; gap: 1rem; }
-.tabp > .lede { max-width: 56rem; }
+.seg4.tabs.t3 { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 36rem; }
+.tabp, .as-online { display: flex; flex-direction: column; gap: 1rem; }
+.tabp > .lede, .as-online > .lede { max-width: 56rem; }
 h2.sub { font-size: 1.1875rem; margin-top: 0.5rem; }
 .grid2 { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr)); gap: 1rem; align-items: start; }
 .grid3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); gap: 1rem; align-items: start; }
@@ -845,7 +847,7 @@ h2.sub { font-size: 1.1875rem; margin-top: 0.5rem; }
 }
 @media (max-width: 760px) {
   .cc-wrap.noloc .cc-mapcol { display: none; }
-  .seg4.tabs button { font-size: 0.875rem; }
+  .seg4.tabs button, .seg4.tabs a { font-size: 0.875rem; }
   .seg4.tabs .n { display: none; }
   .card .kv { grid-template-columns: 5.25rem minmax(0, 1fr); }
 }

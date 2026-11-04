@@ -521,7 +521,7 @@
     out.append(cell("p", "差值都是 " + Y.k + " 减 " + X.k + "。房价是两校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
     if (A.lv === "H" && (ca || cb)) out.append(collegeNote());
   }
-  const collegeNote = () => cell("p", "上大学：毕业后一年内上大学的比例，ERDC 2024 届毕业生。毕业率和大学学分课来自 OSPI，2024-25 学年。大学学分课是 AP、IB、Running Start 这类能拿大学学分的课，一个学生可以修好几种，加起来会超过总数。", "note");
+  const collegeNote = () => cell("p", D.COLNOTE, "note");
   const rankV = r => r.r == null ? null : { raw: r.r, big: "#" + r.r, sm: "前 " + r.pct + "%" + (r.ry !== D.LATEST ? " · " + r.ry : "") };
   const trendV = r => { const t = trend(r); return t == null ? null : { raw: t, big: (t > 0 ? "▲ " : t < 0 ? "▼ " : "") + Math.abs(t), sm: "上一年 #" + r.rprev }; };
   const numV = (v, u) => v == null ? null : { raw: v, big: Math.round(v) + (u || "") };
