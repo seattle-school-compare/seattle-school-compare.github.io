@@ -183,3 +183,8 @@ document.querySelectorAll(".sortseg").forEach(seg => seg.addEventListener("click
   const ul = seg.parentElement.querySelector("ul"), k = b.dataset.s;
   [...ul.children].sort((p, q) => (p.dataset[k] - q.dataset[k]) || (p.dataset.i - q.dataset.i)).forEach(x => ul.append(x));
 }));
+
+// offline copies for the home-screen app (live site only)
+if (window.SITE && SITE.sw && "serviceWorker" in navigator) {
+  addEventListener("load", () => navigator.serviceWorker.register(SITE.base + "sw.js").catch(() => {}));
+}
