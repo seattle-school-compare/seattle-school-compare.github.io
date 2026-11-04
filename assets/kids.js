@@ -64,6 +64,11 @@
     const eaOK = p => !st.ea || ["3", "3+", "4", "5"].includes(p.ea);
     const list = () => C.filter(p => ageOK(p) && eaOK(p) && (!st.zh || p.zh) && (!st.mo || p.mo) && (!st.pv || p.pv));
     const dist = p => st.loc && p.lat ? mi(st.loc, [p.lat, p.lon]) : null;
+    const favb = p => {
+      if (!window.fav) return "";
+      const k = "childcare#c=" + p.id, on = window.fav.has(k);
+      return '<button type="button" class="fav sm" data-fav="' + k + '" data-favn="' + esc(p.n) + '" data-favs="' + esc("托儿 · " + p.c) + '" aria-pressed="' + on + '">' + window.fav.label(on) + "</button>";
+    };
     const item = (p, sel) => {
       const d = dist(p);
       const tags = [];
@@ -74,7 +79,7 @@
         '<div class="m">' + esc(p.a) + ", " + esc(p.c) + "</div>" +
         '<div class="m">' + ageTxt(p.s) + "到" + ageTxt(p.e) + (p.cap ? " · 执照上限 " + p.cap + " 个孩子" : "") + (p.ap ? " · 位置按 zip 估算" : "") + "</div>" +
         (tags.length ? '<ul class="feat">' + tags.map(t => "<li>" + esc(t) + "</li>").join("") + "</ul>" : "") +
-        '<div class="links">' + out(CCC + p.id, "执照和检查记录") + out(gmap(p.n, p.a, p.c), "Google 地图") +
+        '<div class="links">' + favb(p) + out(CCC + p.id, "执照和检查记录") + out(gmap(p.n, p.a, p.c), "Google 地图") +
         (p.pv ? '<a href="' + window.siteURL("private/" + p.pv) + '">私校页（' + esc(CC.PV[p.pv] || "") + "）</a>" : "") + "</div></div>";
     };
     const setView = () => {
@@ -186,10 +191,14 @@
     if (zh) st.zh = zh.checked;
     if (mo) { st.mo = mo.checked; $("#cc-monote").hidden = !mo.checked; }
     if (pv) st.pv = pv.checked;
+    // a link from 收藏 opens with that center at the top of the list
+    const hc = decodeURIComponent(location.hash.slice(1));
+    if (hc.startsWith("c=") && byId[hc.slice(2)]) st.sel = hc.slice(2);
     const saved = store.get("gssc-ccloc");
     if (saved && CC.LOC[saved]) { inp.value = saved; setLoc(saved, false); }
     else if (findLoc(inp.value)) setLoc(inp.value, false);
     else { if (findLoc(inp.value) === undefined) inp.value = ""; render(); }
+    if (st.sel) requestAnimationFrame(() => { const it = $("#cc-list .cc-item.sel"); if (it) it.scrollIntoView({ block: "center" }); });
   }
 
   /* ---------- 课外: before and after school care by school ---------- */

@@ -1,9 +1,9 @@
 // keeps a copy of pages people have opened, so they open without a connection
-const V = "202611041250";
+const V = "202611041323";
 const C = "site";
 const SCOPE = self.registration.scope;
 const OFFLINE = SCOPE + "zh/offline/";
-const PRE = ["zh/", "zh/offline/", "assets/site.css?v=" + V, "assets/site.js?v=" + V, "assets/search.js?v=" + V, "assets/icon.svg"].map(u => SCOPE + u);
+const PRE = ["zh/", "zh/offline/", "zh/favorites/", "assets/site.css?v=" + V, "assets/site.js?v=" + V, "assets/search.js?v=" + V, "assets/icon.svg"].map(u => SCOPE + u);
 const MAX_PAGES = 60;
 
 const isAsset = u => u.pathname.includes("/assets/") && !u.pathname.includes("/assets/cal/");

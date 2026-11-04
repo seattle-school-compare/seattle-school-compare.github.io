@@ -184,6 +184,95 @@ document.querySelectorAll(".sortseg").forEach(seg => seg.addEventListener("click
   [...ul.children].sort((p, q) => (p.dataset[k] - q.dataset[k]) || (p.dataset.i - q.dataset.i)).forEach(x => ul.append(x));
 }));
 
+/* 收藏: a short list kept in this browser only; a link can carry it to another phone */
+(() => {
+  const store = window.store, url = window.siteURL, esc = window.esc, SITE = window.SITE || { base: "" };
+  const KEY = "gssc-fav", MAX = 40;
+  const read = () => { try { const v = JSON.parse(store.get(KEY) || "[]"); return Array.isArray(v) ? v.filter(x => x && x.p) : []; } catch (e) { return []; } };
+  const write = L => { store.set(KEY, JSON.stringify(L.slice(0, MAX))); document.dispatchEvent(new CustomEvent("fav")); };
+  const fav = {
+    list: read,
+    paths: () => read().map(x => x.p),
+    has: p => read().some(x => x.p === p),
+    toggle(it) { const L = read(), i = L.findIndex(x => x.p === it.p); if (i >= 0) L.splice(i, 1); else L.unshift(it); write(L); },
+    remove(p) { write(read().filter(x => x.p !== p)); },
+    merge(items) { const L = read(), have = new Set(L.map(x => x.p)); items.forEach(it => { if (!have.has(it.p)) L.push(it); }); write(L); },
+    label: on => on ? "★ 已收藏" : "☆ 收藏",
+    sync(root) { (root || document).querySelectorAll("[data-fav]").forEach(b => { const on = fav.has(b.dataset.fav); b.setAttribute("aria-pressed", String(on)); b.textContent = fav.label(on); }); }
+  };
+  window.fav = fav;
+  document.addEventListener("click", e => {
+    const b = e.target.closest && e.target.closest("[data-fav]");
+    if (!b) return;
+    e.preventDefault();
+    fav.toggle({ p: b.dataset.fav, n: b.dataset.favn || "", s: b.dataset.favs || "" });
+  });
+  const top = () => document.querySelectorAll(".favtop").forEach(a => { const n = read().length; a.hidden = !n; a.querySelector("b").textContent = n; });
+  document.addEventListener("fav", () => { fav.sync(); top(); });
+  fav.sync(); top();
+
+  // the 收藏 page: my list, and a list someone sent as a link
+  const box = document.getElementById("favs");
+  if (!box) return;
+  const sent = (new URLSearchParams(location.search).get("fav") || "").split(",").map(x => x.trim()).filter(Boolean);
+  const idx = {};
+  (window.SEARCH || []).forEach(r => { idx[r[2]] = r; });
+  let got = null;
+  const chip = (it, x) => '<span class="fchip"><a href="' + esc(url(it.p)) + '">' + esc(it.n || it.p) + (it.s ? "<small>" + esc(it.s) + "</small>" : "") + "</a>" +
+    (x ? '<button type="button" class="x" data-rm="' + esc(it.p) + '" aria-label="去掉 ' + esc(it.n) + '">×</button>' : "") + "</span>";
+  const render = () => {
+    const mine = read();
+    let h = "";
+    if (got && got.length) {
+      const fresh = got.filter(it => !mine.some(x => x.p === it.p));
+      h += '<div class="fsent"><div class="fh"><b>家人发来的收藏</b><span class="n">' + got.length + ' 个</span></div><div class="fchips">' + got.map(it => chip(it, false)).join("") + "</div>" +
+        '<div class="fact">' + (fresh.length ? '<button type="button" class="btn sm" data-act="save">存到我的收藏</button>' : '<span class="n">都已经在你的收藏里了</span>') +
+        '<button type="button" class="btn btn2 sm" data-act="close">不用了</button></div></div>';
+    }
+    if (mine.length) {
+      h += '<div class="fmine"><div class="fh"><b>我的收藏</b><span class="n">' + mine.length + ' 个</span><button type="button" class="btn btn2 sm" data-act="share">发给家人</button></div>' +
+        '<div class="fchips">' + mine.map(it => chip(it, true)).join("") + '</div><p class="fmsg" hidden></p></div>';
+    }
+    box.innerHTML = h || '<p class="empty">还没有收藏。在公校页、私校页、托儿和课外班里点“☆ 收藏”，就会出现在这里。</p>';
+  };
+  const dropQuery = () => { got = null; try { history.replaceState(null, "", location.pathname + location.hash); } catch (e) {} render(); };
+  box.addEventListener("click", e => {
+    const rm = e.target.closest("[data-rm]");
+    if (rm) { fav.remove(rm.dataset.rm); return; }
+    const a = e.target.closest("[data-act]");
+    if (!a) return;
+    if (a.dataset.act === "save") { fav.merge(got); dropQuery(); }
+    else if (a.dataset.act === "close") dropQuery();
+    else if (a.dataset.act === "share") {
+      const link = new URL(SITE.base + "zh/favorites/", location.href).href.split("?")[0] + "?fav=" + read().map(x => encodeURIComponent(x.p)).join(",");
+      const msg = box.querySelector(".fmsg"), say = t => { msg.textContent = t; msg.hidden = false; };
+      if (navigator.share) navigator.share({ title: "收藏的学校", url: link }).catch(() => {});
+      else if (navigator.clipboard) navigator.clipboard.writeText(link).then(() => say("链接已经复制，可以贴到微信里发给家人。"), () => say(link));
+      else say(link);
+    }
+  });
+  document.addEventListener("fav", render);
+  // names for a sent list: schools and classes from the search index, child care from its own data file
+  const finish = () => {
+    got = sent.map(p => {
+      if (p.startsWith("childcare#c=")) {
+        const r = window.CC && window.CC.C.find(x => x[0] === p.slice(12));
+        return r ? { p, n: r[1], s: "托儿 · " + r[3] } : null;
+      }
+      const r = idx[p];
+      return r ? { p, n: r[0], s: r[1] } : null;
+    }).filter(Boolean);
+    render();
+  };
+  if (sent.some(p => p.startsWith("childcare#c=")) && !window.CC) {
+    const sc = document.createElement("script"), me = document.querySelector('script[src*="site.js"]');
+    sc.src = SITE.base + "assets/cc-data.js" + (me && me.src.includes("?") ? "?" + me.src.split("?")[1] : "");
+    sc.onload = finish; sc.onerror = finish;
+    document.head.append(sc);
+  } else if (sent.length) finish();
+  else render();
+})();
+
 // offline copies for the home-screen app (live site only)
 if (window.SITE && SITE.sw && "serviceWorker" in navigator) {
   addEventListener("load", () => navigator.serviceWorker.register(SITE.base + "sw.js").catch(() => {}));

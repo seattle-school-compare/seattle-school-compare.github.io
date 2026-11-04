@@ -112,6 +112,12 @@
     sel.className = "school" + (seg.s === "pub" ? "" : " priv");
     sel.setAttribute("aria-label", "这一段上哪所学校");
     sel.append(new Option("公立（划片校）", "pub"));
+    const fp = window.fav ? window.fav.paths() : [], mine = D.P.filter(p => fp.includes("private/" + p.slug));
+    if (mine.length) {
+      const og = document.createElement("optgroup"); og.label = "收藏";
+      mine.forEach(p => { const [lo, hi] = span(p); og.append(new Option(p.name + (lo == null ? "（没有学费数字）" : "（" + GR(lo) + "-" + GR(hi) + "）"), p.key)); });
+      sel.append(og);
+    }
     Object.entries(regions).forEach(([reg, list]) => {
       const og = document.createElement("optgroup"); og.label = reg;
       list.forEach(p => { const [lo, hi] = span(p); og.append(new Option(p.name + (lo == null ? "（没有学费数字）" : "（" + GR(lo) + "-" + GR(hi) + "）"), p.key)); });

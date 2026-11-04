@@ -117,6 +117,31 @@ p { margin: 0; }
 .pills { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.84375rem; }
 .pills a { text-decoration: none; padding: 0.375rem 0.8125rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); white-space: nowrap; }
 .pills a:hover { border-color: var(--muted); }
+.fav { font: inherit; font-size: 0.84375rem; padding: 0.375rem 0.8125rem; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--fg); cursor: pointer; white-space: nowrap; }
+.fav:hover { border-color: var(--muted); }
+.fav[aria-pressed="true"] { border-color: var(--sec); background: var(--sec-soft); color: var(--sec-deep); }
+.fav.sm { font-size: 0.78125rem; padding: 0.1875rem 0.625rem; }
+.as-org .h .hb { display: inline-flex; gap: 0.5rem; align-items: center; }
+.as-org .h .fav { padding: 0.5rem 0.9375rem; font-size: 0.875rem; }
+.btn.sm { padding: 0.3125rem 0.75rem; font-size: 0.8125rem; }
+.favs { display: grid; gap: 0.875rem; }
+.favs .empty { margin: 0; color: var(--muted); }
+.favtop { display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.4375rem 0.75rem; border: 1px solid var(--line); border-radius: 999px; text-decoration: none; color: var(--fg); font-size: 0.875rem; white-space: nowrap; background: var(--surface); flex: none; }
+.favtop[hidden] { display: none; }
+.favtop .st { color: var(--c-cal); }
+.favtop b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.favs .fh { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.favs .fh .n, .favs .fact .n { color: var(--muted); font-size: 0.8125rem; }
+.favs .fmine .fh .btn { margin-left: auto; }
+.favs .fchips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+.favs .fchip { display: inline-flex; align-items: center; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); min-width: 0; max-width: 100%; }
+.favs .fchip a { padding: 0.375rem 0.25rem 0.375rem 0.625rem; text-decoration: none; display: flex; flex-direction: column; line-height: 1.3; font-size: 0.875rem; min-width: 0; }
+.favs .fchip a small { color: var(--muted); font-size: 0.71875rem; }
+.favs .fchip .x { border: 0; background: none; color: var(--muted); font-size: 1.0625rem; padding: 0.25rem 0.5rem; cursor: pointer; line-height: 1; }
+.favs .fsent { border: 1px dashed var(--sec); border-radius: 10px; padding: 0.75rem; background: var(--sec-soft); }
+.favs .fact { display: flex; gap: 0.5rem; align-items: center; margin-top: 0.625rem; flex-wrap: wrap; }
+.favs .fmsg { margin: 0.5rem 0 0; font-size: 0.8125rem; color: var(--muted); word-break: break-all; }
+.cc-item .links .fav { margin-right: 0.25rem; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1rem 1.25rem; display: flex; flex-direction: column; gap: 0.625rem; min-width: 0; }
 .card > * { min-width: 0; }
 .card h2 { font-size: 1.125rem; color: var(--sec-deep); }
@@ -608,6 +633,9 @@ a.stage3:hover { border-color: var(--muted); }
   .top .fb { padding: 0.5625rem 0.75rem; font-size: 0.84375rem; }
   .top .fb svg { display: none; }
   .top.is-home .fb { margin-left: auto; }
+  .favtop .lab { display: none; }
+  .top.is-home .favtop { margin-left: auto; }
+  .top.is-home .favtop:not([hidden]) + .fb { margin-left: 0; }
   .brand .logo { width: 2.125rem; height: 2.125rem; }
   .top-search label { height: 2.5rem; padding: 0 0.75rem; }
   .top-search input { font-size: 0.9375rem; }

@@ -45,6 +45,13 @@
   function optGroups(sel, rows, label) {
     sel.textContent = "";
     sel.append(new Option(label, ""));
+    const fp = window.fav ? window.fav.paths() : [], mine = rows.filter(r => fp.includes(r.path));
+    if (mine.length) {
+      const g = document.createElement("optgroup");
+      g.label = "收藏";
+      mine.forEach(r => g.append(new Option(r.n + (r.anchor ? " 初中部" : "") + (r.r != null ? "（#" + r.r + "）" : ""), r.id)));
+      sel.append(g);
+    }
     D.D.forEach(d => {
       const items = rows.filter(r => r.d === d.c);
       if (!items.length) return;
