@@ -174,3 +174,12 @@
     el.hidden = false;
   });
 })();
+
+// college lists on private pages: school's order or admission rate
+document.querySelectorAll(".sortseg").forEach(seg => seg.addEventListener("click", e => {
+  const b = e.target.closest("button");
+  if (!b) return;
+  seg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+  const ul = seg.parentElement.querySelector("ul"), k = b.dataset.s;
+  [...ul.children].sort((p, q) => (p.dataset[k] - q.dataset[k]) || (p.dataset.i - q.dataset.i)).forEach(x => ul.append(x));
+}));

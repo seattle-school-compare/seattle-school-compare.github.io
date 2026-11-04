@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:c007dd0681467cd6ec434fa8@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:EVT HiCap 天才班测试推荐截止（1-4 年级）；K 年级 Le
@@ -23,7 +23,7 @@ URL:https://www.everettsd.org/advanced-learning/highly-capable-program
 END:VEVENT
 BEGIN:VEVENT
 UID:2784829ef167944997af9ad9@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:EVT Cascade IB 文凭项目说明会（在 Eisenhower 初中）
@@ -36,7 +36,7 @@ URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
 END:VEVENT
 BEGIN:VEVENT
 UID:c61508cd27b55f76731f11e0@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:EVT HiCap 测试窗口（CogAT、Iowa，在本校网上考）（开
@@ -50,7 +50,7 @@ URL:https://www.everettsd.org/advanced-learning/highly-capable-program
 END:VEVENT
 BEGIN:VEVENT
 UID:8e0bbd0a69c69a707da189c9@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:EVT HiCap 测试窗口（CogAT、Iowa，在本校网上考）（截
@@ -64,7 +64,7 @@ URL:https://www.everettsd.org/advanced-learning/highly-capable-program
 END:VEVENT
 BEGIN:VEVENT
 UID:4264c8230e1e46b3ecfdaf33@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:EVT Cascade IB 文凭项目说明会（在 Gateway 初中）
@@ -77,7 +77,7 @@ URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
 END:VEVENT
 BEGIN:VEVENT
 UID:6e9808a9ec7749980fffc466@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:EVT Cascade IB 文凭项目说明会（在 Heatherwood 初中）
@@ -90,7 +90,7 @@ URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
 END:VEVENT
 BEGIN:VEVENT
 UID:e4a5ff6877923fbeda655dcb@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:EVT K 年级 Learning Enrichment CogAT 筛查（在本校考）（
@@ -103,7 +103,7 @@ URL:https://www.everettsd.org/advanced-learning/leap
 END:VEVENT
 BEGIN:VEVENT
 UID:901251a3619a7ae672762806@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:EVT Cascade IB 文凭项目说明会（在 North 初中）
@@ -116,7 +116,7 @@ URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
 END:VEVENT
 BEGIN:VEVENT
 UID:c6fbd87193213434abd7e3bd@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:EVT Cascade IB 文凭项目说明会（在 Evergreen 初中）
@@ -129,7 +129,7 @@ URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
 END:VEVENT
 BEGIN:VEVENT
 UID:3099f599f66c38f6e2e2901d@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:EVT 幼儿园注册说明网络讲座（Kindergarten Kick-Off Webin
@@ -143,7 +143,7 @@ URL:https://www.everettsd.org/early-learning/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:ecd8a152be147acb946eccc3@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
 SUMMARY:EVT Cascade IB 文凭项目说明会（在 Cascade 高中）
@@ -156,7 +156,7 @@ URL:https://www.everettsd.org/choice-programs/international-baccalaureate-i
 END:VEVENT
 BEGIN:VEVENT
 UID:1d5bba1583fde77480ca1264@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:EVT 2027-28 幼儿园开始注册
@@ -168,7 +168,7 @@ URL:https://www.everettsd.org/early-learning/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:53d5b8f91cf2202d597910a6@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:EVT 2027-28 跨学区转学（外区转入、本区转出）开始
@@ -183,7 +183,7 @@ URL:https://www.everettsd.org/school-transfers
 END:VEVENT
 BEGIN:VEVENT
 UID:761576002fe811553a0f0978@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:EVT HiCap 测试结果通知（ParentSquare / ParentVUE）（日期
@@ -197,7 +197,7 @@ URL:https://www.everettsd.org/advanced-learning/highly-capable-program
 END:VEVENT
 BEGIN:VEVENT
 UID:964bcc0b45f95210aa0eb2be@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:EVT 本学年（2026-27）区内转校申请截止
@@ -209,7 +209,7 @@ URL:https://www.everettsd.org/school-transfers
 END:VEVENT
 BEGIN:VEVENT
 UID:7f45be6cf50b057c0f7211be@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:EVT Dual Language、Lighthouse 选择项目抽签（日期待公布
@@ -223,7 +223,7 @@ URL:https://www.everettsd.org/choice-programs
 END:VEVENT
 BEGIN:VEVENT
 UID:ad2b2b48e3c55a31c0134cd5@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:EVT Everett Ready 幼儿园过渡营报名表开放（日期待公
@@ -236,7 +236,7 @@ URL:https://www.everettsd.org/early-learning/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:c5fdba612f4dd2f297d3072b@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:EVT 幼儿园新生说明会（Kindergarten Orientation Night，在
@@ -250,7 +250,7 @@ URL:https://www.everettsd.org/early-learning/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:0b8b4f62796f99158dbf5635@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270802
 SUMMARY:EVT Everett Ready 幼儿园过渡营（日期待公布）

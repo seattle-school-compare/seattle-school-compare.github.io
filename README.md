@@ -22,6 +22,8 @@
 | 州考成绩和全州排名 | OSPI 在 data.wa.gov 公开的州考成绩（9fjj-2374，CC BY-ND 4.0）。排名按 SchoolDigger 的算法自己算 |
 | 高中毕业率、大学学分课 | OSPI 在 data.wa.gov 公开的 Report Card Graduation（isxb-523t，CC BY-NC-ND 3.0 IGO）和 Report Card SQSS（f7j6-nk2h，CC BY 4.0） |
 | 毕业生上大学和去的学校 | ERDC 在 data.wa.gov 公开的 High School Graduate Outcomes（7ma7-qs6m、vk6s-am8z、tsxw-5hpt） |
+| 大学录取率 | 联邦教育部 IPEDS 的 Admissions（ADM2024）和 Institutional Characteristics（HD2024），2024 年秋季入学 |
+| 全国 SAT 平均分 | College Board，2025 SAT Suite of Assessments Annual Report |
 | GreatSchools 评分 | GreatSchools |
 | 房价 | Redfin 近期成交，每个 zip 取 4 房成交价中位数，样本见 `data/` |
 | 升学线、选择校、日期 | 各学区官网 |

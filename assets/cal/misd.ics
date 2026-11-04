@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:9fad762d40c9d0e5b6a34c62@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:MISD 幼儿园秋季开放日参观
@@ -21,7 +21,7 @@ URL:https://www.mercerislandschools.org/enrollment/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:d3977102e660a7a5908d552f@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:MISD 外区学生 2027-28 choice transfer 申请开始受理
@@ -34,7 +34,7 @@ URL:https://www.mercerislandschools.org/enrollment/open-enrollment
 END:VEVENT
 BEGIN:VEVENT
 UID:a908ee39f8e3b80386b65a77@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:MISD 学校董事会决定 2027-28 外区新生接收（open enroll
@@ -48,7 +48,7 @@ URL:https://www.mercerislandschools.org/enrollment/open-enrollment
 END:VEVENT
 BEGIN:VEVENT
 UID:3e460c5c93163cad1cb3f9de@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:MISD 幼儿园信息之夜（四所小学同时举行）
@@ -60,7 +60,7 @@ URL:https://www.mercerislandschools.org/enrollment/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:0de32bd6b2b85ca3947a154e@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:MISD 提前入读幼儿园或一年级申请（2 月起联系学区
@@ -76,7 +76,7 @@ URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
 END:VEVENT
 BEGIN:VEVENT
 UID:69fa167eff075d7e88c1681d@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270715
 DTEND;VALUE=DATE:20270716
 SUMMARY:MISD 提前入读幼儿园或一年级申请（2 月起联系学区
@@ -92,7 +92,7 @@ URL:https://www.mercerislandschools.org/enrollment/early-entrance-kindergar
 END:VEVENT
 BEGIN:VEVENT
 UID:0cddcb4e647c00e751411476@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:MISD 区内转校申请窗口（intra-district transfer）（开始
@@ -105,7 +105,7 @@ URL:https://www.mercerislandschools.org/enrollment/intra-district-transfer
 END:VEVENT
 BEGIN:VEVENT
 UID:1582cbdb4ad300d25fc1c1c3@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 SUMMARY:MISD 区内转校申请窗口（intra-district transfer）（截止
@@ -118,7 +118,7 @@ URL:https://www.mercerislandschools.org/enrollment/intra-district-transfer
 END:VEVENT
 BEGIN:VEVENT
 UID:39530e6e620e6c2cd025f54b@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
 SUMMARY:MISD 幼儿园春季开放日参观
@@ -130,7 +130,7 @@ URL:https://www.mercerislandschools.org/enrollment/kindergarten
 END:VEVENT
 BEGIN:VEVENT
 UID:00245a4203fc20ec57edbbfc@seattle-school-compare
-DTSTAMP:20261104T174718Z
+DTSTAMP:20261104T191434Z
 DTSTART;VALUE=DATE:20270815
 DTEND;VALUE=DATE:20270816
 SUMMARY:MISD 提前入读幼儿园结果最晚通知日
