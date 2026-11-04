@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:d8cfac70e6a5b26f96bc869f@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:EDM HiCap 天才班在校测试（NNAT3；2、6 年级全员，其
@@ -25,7 +25,7 @@ URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
 END:VEVENT
 BEGIN:VEVENT
 UID:e6636cfcfe8b0ad03555bc7d@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:EDM HiCap 天才班在校测试（NNAT3；2、6 年级全员，其
@@ -41,7 +41,7 @@ URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
 END:VEVENT
 BEGIN:VEVENT
 UID:1e66aa933496c3e84ab8d6f8@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:EDM Edmonds-Woodway IB 项目 8 年级家长说明会（18:00，EWH
@@ -55,7 +55,7 @@ URL:https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/application-pro
 END:VEVENT
 BEGIN:VEVENT
 UID:4f0206657b7fa06741fbeb49@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:EDM Maplewood 合作学校家长说明会（参加后才能进 2027
@@ -69,7 +69,7 @@ URL:https://mw.edmonds.wednet.edu/enrollment-and-tour-information
 END:VEVENT
 BEGIN:VEVENT
 UID:d08f68d065fa10a3e5f225e4@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:EDM Maplewood 合作学校家长说明会（参加后才能进 2027
@@ -83,7 +83,7 @@ URL:https://mw.edmonds.wednet.edu/enrollment-and-tour-information
 END:VEVENT
 BEGIN:VEVENT
 UID:ed5f9fda9d0e4a415b89e48f@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:EDM Madrona K-8 家长说明会和参观（参加后才能进抽签
@@ -97,7 +97,7 @@ URL:https://madrona.edmonds.wednet.edu/enrollment-and-tour-information
 END:VEVENT
 BEGIN:VEVENT
 UID:44509e96959de0f2d2fd48d8@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
 SUMMARY:EDM Madrona K-8 家长说明会和参观（参加后才能进抽签
@@ -111,7 +111,7 @@ URL:https://madrona.edmonds.wednet.edu/enrollment-and-tour-information
 END:VEVENT
 BEGIN:VEVENT
 UID:aee72592f11a0ba1eac40185@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:EDM HiCap 天才班私校和在家上学学生周六测试（连续
@@ -127,7 +127,7 @@ URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
 END:VEVENT
 BEGIN:VEVENT
 UID:d1006f5495ddb96b42fe4402@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:EDM Scriber Lake 高中说明会（18-19 点，Commons）
@@ -139,7 +139,7 @@ URL:https://slhs.edmonds.wednet.edu/about/application-process-info-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:2018d3e65b3f034a2d3660be@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:EDM Edmonds-Woodway IB 项目优先申请截止（16:30）
@@ -152,7 +152,7 @@ URL:https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/application-pro
 END:VEVENT
 BEGIN:VEVENT
 UID:9bd07e4964d8ecccc6535dec@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:EDM 2027-28 新生和幼儿园注册开放（日期待公布）
@@ -164,7 +164,7 @@ URL:https://www.edmonds.wednet.edu/enrollment
 END:VEVENT
 BEGIN:VEVENT
 UID:6065fac86b277c46b6c325f0@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:EDM HiCap 天才班测试结果通知（ParentSquare）（日期待
@@ -180,7 +180,7 @@ URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
 END:VEVENT
 BEGIN:VEVENT
 UID:c1871dd1e14850ba2cde391a@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:EDM Madrona K-8 和 Maplewood 合作学校幼儿园抽签（日期
@@ -194,7 +194,7 @@ URL:https://mw.edmonds.wednet.edu/enrollment-and-tour-information
 END:VEVENT
 BEGIN:VEVENT
 UID:d08793082cb2bf6fe9b9e4ea@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:EDM 区内转校申请截止（初中、高中）（日期待公布
@@ -209,7 +209,7 @@ URL:https://www.edmonds.wednet.edu/enrollment/school-changetransfer/school-
 END:VEVENT
 BEGIN:VEVENT
 UID:c175237f1cd3c67dc7eb0e58@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:EDM 西语双语项目开放意向表（Cedar Valley、College Plac
@@ -225,7 +225,7 @@ URL:https://resources.finalsite.net/images/v1752786544/edmondswednetedu/u1t
 END:VEVENT
 BEGIN:VEVENT
 UID:7ff056154ce9af407a74b044@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:EDM Edmonds-Woodway IB 项目最终申请截止（16:30）
@@ -238,7 +238,7 @@ URL:https://ewhs.edmonds.wednet.edu/academics/ewhsibprogram/application-pro
 END:VEVENT
 BEGIN:VEVENT
 UID:03d3edf535c31fd9dcd09023@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:EDM Mountlake Terrace STEM 磁石项目申请截止
@@ -250,7 +250,7 @@ URL:https://stem.edmonds.wednet.edu/stem-application
 END:VEVENT
 BEGIN:VEVENT
 UID:51160ca7f2add87432e01a15@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:EDM HiCap 天才班推荐开放（下一轮，2028 秋入班）（
@@ -265,7 +265,7 @@ URL:https://www.edmonds.wednet.edu/programs-services/highly-capable-gifted/
 END:VEVENT
 BEGIN:VEVENT
 UID:1dc022b2879d5283950e50a6@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
 SUMMARY:EDM 区内转校申请截止（小学）（日期待公布）
@@ -279,7 +279,7 @@ URL:https://www.edmonds.wednet.edu/enrollment/school-changetransfer/school-
 END:VEVENT
 BEGIN:VEVENT
 UID:907dc747db555d8e6b212872@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270624
 DTEND;VALUE=DATE:20270625
 SUMMARY:EDM Scriber Lake 高中秋季入学申请（交材料并完成学
@@ -293,7 +293,7 @@ URL:https://slhs.edmonds.wednet.edu/about/application-process-info-meetings
 END:VEVENT
 BEGIN:VEVENT
 UID:027a84d3faf2995321386453@seattle-school-compare
-DTSTAMP:20261103T235144Z
+DTSTAMP:20261104T174718Z
 DTSTART;VALUE=DATE:20270812
 DTEND;VALUE=DATE:20270813
 SUMMARY:EDM Scriber Lake 高中秋季入学申请（交材料并完成学

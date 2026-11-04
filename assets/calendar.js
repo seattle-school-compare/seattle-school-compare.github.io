@@ -1,9 +1,9 @@
 (() => {
   const now = new Date();
   const today = now.getFullYear() + "-" + String(now.getMonth() + 1).padStart(2, "0") + "-" + String(now.getDate()).padStart(2, "0");
-  const qd = new URLSearchParams(location.search).get("d");
+  const qs = new URLSearchParams(location.search), qd = qs.get("d"), qk = qs.get("k");
   const past = document.getElementById("cal-past");
-  const st = { f: qd ? "d:" + qd : "", past: past ? past.checked : false };
+  const st = { f: qd ? "d:" + qd : qk ? "k:" + qk : "", past: past ? past.checked : false };
   function apply() {
     document.querySelectorAll("#cal-f .chip").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.f === st.f)));
     document.querySelectorAll("#cal .cal-m").forEach(m => {

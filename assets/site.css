@@ -195,6 +195,11 @@ a.dn:hover .nm { text-decoration: underline; text-underline-offset: 3px; }
 .strip.tall .me { top: 1rem; }
 .strip.tall .mel { top: -0.25rem; }
 .entries { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.golinks.qlinks { margin-top: 0.25rem; }
+.golinks.qlinks a { align-items: center; padding: 0.4375rem 0; }
+.golinks.qlinks .qq { display: flex; flex-direction: column; gap: 0.0625rem; min-width: 0; }
+.golinks.qlinks .qq b { font-weight: 600; font-size: 0.9375rem; }
+.golinks.qlinks .qq small { font-weight: 400; font-size: 0.8125rem; color: var(--muted); }
 .entry { text-decoration: none; color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 1.125rem 1.25rem; display: flex; flex-direction: column; gap: 0.375rem; }
 a.entry:hover { border-color: var(--muted); }
 .entry .t { font-family: var(--font-display); font-weight: 700; font-size: 1.1875rem; }
@@ -366,6 +371,14 @@ a.entry:hover { border-color: var(--muted); }
 .college .b .x { text-align: right; font-variant-numeric: tabular-nums; }
 .college .b.oth .l, .college .b.oth .x { color: var(--muted); }
 .college .b.oth .t > i { background: var(--line); }
+.pcol .ptag { font-size: 0.75rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0.125rem 0.5rem; white-space: nowrap; }
+.pcol .plead { margin: 0; font-size: 0.9375rem; }
+.card.pcol .kv { font-size: 0.875rem; grid-template-columns: 7.5rem minmax(0, 1fr); }
+.unis summary { cursor: pointer; font-weight: 600; font-size: 0.9375rem; color: var(--sec); }
+.unis ul { list-style: none; padding: 0; margin: 0.5rem 0 0; columns: 2 15rem; column-gap: 1.5rem; font-size: 0.8125rem; }
+.unis li { break-inside: avoid; display: flex; justify-content: space-between; gap: 0.5rem; padding: 0.1875rem 0; border-bottom: 1px dashed var(--line2); }
+.unis li > span:not(.u) { color: var(--muted); font-variant-numeric: tabular-nums; }
+.unis li em { font-style: normal; font-size: 0.6875rem; color: var(--sec); border: 1px solid color-mix(in srgb, var(--sec) 35%, transparent); border-radius: 4px; padding: 0 0.25rem; margin-left: 0.375rem; white-space: nowrap; }
 .line3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem; }
 .stage3 { border: 1px solid var(--line); border-radius: 12px; padding: 0.75rem 0.875rem; display: flex; flex-direction: column; gap: 2px; text-decoration: none; color: var(--fg); min-width: 0; }
 a.stage3:hover { border-color: var(--muted); }
@@ -583,6 +596,9 @@ a.stage3:hover { border-color: var(--muted); }
   .drow.soon .dash { display: none; }
   .drow .dn .c2 { display: block; }
   .entries { grid-template-columns: 1fr 1fr; gap: 0.625rem; }
+  .entries .entry:not(.month) { grid-column: 1 / -1; }
+  .golinks.qlinks .qq b { font-size: 0.90625rem; }
+  .golinks.qlinks .qq small { font-size: 0.78125rem; }
   .entry { padding: 0.875rem; }
   .entry .t { font-size: 1.0625rem; }
   .entry .d { font-size: 0.8125rem; }
