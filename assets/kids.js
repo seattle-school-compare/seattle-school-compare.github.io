@@ -41,6 +41,64 @@
     window.addEventListener("hashchange", go);
   });
 
+  /* 课外兴趣班: 线下 or 线上, then categories; ?m=on&c=math,chinese keeps the choice in the link */
+  const pick = $("#as-classes");
+  if (pick) {
+    const ZH = { off: "线下", on: "线上" };
+    const qs = new URLSearchParams(location.search);
+    const st = { m: qs.get("m") === "on" ? "on" : "off", c: new Set((qs.get("c") || "").split(",").filter(Boolean)) };
+    const chips = Array.from(pick.querySelectorAll(".as-cats .chip"));
+    const cats = chips.filter(b => b.dataset.c);
+    const count = b => Number(b.dataset[st.m]) || 0;
+    const show = url => {
+      pick.querySelectorAll(".as-mode button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.m === st.m)));
+      chips.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.c ? st.c.has(b.dataset.c) : !st.c.size)));
+      cats.forEach(b => { b.querySelector(".n").textContent = count(b) || ""; b.classList.toggle("z", !count(b)); });
+      const want = st.c.size ? cats.filter(b => st.c.has(b.dataset.c)) : cats;
+      const has = want.filter(count).map(b => b.dataset.c), none = want.filter(b => !count(b)).map(b => b.dataset.zh);
+      const seen = new Set();
+      pick.querySelectorAll(".as-cat").forEach(sec => {
+        sec.hidden = sec.dataset.m !== st.m || !has.includes(sec.dataset.c);
+        if (!sec.hidden) sec.querySelectorAll(".as-org").forEach(o => { o.hidden = seen.has(o.dataset.k); seen.add(o.dataset.k); });
+      });
+      const todo = $("#as-todo");
+      todo.hidden = !none.length;
+      todo.querySelector(".t").textContent = ZH[st.m] + "的" + none.join("、") + "还在整理。";
+      $("#as-count").textContent = seen.size ? ZH[st.m] + (st.c.size ? " · " + has.map(c => cats.find(b => b.dataset.c === c).dataset.zh).join("、") : "") + "，列了 " + seen.size + " 家" : "";
+      if (url) {
+        const p = new URLSearchParams();
+        if (st.m === "on") p.set("m", "on");
+        if (st.c.size) p.set("c", Array.from(st.c).join(","));
+        history.replaceState(null, "", location.pathname + (p.toString() ? "?" + p : "") + "#classes");
+      }
+    };
+    pick.querySelectorAll(".as-mode button").forEach(b => b.addEventListener("click", () => { st.m = b.dataset.m; show(true); }));
+    chips.forEach(b => b.addEventListener("click", () => {
+      const c = b.dataset.c;
+      if (!c) st.c.clear(); else if (st.c.has(c)) st.c.delete(c); else st.c.add(c);
+      show(true);
+    }));
+    // links to one class (#key) or to a side (#online, #offline) open that view
+    const fromHash = () => {
+      const h = decodeURIComponent(location.hash.slice(1));
+      if (h === "online" || h === "offline") {
+        st.m = h === "online" ? "on" : "off"; st.c.clear();
+        const t = document.querySelector('#as-tabs [data-tab="classes"]');
+        if (t) t.click();
+        show(true);
+        return;
+      }
+      const card = h && document.getElementById(h);
+      if (card && card.classList.contains("as-org") && pick.contains(card)) {
+        st.m = card.closest(".as-cat").dataset.m; st.c.clear(); show(false);
+        requestAnimationFrame(() => card.scrollIntoView());
+      }
+    };
+    show(false);
+    fromHash();
+    window.addEventListener("hashchange", fromHash);
+  }
+
   /* district chips over a grid of cards */
   document.querySelectorAll(".chips[data-for]").forEach(box => {
     const grid = document.getElementById(box.dataset.for);
