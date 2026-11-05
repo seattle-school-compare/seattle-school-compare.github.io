@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:e8f5d923f6d2130eb7ed7c3b@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:RSD HiCap 推荐窗口（K-11 年级，家长、老师都可推荐
@@ -24,7 +24,7 @@ URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
 END:VEVENT
 BEGIN:VEVENT
 UID:6a8e87d401c62b7d7743e213@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:RSD HiCap 推荐窗口（K-11 年级，家长、老师都可推荐
@@ -39,7 +39,7 @@ URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
 END:VEVENT
 BEGIN:VEVENT
 UID:9113a40bf818a89b690576c8@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:RSD HiCap 认知测试 NNAT3（被推荐学生，在校内分批测
@@ -53,7 +53,7 @@ URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
 END:VEVENT
 BEGIN:VEVENT
 UID:c88399089ad969766dff7bcf@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:RSD HiCap 认知测试 NNAT3（被推荐学生，在校内分批测
@@ -67,7 +67,7 @@ URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
 END:VEVENT
 BEGIN:VEVENT
 UID:cdb0eb76aa371acb0c9ec03e@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:RSD Sartori STEM 选择校抽签申请（2027-28 入学）（开始
@@ -80,7 +80,7 @@ URL:https://sartori.rentonschools.us/career-center/lottery-timelne
 END:VEVENT
 BEGIN:VEVENT
 UID:22c90b1cd791a0abdbd0b616@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270212
 DTEND;VALUE=DATE:20270213
 SUMMARY:RSD Sartori STEM 选择校抽签申请（2027-28 入学）（截止
@@ -93,7 +93,7 @@ URL:https://sartori.rentonschools.us/career-center/lottery-timelne
 END:VEVENT
 BEGIN:VEVENT
 UID:b690fd9ffef7396098a0d180@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:RSD HiCap 家长说明会（线上，上午 11 点到 12 点）
@@ -106,7 +106,7 @@ URL:https://www.rentonschools.us/fs/pages/377
 END:VEVENT
 BEGIN:VEVENT
 UID:5f5fea761ac7c509bb26fc2f@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:RSD 2027-28 新生网上注册开放（含幼儿园）（日期待
@@ -120,7 +120,7 @@ URL:https://sartori.rentonschools.us/career-center/lottery-timelne
 END:VEVENT
 BEGIN:VEVENT
 UID:7b232cbc046c294ab0cd3e89@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:RSD HiCap 委员会审核，邮件或信件通知结果和申诉决
@@ -136,7 +136,7 @@ URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
 END:VEVENT
 BEGIN:VEVENT
 UID:90424736989ec5cb9e264c2d@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:RSD HiCap 委员会审核，邮件或信件通知结果和申诉决
@@ -152,7 +152,7 @@ URL:https://www.rentonschools.us/learning-and-teaching/highly-capable-progr
 END:VEVENT
 BEGIN:VEVENT
 UID:10e7eec73dfcdaddaa898c03@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
 SUMMARY:RSD Sartori：North Renton 片区家庭交住址证明（享优先
@@ -165,7 +165,7 @@ URL:https://sartori.rentonschools.us/career-center/lottery-timelne
 END:VEVENT
 BEGIN:VEVENT
 UID:05f278806fff747e53aa09d7@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:RSD Sartori 抽签
@@ -176,7 +176,7 @@ URL:https://sartori.rentonschools.us/career-center/lottery-timelne
 END:VEVENT
 BEGIN:VEVENT
 UID:829c6b253d2ce3600d9ba48c@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270312
 DTEND;VALUE=DATE:20270313
 SUMMARY:RSD Sartori 抽签结果在 SchoolMint 公布

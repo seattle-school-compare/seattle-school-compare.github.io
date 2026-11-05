@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:P1D
 X-PUBLISHED-TTL:P1D
 BEGIN:VEVENT
 UID:a0ca3f2c6be21d9ecf1d528b@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:NSD HiCap Naglieri 测试（2-4 年级，新转入和被推荐的
@@ -24,7 +24,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:bc6e7cb1db20ff1ab89732dd@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:NSD HiCap Naglieri 测试（2-4 年级，新转入和被推荐的
@@ -39,7 +39,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:d674265ed5263993098ba322@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:NSD HiCap Naglieri 测试（6、7 年级，新转入和被推荐的
@@ -53,7 +53,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:db86e2fadcebb99cf72573dd@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:NSD HiCap Naglieri 测试（6、7 年级，新转入和被推荐的
@@ -67,7 +67,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:c0eb310c777c90dd825df762@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:NSD HiCap Iowa 测试家长同意截止（6、7 年级）
@@ -80,7 +80,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:9416282af0b66d66d0cee1df@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第一段）（开始）
@@ -93,7 +93,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:21b26a35a0a4e38c681de99f@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第一段）（截止）
@@ -106,7 +106,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:9990b827fe9ded45d1ada1f0@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:NSD HiCap Iowa 学业测试（6、7 年级）（开始）
@@ -119,7 +119,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:60ac7f1e30bb2f3313171154@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:NSD HiCap Iowa 学业测试（6、7 年级）（截止）
@@ -132,7 +132,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:64ed8c3d575d10f701b638fe@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:NSD HiCap Iowa 测试家长同意截止（1-5 年级）
@@ -145,7 +145,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:e2c01f6f0c2f870dd55d3c5b@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第二段）（开始）
@@ -158,7 +158,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:cb908bd236f9b76a58772df8@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:NSD HiCap Iowa 学业测试（1-5 年级，第二段）（截止）
@@ -171,7 +171,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:798708497923071c053a589d@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:NSD 非本区学生（私校、在家上学等）申请 HiCap 测
@@ -185,7 +185,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:623074c2a23b658427c45e51@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:NSD HiCap 结果通知（开始）（日期待公布）
@@ -199,7 +199,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:3210978321d4928b281b3fde@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:NSD HiCap 结果通知（截止）（日期待公布）
@@ -213,7 +213,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:cfb465f3fcb04dd98922dc03@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:NSD HiCap 补考（Naglieri 普筛和学业测试）（开始）（
@@ -228,7 +228,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:9e891b65fe39eac537ce2aa0@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:NSD HiCap 补考（Naglieri 普筛和学业测试）（截止）（
@@ -243,7 +243,7 @@ URL:https://www.nsd.org/schools/programs-services/highly-capable-services/e
 END:VEVENT
 BEGIN:VEVENT
 UID:58121e73ce961c0275b65c9a@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:NSD Innovation Lab 高中 2027-28 招生开始（日期待公布）
@@ -255,7 +255,7 @@ URL:https://innovationlab.nsd.org/apply
 END:VEVENT
 BEGIN:VEVENT
 UID:078d41bb55f494bd54a75e15@seattle-school-compare
-DTSTAMP:20261105T192049Z
+DTSTAMP:20261105T201634Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:NSD HiCap 安置确认截止（需要转校时）；申诉和作品

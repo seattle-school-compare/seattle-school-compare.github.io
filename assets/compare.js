@@ -22,6 +22,10 @@
   const top = v => String(v).replace(/^>([\d.]+)%$/, (m, x) => Math.round(Number(x) * 10) / 10 + "% 以上");
   const CG = c => !c ? null : c.g4 != null ? { raw: c.g4, big: Math.round(c.g4) + "%" } : c.g4l ? { raw: null, big: top(c.g4l), plain: true } : null;
   const CD = c => !c ? null : c.dc != null ? { raw: c.dc, big: Math.round(c.dc) + "%" } : c.dcl ? { raw: null, big: top(c.dcl), plain: true } : null;
+  // AP courses: r.apc is a list of College Board subject ids, [] when the school is not on the list
+  const apV = r => !r.apc ? null : r.apc.length ? { raw: r.apc.length, big: r.apc.length + " 门" } : { raw: 0, big: "名单里没有", plain: true };
+  const apOnly = (r, others) => r.apc.filter(i => !others.some(o => o.apc.includes(i)));
+  const apSpans = ids => { const s = cell("span", null, "apl"); ids.forEach((i, n) => { if (n) s.append("、"); s.append(cell("span", D.APS[i])); }); return s; };
   const KEYS = ["a", "b", "c", "d"], LET = ["A", "B", "C", "D"], MAX = 4, SAVE = "gssc-cmp";
 
   // the list comes from the link; without one, from what this browser compared last time
@@ -497,6 +501,23 @@
       row("IB", CP(ca, "ib", 1), CP(cb, "ib", 1), null, "sub");
       row("Running Start", CP(ca, "rs", 1), CP(cb, "rs", 1), null, "sub");
     }
+    if (A.lv === "H" && (A.apc || B.apc)) {
+      const side = (x, cls) => { const c = cell("div", null, "v sech " + cls); c.append(badge(x), cell("span", x.r.n, "nm2")); return c; };
+      grid.append(side(X, "l"), cell("div", "AP 课", "lbl sech"), side(Y, "r"));
+      row("门数", apV(A), apV(B));
+      if (A.apc && B.apc && A.apc.length && B.apc.length) {
+        const box = cell("div", null, "apdiff"), oa = apOnly(A, [B]), ob = apOnly(B, [A]);
+        if (!oa.length && !ob.length) box.append(cell("p", "两所学校的 AP 课一样。"));
+        else [[X, Y, oa], [Y, X, ob]].forEach(([p, q, ids]) => {
+          const line = cell("p");
+          line.append(badge(p));
+          if (ids.length) line.append(cell("b", p.r.n + " 有、" + q.r.n + " 没有的 " + ids.length + " 门："), apSpans(ids));
+          else line.append(cell("span", p.r.n + " 的 AP 课，" + q.r.n + " 都有。"));
+          box.append(line);
+        });
+        grid.append(box);
+      }
+    }
     out.append(grid);
     const chips = cell("div", null, "diff"), chip = t => chips.append(cell("span", t));
     if (A.r != null && B.r != null) chip(Y.k + " 比 " + X.k + " 全州排名" + (B.r < A.r ? "靠前 " : B.r > A.r ? "靠后 " : "相同 ") + (B.r === A.r ? "" : Math.abs(A.r - B.r) + " 名"));
@@ -520,6 +541,7 @@
     out.append(f);
     out.append(cell("p", "差值都是 " + Y.k + " 减 " + X.k + "。房价是两校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
     if (A.lv === "H" && (ca || cb)) out.append(collegeNote());
+    if (A.lv === "H" && (A.apc || B.apc)) out.append(cell("p", D.APNOTE, "note"));
   }
   const collegeNote = () => cell("p", D.COLNOTE, "note");
   const rankV = r => r.r == null ? null : { raw: r.r, big: "#" + r.r, sm: "前 " + r.pct + "%" + (r.ry !== D.LATEST ? " · " + r.ry : "") };
@@ -542,9 +564,15 @@
       ["毕业后上大学", val(r => { const w = CW(r.cg); if (!w) return null; const a = CP(r.cg, "c4"), b = CP(r.cg, "c2"); return { big: w.big, sm: "四年制 " + a.big + " · 两年制 " + b.big }; })],
       ["四年毕业率", val(r => CG(r.cg))],
       ["修大学学分课", val(r => { const d = CD(r.cg); if (!d) return null; const f = (lab, k) => { const v = CP(r.cg, k, 1); return v ? lab + " " + v.big : ""; }; return { big: d.big, plain: d.plain, sm: [f("AP", "ap"), f("IB", "ib"), f("Running Start", "rs")].filter(Boolean).join(" · ") }; })],
-    ] : [])));
+    ] : []).concat(st.level === "H" && P.some(x => x.r.apc) ? [
+      ["AP 课", null],
+      ["门数", val(r => apV(r))],
+    ].concat(P.filter(x => x.r.apc).length >= 2 ? [
+      ["别的学校没有的", (x, v) => { const ids = x.r.apc ? apOnly(x.r, P.map(y => y.r).filter(o => o !== x.r && o.apc)) : []; v.append(ids.length ? apSpans(ids) : cell("span", "—", "mut")); }],
+    ] : []) : [])));
     out.append(cell("p", "房价是各校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
     if (st.level === "H" && P.some(x => x.r.cg)) out.append(collegeNote());
+    if (st.level === "H" && P.some(x => x.r.apc)) out.append(cell("p", D.APNOTE, "note"));
   }
   function render() {
     const out = document.getElementById("c-out");
