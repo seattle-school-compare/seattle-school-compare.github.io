@@ -1,5 +1,5 @@
 // keeps a copy of pages people have opened, so they open without a connection
-const V = "202611041536";
+const V = "202611051120";
 const C = "site";
 const SCOPE = self.registration.scope;
 const OFFLINE = SCOPE + "zh/offline/";

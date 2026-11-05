@@ -409,6 +409,10 @@ a.entry:hover { border-color: var(--muted); }
 .pcol .ptag { font-size: 0.75rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 0.125rem 0.5rem; white-space: nowrap; }
 .pcol .plead { margin: 0; font-size: 0.9375rem; }
 .card.pcol .kv { font-size: 0.875rem; grid-template-columns: 7.5rem minmax(0, 1fr); }
+.apc h2 .n { font-weight: 400; font-size: 0.875rem; color: var(--muted); margin-left: 0.5rem; }
+.card.apc .kv { grid-template-columns: 6.75rem minmax(0, 1fr); gap: 0.5rem 1rem; }
+.apc dd { line-height: 1.6; }
+.apc dd span { white-space: nowrap; }
 .unis summary { cursor: pointer; font-weight: 600; font-size: 0.9375rem; color: var(--sec); }
 .unis ul { list-style: none; padding: 0; margin: 0.5rem 0 0; columns: 2 15rem; column-gap: 1.5rem; font-size: 0.8125rem; }
 .unis li { break-inside: avoid; display: flex; justify-content: space-between; gap: 0.5rem; padding: 0.1875rem 0; border-bottom: 1px dashed var(--line2); }
