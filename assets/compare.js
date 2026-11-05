@@ -409,7 +409,7 @@
       const compact = out.clientWidth < 620;
       out.append(legend(ok));
       out.append(lineFigure(ok, compact));
-      out.append(cell("p", "纵轴是该学段在全州的排名百分位，越靠上越好。" + (compact ? "" : "右边柱子是小学所在 zip 近期成交的 4 房房价中位数，竖线是中间一半成交价的范围。"), "note"));
+      out.append(cell("p", "纵轴是该学段在全州的排名百分位，越靠上越好。" + (compact ? "" : "右边柱子是小学所在 zip 近期成交的 4 房房价中位数（" + D.PP + "），竖线是中间一半成交价的范围。"), "note"));
     }
     if (ok.length === 2) {
       const [X, Y] = ok, LA = X.L, LB = Y.L, chips = cell("div", null, "diff"), chip = t => chips.append(cell("span", t));
@@ -539,7 +539,7 @@
       box.append(ul); f.append(box);
     });
     out.append(f);
-    out.append(cell("p", "差值都是 " + Y.k + " 减 " + X.k + "。房价是两校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
+    out.append(cell("p", "差值都是 " + Y.k + " 减 " + X.k + "。房价是两校所在 zip 的近期成交（" + D.PP + "），不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
     if (A.lv === "H" && (ca || cb)) out.append(collegeNote());
     if (A.lv === "H" && (A.apc || B.apc)) out.append(cell("p", D.APNOTE, "note"));
   }
@@ -570,7 +570,7 @@
     ].concat(P.filter(x => x.r.apc).length >= 2 ? [
       ["别的学校没有的", (x, v) => { const ids = x.r.apc ? apOnly(x.r, P.map(y => y.r).filter(o => o !== x.r && o.apc)) : []; v.append(ids.length ? apSpans(ids) : cell("span", "—", "mut")); }],
     ] : []) : [])));
-    out.append(cell("p", "房价是各校所在 zip 的近期成交，不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
+    out.append(cell("p", "房价是各校所在 zip 的近期成交（" + D.PP + "），不是学区内的房价；同一个 zip 里不同片区差别很大。", "note"));
     if (st.level === "H" && P.some(x => x.r.cg)) out.append(collegeNote());
     if (st.level === "H" && P.some(x => x.r.apc)) out.append(cell("p", D.APNOTE, "note"));
   }

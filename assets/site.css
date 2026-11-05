@@ -621,6 +621,7 @@ a.stage3:hover { border-color: var(--muted); }
 .notes section { break-inside: avoid; margin: 0 0 1.125rem; display: flex; flex-direction: column; gap: 0.25rem; }
 .notes h3 { font-size: 0.96875rem; }
 .notes .log { column-span: all; }
+.notes .asof { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 0.375rem 0.875rem; font-size: 0.875rem; line-height: 1.6; }
 
 /* footer, tab bar, tooltip */
 .foot { border-top: 1px solid var(--line); }
