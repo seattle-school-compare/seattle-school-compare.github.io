@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>School Orbits</title><meta name="robots" content="noindex">
+<script src="oldlinks.js"></script>
+<script>
+(function () {
+  var h = decodeURIComponent(location.hash || "").replace(/^#/, ""), to = "zh/", R = "zh/greater-seattle/";
+  var ext = window.SITE_EXT || "";
+  var map = window.OLD_LINES || {};
+  if (h.indexOf("line-") === 0) {
+    var p = h.slice(5).split("--vs--"), a = map[p[0]], b = p[1] ? map[p[1]] : "";
+    if (a) to = R + "compare/" + ext + "?a=" + a + (b ? "&b=" + b : "");
+  } else if (h.indexOf("cost") === 0) {
+    to = R + "cost/" + ext + (h.indexOf("?") > 0 ? h.slice(h.indexOf("?")) : "");
+  } else {
+    var tabs = { elem: R + "public/" + ext + "?lv=e", middle: R + "public/" + ext + "?lv=m", high: R + "public/" + ext + "?lv=h", choice: R + "public/" + ext + "?lv=c", private: R + "private/" + ext, notes: "zh/about/" + ext };
+    to = tabs[h] || ("zh/" + ext);
+  }
+  location.replace("https://schoolorbits.com/" + to);
+})();
+</script></head><body><p><a href="https://schoolorbits.com/zh/">进入School Orbits 学区对照</a></p></body></html>
